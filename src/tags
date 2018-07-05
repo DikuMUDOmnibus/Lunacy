@@ -1,0 +1,2138 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ACT_AGGRESSIVE	merc.h	324;"	d
+ACT_IS_NPC	merc.h	321;"	d
+ACT_PET	merc.h	327;"	d
+ACT_PRACTICE	merc.h	329;"	d
+ACT_SCAVENGER	merc.h	323;"	d
+ACT_SENTINEL	merc.h	322;"	d
+ACT_STAY_AREA	merc.h	325;"	d
+ACT_TRAIN	merc.h	328;"	d
+ACT_WIMPY	merc.h	326;"	d
+AFFECT_DATA	merc.h	/^typedef struct	affect_data		AFFECT_DATA;$/;"	t	typeref:struct:affect_data
+AFF_BLIND	merc.h	337;"	d
+AFF_CHARM	merc.h	355;"	d
+AFF_CURSE	merc.h	347;"	d
+AFF_DETECT_EVIL	merc.h	339;"	d
+AFF_DETECT_HIDDEN	merc.h	342;"	d
+AFF_DETECT_INVIS	merc.h	340;"	d
+AFF_DETECT_MAGIC	merc.h	341;"	d
+AFF_FAERIE_FIRE	merc.h	345;"	d
+AFF_FLAMING	merc.h	348;"	d
+AFF_FLYING	merc.h	356;"	d
+AFF_HIDE	merc.h	353;"	d
+AFF_HOLD	merc.h	343;"	d
+AFF_INFRARED	merc.h	346;"	d
+AFF_INVISIBLE	merc.h	338;"	d
+AFF_PARALYSIS	merc.h	351;"	d
+AFF_PASS_DOOR	merc.h	357;"	d
+AFF_POISON	merc.h	349;"	d
+AFF_PROTECT	merc.h	350;"	d
+AFF_SANCTUARY	merc.h	344;"	d
+AFF_SLEEP	merc.h	354;"	d
+AFF_SNEAK	merc.h	352;"	d
+AM_MEDIT	merc.h	1017;"	d
+AM_NONE	merc.h	1016;"	d
+AM_OEDIT	merc.h	1018;"	d
+AM_REDIT	merc.h	1019;"	d
+APPLY_AC	merc.h	490;"	d
+APPLY_AGE	merc.h	482;"	d
+APPLY_CLASS	merc.h	480;"	d
+APPLY_CON	merc.h	478;"	d
+APPLY_DAMROLL	merc.h	492;"	d
+APPLY_DEX	merc.h	475;"	d
+APPLY_EXP	merc.h	489;"	d
+APPLY_GOLD	merc.h	488;"	d
+APPLY_HEIGHT	merc.h	483;"	d
+APPLY_HIT	merc.h	486;"	d
+APPLY_HITROLL	merc.h	491;"	d
+APPLY_INT	merc.h	476;"	d
+APPLY_LEVEL	merc.h	481;"	d
+APPLY_MANA	merc.h	485;"	d
+APPLY_MOVE	merc.h	487;"	d
+APPLY_NONE	merc.h	473;"	d
+APPLY_SAVING_BREATH	merc.h	496;"	d
+APPLY_SAVING_PARA	merc.h	493;"	d
+APPLY_SAVING_PETRI	merc.h	495;"	d
+APPLY_SAVING_ROD	merc.h	494;"	d
+APPLY_SAVING_SPELL	merc.h	497;"	d
+APPLY_SEX	merc.h	479;"	d
+APPLY_STR	merc.h	474;"	d
+APPLY_WEIGHT	merc.h	484;"	d
+APPLY_WIS	merc.h	477;"	d
+AREA_DATA	merc.h	/^typedef struct	area_data		AREA_DATA;$/;"	t	typeref:struct:area_data
+AREA_LIST	merc.h	1458;"	d
+ARG_NULL	merc.h	1064;"	d
+BAN_DATA	merc.h	/^typedef struct	ban_data		BAN_DATA;$/;"	t	typeref:struct:ban_data
+BUG_FILE	merc.h	1460;"	d
+CAN_WEAR	merc.h	1099;"	d
+CD	act_obj.c	34;"	d	file:
+CD	act_obj.c	41;"	d	file:
+CD	merc.h	1472;"	d
+CD	merc.h	1642;"	d
+CHANNEL_AUCTION	merc.h	688;"	d
+CHANNEL_CHAT	merc.h	689;"	d
+CHANNEL_HACKER	merc.h	690;"	d
+CHANNEL_IMMTALK	merc.h	691;"	d
+CHANNEL_MUSIC	merc.h	692;"	d
+CHANNEL_QUESTION	merc.h	693;"	d
+CHANNEL_SHOUT	merc.h	694;"	d
+CHANNEL_YELL	merc.h	695;"	d
+CHAR_DATA	merc.h	/^typedef struct	char_data		CHAR_DATA;$/;"	t	typeref:struct:char_data
+CHL_act	lua_charlib.c	/^static int CHL_act( lua_State *L )$/;"	f	file:	signature:( lua_State *L )
+CHL_force	lua_charlib.c	/^static int CHL_force( lua_State *L )$/;"	f	file:	signature:( lua_State *L )
+CHL_goTo	lua_charlib.c	/^static int CHL_goTo( lua_State *L )$/;"	f	file:	signature:( lua_State *L )
+CHL_index	lua_charlib.c	/^static int CHL_index( lua_State *L )$/;"	f	file:	signature:( lua_State *L )
+CHL_newindex	lua_charlib.c	/^static int CHL_newindex( lua_State *L )$/;"	f	file:	signature:( lua_State *L )
+CHL_quitOlc	lua_charlib.c	/^static int CHL_quitOlc( lua_State *L )$/;"	f	file:	signature:( lua_State *L )
+CHL_say	lua_charlib.c	/^static int CHL_say( lua_State *L )$/;"	f	file:	signature:( lua_State *L )
+CHL_send	lua_charlib.c	/^static int CHL_send( lua_State *L )$/;"	f	file:	signature:( lua_State *L )
+CHV_SETNUMBER	lua_header.h	6;"	d
+CHV_SETSTRING	lua_header.h	5;"	d
+COND_DRUNK	merc.h	625;"	d
+COND_FULL	merc.h	626;"	d
+COND_THIRST	merc.h	627;"	d
+CONT_CLOSEABLE	merc.h	505;"	d
+CONT_CLOSED	merc.h	507;"	d
+CONT_LOCKED	merc.h	508;"	d
+CONT_PICKPROOF	merc.h	506;"	d
+CON_CONFIRM_NEW_NAME	merc.h	144;"	d
+CON_CONFIRM_NEW_PASSWORD	merc.h	146;"	d
+CON_GET_NAME	merc.h	142;"	d
+CON_GET_NEW_CLASS	merc.h	148;"	d
+CON_GET_NEW_PASSWORD	merc.h	145;"	d
+CON_GET_NEW_SEX	merc.h	147;"	d
+CON_GET_OLD_PASSWORD	merc.h	143;"	d
+CON_PLAYING	merc.h	141;"	d
+CON_READ_MOTD	merc.h	149;"	d
+Ch	sha256.c	98;"	d	file:
+DECLARE_DO_FUN	merc.h	23;"	d
+DECLARE_SPEC_FUN	merc.h	24;"	d
+DECLARE_SPELL_FUN	merc.h	25;"	d
+DESCRIPTOR_DATA	merc.h	/^typedef struct	descriptor_data		DESCRIPTOR_DATA;$/;"	t	typeref:struct:descriptor_data
+DIR_DOWN	merc.h	548;"	d
+DIR_EAST	merc.h	544;"	d
+DIR_NORTH	merc.h	543;"	d
+DIR_SOUTH	merc.h	545;"	d
+DIR_UP	merc.h	547;"	d
+DIR_WEST	merc.h	546;"	d
+DO_FUN	merc.h	/^typedef	void DO_FUN	args( ( CHAR_DATA *ch, char *argument ) );$/;"	t
+EW_1WAYE	maps.c	96;"	d	file:
+EW_1WAYED	maps.c	104;"	d	file:
+EW_1WAYW	maps.c	97;"	d	file:
+EW_1WAYWD	maps.c	105;"	d	file:
+EW_2WAY	maps.c	95;"	d	file:
+EW_2WAYD	maps.c	103;"	d	file:
+EW_HIT	maps.c	98;"	d	file:
+EW_HITD	maps.c	106;"	d	file:
+EW_UNE	maps.c	109;"	d	file:
+EW_UNED	maps.c	113;"	d	file:
+EW_UNW	maps.c	110;"	d	file:
+EW_UNWD	maps.c	114;"	d	file:
+EXIT_DATA	merc.h	/^typedef struct	exit_data		EXIT_DATA;$/;"	t	typeref:struct:exit_data
+EXTRA_DESCR_DATA	merc.h	/^typedef struct	extra_descr_data	EXTRA_DESCR_DATA;$/;"	t	typeref:struct:extra_descr_data
+EX_CLOSED	merc.h	557;"	d
+EX_ISDOOR	merc.h	556;"	d
+EX_LOCKED	merc.h	558;"	d
+EX_PICKPROOF	merc.h	559;"	d
+FALSE	merc.h	32;"	d
+FNDELAY	comm.c	404;"	d	file:
+GET_AC	merc.h	1081;"	d
+GET_DAMROLL	merc.h	1086;"	d
+GET_HITROLL	merc.h	1085;"	d
+HELP_DATA	merc.h	/^typedef struct	help_data		HELP_DATA;$/;"	t	typeref:struct:help_data
+IDEA_FILE	merc.h	1461;"	d
+INVALIDATE	merc.h	1055;"	d
+IS_AFFECTED	merc.h	1074;"	d
+IS_AWAKE	merc.h	1080;"	d
+IS_EVIL	merc.h	1077;"	d
+IS_GOOD	merc.h	1076;"	d
+IS_HERO	merc.h	1073;"	d
+IS_IMMORTAL	merc.h	1072;"	d
+IS_NEUTRAL	merc.h	1078;"	d
+IS_NPC	merc.h	1071;"	d
+IS_OBJ_STAT	merc.h	1100;"	d
+IS_OUTSIDE	merc.h	1088;"	d
+IS_SET	merc.h	1061;"	d
+IS_VALID	merc.h	1053;"	d
+ITEM_ANTI_EVIL	merc.h	440;"	d
+ITEM_ANTI_GOOD	merc.h	439;"	d
+ITEM_ANTI_NEUTRAL	merc.h	441;"	d
+ITEM_ARMOR	merc.h	409;"	d
+ITEM_BLESS	merc.h	438;"	d
+ITEM_BOAT	merc.h	418;"	d
+ITEM_CONTAINER	merc.h	413;"	d
+ITEM_CORPSE_NPC	merc.h	419;"	d
+ITEM_CORPSE_PC	merc.h	420;"	d
+ITEM_DARK	merc.h	432;"	d
+ITEM_DRINK_CON	merc.h	414;"	d
+ITEM_EVIL	merc.h	434;"	d
+ITEM_FOOD	merc.h	416;"	d
+ITEM_FOUNTAIN	merc.h	421;"	d
+ITEM_FURNITURE	merc.h	411;"	d
+ITEM_GLOW	merc.h	430;"	d
+ITEM_HOLD	merc.h	465;"	d
+ITEM_HUM	merc.h	431;"	d
+ITEM_INVENTORY	merc.h	443;"	d
+ITEM_INVIS	merc.h	435;"	d
+ITEM_KEY	merc.h	415;"	d
+ITEM_LIGHT	merc.h	403;"	d
+ITEM_LOCK	merc.h	433;"	d
+ITEM_MAGIC	merc.h	436;"	d
+ITEM_MONEY	merc.h	417;"	d
+ITEM_NODROP	merc.h	437;"	d
+ITEM_NOREMOVE	merc.h	442;"	d
+ITEM_PILL	merc.h	422;"	d
+ITEM_POTION	merc.h	410;"	d
+ITEM_SCROLL	merc.h	404;"	d
+ITEM_STAFF	merc.h	406;"	d
+ITEM_TAKE	merc.h	451;"	d
+ITEM_TRASH	merc.h	412;"	d
+ITEM_TREASURE	merc.h	408;"	d
+ITEM_WAND	merc.h	405;"	d
+ITEM_WEAPON	merc.h	407;"	d
+ITEM_WEAR_ABOUT	merc.h	461;"	d
+ITEM_WEAR_ARMS	merc.h	459;"	d
+ITEM_WEAR_BODY	merc.h	454;"	d
+ITEM_WEAR_FEET	merc.h	457;"	d
+ITEM_WEAR_FINGER	merc.h	452;"	d
+ITEM_WEAR_HANDS	merc.h	458;"	d
+ITEM_WEAR_HEAD	merc.h	455;"	d
+ITEM_WEAR_LEGS	merc.h	456;"	d
+ITEM_WEAR_NECK	merc.h	453;"	d
+ITEM_WEAR_SHIELD	merc.h	460;"	d
+ITEM_WEAR_WAIST	merc.h	462;"	d
+ITEM_WEAR_WRIST	merc.h	463;"	d
+ITEM_WIELD	merc.h	464;"	d
+KEY	save.c	385;"	d	file:
+KEY	save.c	388;"	d	file:
+KILL_DATA	merc.h	/^typedef struct	kill_data		KILL_DATA;$/;"	t	typeref:struct:kill_data
+L	merc.h	/^	lua_State*  L; \/* added for Lua scripting *\/$/;"	m	struct:char_data	access:public
+LCALL_CHAR_SCRIPT	merc.h	610;"	d
+LCALL_COLOR	merc.h	612;"	d
+LCALL_NUMBER	merc.h	611;"	d
+LCALL_OLC	merc.h	613;"	d
+LEVEL_HERO	merc.h	90;"	d
+LEVEL_IMMORTAL	merc.h	91;"	d
+LIQ_MAX	merc.h	824;"	d
+LIQ_WATER	merc.h	823;"	d
+LOG_ALWAYS	interp.c	36;"	d	file:
+LOG_NEVER	interp.c	37;"	d	file:
+LOG_NORMAL	interp.c	35;"	d	file:
+LOWER	merc.h	1059;"	d
+L_getchar	lua_charlib.c	/^CHAR_DATA *L_getchar( lua_State *L )$/;"	f	signature:( lua_State *L )
+L_register_charlib	lua_charlib.c	/^void L_register_charlib( lua_State *L )	$/;"	f	signature:( lua_State *L )
+L_register_charlib	lua_header.h	/^void L_register_charlib( lua_State *L );$/;"	p	signature:( lua_State *L )
+L_register_mudlib	lua_header.h	/^void L_register_mudlib ( lua_State *L );$/;"	p	signature:( lua_State *L )
+L_register_mudlib	lua_mudlib.c	/^void L_register_mudlib( lua_State *L )	$/;"	f	signature:( lua_State *L )
+L_set_ch_field	lua_charlib.c	/^int L_set_ch_field (CHAR_DATA *ch, const char *field, const char *value)$/;"	f	signature:(CHAR_DATA *ch, const char *field, const char *value)
+L_stack_dump	lua_header.h	/^void L_stack_dump( lua_State *L );$/;"	p	signature:( lua_State *L )
+L_stack_dump	lua_interface.c	/^void L_stack_dump( lua_State *L )$/;"	f	signature:( lua_State *L )
+MAP_MID	maps.c	87;"	d	file:
+MAP_PARAM	maps.c	/^typedef struct	map_param	MAP_PARAM;$/;"	t	typeref:struct:map_param	file:
+MAP_QD	maps.c	/^typedef struct	map_qd		MAP_QD;$/;"	t	typeref:struct:map_qd	file:
+MAP_VISIT	maps.c	/^typedef struct	map_visit	MAP_VISIT;$/;"	t	typeref:struct:map_visit	file:
+MAX_CLASS	merc.h	88;"	d
+MAX_HUH	interp.c	46;"	d	file:
+MAX_INPUT_LENGTH	merc.h	78;"	d
+MAX_KEY_HASH	merc.h	76;"	d
+MAX_LEVEL	merc.h	89;"	d
+MAX_MAP	maps.c	86;"	d	file:
+MAX_MAP_HASH	maps.c	88;"	d	file:
+MAX_MEM_LIST	db.c	124;"	d	file:
+MAX_NEST	save.c	38;"	d	file:
+MAX_PERM_BLOCK	db.c	123;"	d	file:
+MAX_SKILL	merc.h	87;"	d
+MAX_STRING	db.c	122;"	d	file:
+MAX_STRING_LENGTH	merc.h	77;"	d
+MAX_TRADE	merc.h	231;"	d
+MAX_WEAR	merc.h	605;"	d
+MID	merc.h	1473;"	d
+MID	merc.h	1643;"	d
+ML_send	lua_mudlib.c	/^static int ML_send(lua_State *L)$/;"	f	file:	signature:(lua_State *L)
+MOB_INDEX_DATA	merc.h	/^typedef struct	mob_index_data		MOB_INDEX_DATA;$/;"	t	typeref:struct:mob_index_data
+MOB_VNUM_CITYGUARD	merc.h	312;"	d
+MOB_VNUM_VAMPIRE	merc.h	313;"	d
+Maj	sha256.c	99;"	d	file:
+NOTE_DATA	merc.h	/^typedef struct	note_data		NOTE_DATA;$/;"	t	typeref:struct:note_data
+NOTE_FILE	merc.h	1463;"	d
+NS_1WAYN	maps.c	92;"	d	file:
+NS_1WAYND	maps.c	100;"	d	file:
+NS_1WAYS	maps.c	93;"	d	file:
+NS_1WAYSD	maps.c	101;"	d	file:
+NS_2WAY	maps.c	91;"	d	file:
+NS_2WAYD	maps.c	99;"	d	file:
+NS_HIT	maps.c	94;"	d	file:
+NS_HITD	maps.c	102;"	d	file:
+NS_UNN	maps.c	107;"	d	file:
+NS_UNND	maps.c	111;"	d	file:
+NS_UNS	maps.c	108;"	d	file:
+NS_UNSD	maps.c	112;"	d	file:
+NULL_FILE	merc.h	1456;"	d
+OBJ_DATA	merc.h	/^typedef struct	obj_data		OBJ_DATA;$/;"	t	typeref:struct:obj_data
+OBJ_INDEX_DATA	merc.h	/^typedef struct	obj_index_data		OBJ_INDEX_DATA;$/;"	t	typeref:struct:obj_index_data
+OBJ_VNUM_CORPSE_NPC	merc.h	378;"	d
+OBJ_VNUM_CORPSE_PC	merc.h	379;"	d
+OBJ_VNUM_FINAL_TURD	merc.h	384;"	d
+OBJ_VNUM_LIGHT_BALL	merc.h	387;"	d
+OBJ_VNUM_MONEY_ONE	merc.h	375;"	d
+OBJ_VNUM_MONEY_SOME	merc.h	376;"	d
+OBJ_VNUM_MUSHROOM	merc.h	386;"	d
+OBJ_VNUM_SCHOOL_BANNER	merc.h	395;"	d
+OBJ_VNUM_SCHOOL_DAGGER	merc.h	391;"	d
+OBJ_VNUM_SCHOOL_MACE	merc.h	390;"	d
+OBJ_VNUM_SCHOOL_SHIELD	merc.h	394;"	d
+OBJ_VNUM_SCHOOL_SWORD	merc.h	392;"	d
+OBJ_VNUM_SCHOOL_VEST	merc.h	393;"	d
+OBJ_VNUM_SEVERED_HEAD	merc.h	380;"	d
+OBJ_VNUM_SLICED_ARM	merc.h	382;"	d
+OBJ_VNUM_SLICED_LEG	merc.h	383;"	d
+OBJ_VNUM_SPRING	merc.h	388;"	d
+OBJ_VNUM_TORN_HEART	merc.h	381;"	d
+OD	merc.h	1474;"	d
+OD	merc.h	1644;"	d
+OID	merc.h	1475;"	d
+OID	merc.h	1645;"	d
+PAD	sha256.c	/^static unsigned char PAD[64] = {$/;"	v	file:
+PC_DATA	merc.h	/^typedef struct	pc_data			PC_DATA;$/;"	t	typeref:struct:pc_data
+PERS	merc.h	1107;"	d
+PLAYER_DIR	merc.h	1455;"	d
+PLR_AUTOEXIT	merc.h	651;"	d
+PLR_AUTOLOOT	merc.h	652;"	d
+PLR_AUTOSAC	merc.h	653;"	d
+PLR_BLANK	merc.h	654;"	d
+PLR_BOUGHT_PET	merc.h	649;"	d
+PLR_BRIEF	merc.h	655;"	d
+PLR_COMBINE	merc.h	656;"	d
+PLR_DENY	merc.h	667;"	d
+PLR_FREEZE	merc.h	668;"	d
+PLR_HOLYLIGHT	merc.h	660;"	d
+PLR_IS_NPC	merc.h	648;"	d
+PLR_KILLER	merc.h	670;"	d
+PLR_LOG	merc.h	666;"	d
+PLR_NO_EMOTE	merc.h	664;"	d
+PLR_NO_TELL	merc.h	665;"	d
+PLR_PROMPT	merc.h	657;"	d
+PLR_SILENCE	merc.h	663;"	d
+PLR_TELNET_GA	merc.h	658;"	d
+PLR_THIEF	merc.h	669;"	d
+PLR_WIZINVIS	merc.h	661;"	d
+POS_DEAD	merc.h	634;"	d
+POS_FIGHTING	merc.h	640;"	d
+POS_INCAP	merc.h	636;"	d
+POS_MORTAL	merc.h	635;"	d
+POS_RESTING	merc.h	639;"	d
+POS_SLEEPING	merc.h	638;"	d
+POS_STANDING	merc.h	641;"	d
+POS_STUNNED	merc.h	637;"	d
+PULSE_AREA	merc.h	97;"	d
+PULSE_MOBILE	merc.h	95;"	d
+PULSE_PER_SECOND	merc.h	93;"	d
+PULSE_TICK	merc.h	96;"	d
+PULSE_VIOLENCE	merc.h	94;"	d
+REMOVE_BIT	merc.h	1063;"	d
+RESET_DATA	merc.h	/^typedef struct	reset_data		RESET_DATA;$/;"	t	typeref:struct:reset_data
+RID	merc.h	1476;"	d
+RID	merc.h	1646;"	d
+RND	sha256.c	108;"	d	file:
+RNDr	sha256.c	115;"	d	file:
+ROOM_DARK	merc.h	528;"	d
+ROOM_INDEX_DATA	merc.h	/^typedef struct	room_index_data		ROOM_INDEX_DATA;$/;"	t	typeref:struct:room_index_data
+ROOM_INDOORS	merc.h	530;"	d
+ROOM_NO_MOB	merc.h	529;"	d
+ROOM_NO_RECALL	merc.h	535;"	d
+ROOM_PET_SHOP	merc.h	534;"	d
+ROOM_PRIVATE	merc.h	531;"	d
+ROOM_SAFE	merc.h	532;"	d
+ROOM_SOLITARY	merc.h	533;"	d
+ROOM_VNUM_ALTAR	merc.h	519;"	d
+ROOM_VNUM_CHAT	merc.h	517;"	d
+ROOM_VNUM_LIMBO	merc.h	516;"	d
+ROOM_VNUM_SCHOOL	merc.h	520;"	d
+ROOM_VNUM_TEMPLE	merc.h	518;"	d
+ROTR	sha256.c	101;"	d	file:
+S0	sha256.c	102;"	d	file:
+S1	sha256.c	103;"	d	file:
+SECT_AIR	merc.h	576;"	d
+SECT_CITY	merc.h	568;"	d
+SECT_DESERT	merc.h	577;"	d
+SECT_FIELD	merc.h	569;"	d
+SECT_FOREST	merc.h	570;"	d
+SECT_HILLS	merc.h	571;"	d
+SECT_INSIDE	merc.h	567;"	d
+SECT_MAX	merc.h	578;"	d
+SECT_MOUNTAIN	merc.h	572;"	d
+SECT_UNUSED	merc.h	575;"	d
+SECT_WATER_NOSWIM	merc.h	574;"	d
+SECT_WATER_SWIM	merc.h	573;"	d
+SET_BIT	merc.h	1062;"	d
+SEX_FEMALE	merc.h	367;"	d
+SEX_MALE	merc.h	366;"	d
+SEX_NEUTRAL	merc.h	365;"	d
+SF	merc.h	1477;"	d
+SF	merc.h	1647;"	d
+SHA256Context	sha256.h	/^typedef struct SHA256Context {$/;"	s
+SHA256Context::buf	sha256.h	/^    unsigned char buf[64];$/;"	m	struct:SHA256Context	access:public
+SHA256Context::count	sha256.h	/^    int count[2];$/;"	m	struct:SHA256Context	access:public
+SHA256Context::state	sha256.h	/^    int state[8];$/;"	m	struct:SHA256Context	access:public
+SHA256_CTX	sha256.h	/^} SHA256_CTX;$/;"	t	typeref:struct:SHA256Context
+SHA256_Data	sha256.h	/^char *SHA256_Data( const unsigned char *, unsigned int, char * );$/;"	p	signature:( const unsigned char *, unsigned int, char * )
+SHA256_End	sha256.h	/^char *SHA256_End( SHA256_CTX *, char * );$/;"	p	signature:( SHA256_CTX *, char * )
+SHA256_File	sha256.h	/^char *SHA256_File( const char *, char * );$/;"	p	signature:( const char *, char * )
+SHA256_FileChunk	sha256.h	/^char *SHA256_FileChunk( const char *, char *, off_t, off_t );$/;"	p	signature:( const char *, char *, off_t, off_t )
+SHA256_Final	sha256.c	/^void SHA256_Final(unsigned char digest[32], SHA256_CTX * ctx)$/;"	f	signature:(unsigned char digest[32], SHA256_CTX * ctx)
+SHA256_Final	sha256.h	/^void SHA256_Final( unsigned char [32], SHA256_CTX * );$/;"	p	signature:( unsigned char [32], SHA256_CTX * )
+SHA256_Init	sha256.c	/^void SHA256_Init(SHA256_CTX * ctx)$/;"	f	signature:(SHA256_CTX * ctx)
+SHA256_Init	sha256.h	/^void SHA256_Init( SHA256_CTX * );$/;"	p	signature:( SHA256_CTX * )
+SHA256_Pad	sha256.c	/^SHA256_Pad(SHA256_CTX * ctx)$/;"	f	file:	signature:(SHA256_CTX * ctx)
+SHA256_Transform	sha256.c	/^SHA256_Transform(int * state, const unsigned char block[64])$/;"	f	file:	signature:(int * state, const unsigned char block[64])
+SHA256_Update	sha256.c	/^void SHA256_Update(SHA256_CTX * ctx, const unsigned char *src, size_t len)$/;"	f	signature:(SHA256_CTX * ctx, const unsigned char *src, size_t len)
+SHA256_Update	sha256.h	/^void SHA256_Update( SHA256_CTX *, const unsigned char *, size_t );$/;"	p	signature:( SHA256_CTX *, const unsigned char *, size_t )
+SHOP_DATA	merc.h	/^typedef struct	shop_data		SHOP_DATA;$/;"	t	typeref:struct:shop_data
+SHR	sha256.c	100;"	d	file:
+SHUTDOWN_FILE	merc.h	1464;"	d
+SKY_CLOUDLESS	merc.h	117;"	d
+SKY_CLOUDY	merc.h	118;"	d
+SKY_LIGHTNING	merc.h	120;"	d
+SKY_RAINING	merc.h	119;"	d
+SLOT	const.c	461;"	d	file:
+SPEC_FUN	merc.h	/^typedef bool SPEC_FUN	args( ( CHAR_DATA *ch ) );$/;"	t
+SPELL_FUN	merc.h	/^typedef void SPELL_FUN	args( ( int sn, int level, CHAR_DATA *ch, void *vo ) );$/;"	t
+SUN_DARK	merc.h	112;"	d
+SUN_LIGHT	merc.h	114;"	d
+SUN_RISE	merc.h	113;"	d
+SUN_SET	merc.h	115;"	d
+TAR_CHAR_DEFENSIVE	merc.h	985;"	d
+TAR_CHAR_OFFENSIVE	merc.h	984;"	d
+TAR_CHAR_SELF	merc.h	986;"	d
+TAR_IGNORE	merc.h	983;"	d
+TAR_OBJ_INV	merc.h	987;"	d
+TIME_INFO_DATA	merc.h	/^typedef struct	time_info_data		TIME_INFO_DATA;$/;"	t	typeref:struct:time_info_data
+TO_CHAR	merc.h	212;"	d
+TO_NOTVICT	merc.h	210;"	d
+TO_ROOM	merc.h	209;"	d
+TO_VICT	merc.h	211;"	d
+TRUE	merc.h	36;"	d
+TYPE_HIT	merc.h	976;"	d
+TYPE_UNDEFINED	merc.h	975;"	d
+TYPO_FILE	merc.h	1462;"	d
+UMAX	merc.h	1057;"	d
+UMIN	merc.h	1056;"	d
+UPPER	merc.h	1060;"	d
+URANGE	merc.h	1058;"	d
+VALIDATE	merc.h	1054;"	d
+WAIT_STATE	merc.h	1092;"	d
+WEAR_ABOUT	merc.h	599;"	d
+WEAR_ARMS	merc.h	597;"	d
+WEAR_BODY	merc.h	592;"	d
+WEAR_FEET	merc.h	595;"	d
+WEAR_FINGER_L	merc.h	588;"	d
+WEAR_FINGER_R	merc.h	589;"	d
+WEAR_HANDS	merc.h	596;"	d
+WEAR_HEAD	merc.h	593;"	d
+WEAR_HOLD	merc.h	604;"	d
+WEAR_LEGS	merc.h	594;"	d
+WEAR_LIGHT	merc.h	587;"	d
+WEAR_NECK_1	merc.h	590;"	d
+WEAR_NECK_2	merc.h	591;"	d
+WEAR_NONE	merc.h	586;"	d
+WEAR_SHIELD	merc.h	598;"	d
+WEAR_WAIST	merc.h	600;"	d
+WEAR_WIELD	merc.h	603;"	d
+WEAR_WRIST_L	merc.h	601;"	d
+WEAR_WRIST_R	merc.h	602;"	d
+WEATHER_DATA	merc.h	/^typedef struct	weather_data		WEATHER_DATA;$/;"	t	typeref:struct:weather_data
+_SHA256_H_	sha256.h	30;"	d
+_filbuf	db.c	/^extern	int	_filbuf		args( (FILE *) );$/;"	p	file:	signature:(FILE *) 
+_filbuf	save.c	/^extern	int	_filbuf		args( (FILE *) );$/;"	p	file:	signature:(FILE *) 
+ac	merc.h	/^    short		ac;			\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+act	comm.c	/^void act( const char *format, CHAR_DATA *ch, const void *arg1, const void *arg2, int type )$/;"	f	signature:( const char *format, CHAR_DATA *ch, const void *arg1, const void *arg2, int type )
+act	merc.h	/^    int			act;$/;"	m	struct:char_data	access:public
+act	merc.h	/^    int			act;$/;"	m	struct:mob_index_data	access:public
+act	merc.h	/^void	act		args( ( const char *format, CHAR_DATA *ch,$/;"	p	signature:( const char *format, CHAR_DATA *ch, const void *arg1, const void *arg2, int type ) 
+add_follower	act_comm.c	/^void add_follower( CHAR_DATA *ch, CHAR_DATA *master )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *master )
+add_follower	merc.h	/^void	add_follower	args( ( CHAR_DATA *ch, CHAR_DATA *master ) );$/;"	p	signature:( CHAR_DATA *ch, CHAR_DATA *master ) 
+add_map_qd	maps.c	/^void add_map_qd			args ( (MAP_QD *map_qd) );$/;"	p	file:	signature:(MAP_QD *map_qd) 
+add_map_qd	maps.c	/^void add_map_qd (MAP_QD *mqd)$/;"	f	signature:(MAP_QD *mqd)
+add_to_map	maps.c	/^void add_to_map			args ( (CHAR_DATA *ch, ROOM_INDEX_DATA *room, int x, int y, int depth) );$/;"	p	file:	signature:(CHAR_DATA *ch, ROOM_INDEX_DATA *room, int x, int y, int depth) 
+add_to_map	maps.c	/^void add_to_map (CHAR_DATA *ch, ROOM_INDEX_DATA *room, int x, int y, int depth)$/;"	f	signature:(CHAR_DATA *ch, ROOM_INDEX_DATA *room, int x, int y, int depth)
+add_visited	maps.c	/^void add_visited		args ( (int room) );$/;"	p	file:	signature:(int room) 
+add_visited	maps.c	/^void add_visited (int room)$/;"	f	signature:(int room)
+advance_level	merc.h	/^void	advance_level	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+advance_level	update.c	/^void advance_level( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+affect_bit_name	handler.c	/^char *affect_bit_name( int vector )$/;"	f	signature:( int vector )
+affect_bit_name	merc.h	/^char *	affect_bit_name	args( ( int vector ) );$/;"	p	signature:( int vector ) 
+affect_data	merc.h	/^struct	affect_data {$/;"	s
+affect_data::bitvector	merc.h	/^    int			bitvector;$/;"	m	struct:affect_data	access:public
+affect_data::duration	merc.h	/^    short		duration;$/;"	m	struct:affect_data	access:public
+affect_data::location	merc.h	/^    short		location;$/;"	m	struct:affect_data	access:public
+affect_data::modifier	merc.h	/^    short		modifier;$/;"	m	struct:affect_data	access:public
+affect_data::next	merc.h	/^    AFFECT_DATA *	next;$/;"	m	struct:affect_data	access:public
+affect_data::type	merc.h	/^    short		type;$/;"	m	struct:affect_data	access:public
+affect_free	handler.c	/^AFFECT_DATA *		affect_free;$/;"	v
+affect_join	handler.c	/^void affect_join( CHAR_DATA *ch, AFFECT_DATA *paf )$/;"	f	signature:( CHAR_DATA *ch, AFFECT_DATA *paf )
+affect_join	merc.h	/^void	affect_join	args( ( CHAR_DATA *ch, AFFECT_DATA *paf ) );$/;"	p	signature:( CHAR_DATA *ch, AFFECT_DATA *paf ) 
+affect_loc_name	handler.c	/^char *affect_loc_name( int location )$/;"	f	signature:( int location )
+affect_loc_name	merc.h	/^char *	affect_loc_name	args( ( int location ) );$/;"	p	signature:( int location ) 
+affect_modify	handler.c	/^void	affect_modify	args( ( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd ) );$/;"	p	file:	signature:( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd ) 
+affect_modify	handler.c	/^void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )$/;"	f	signature:( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
+affect_remove	handler.c	/^void affect_remove( CHAR_DATA *ch, AFFECT_DATA *paf )$/;"	f	signature:( CHAR_DATA *ch, AFFECT_DATA *paf )
+affect_remove	merc.h	/^void	affect_remove	args( ( CHAR_DATA *ch, AFFECT_DATA *paf ) );$/;"	p	signature:( CHAR_DATA *ch, AFFECT_DATA *paf ) 
+affect_strip	handler.c	/^void affect_strip( CHAR_DATA *ch, int sn )$/;"	f	signature:( CHAR_DATA *ch, int sn )
+affect_strip	merc.h	/^void	affect_strip	args( ( CHAR_DATA *ch, int sn ) );$/;"	p	signature:( CHAR_DATA *ch, int sn ) 
+affect_to_char	handler.c	/^void affect_to_char( CHAR_DATA *ch, AFFECT_DATA *paf )$/;"	f	signature:( CHAR_DATA *ch, AFFECT_DATA *paf )
+affect_to_char	merc.h	/^void	affect_to_char	args( ( CHAR_DATA *ch, AFFECT_DATA *paf ) );$/;"	p	signature:( CHAR_DATA *ch, AFFECT_DATA *paf ) 
+affected	merc.h	/^    AFFECT_DATA *	affected;$/;"	m	struct:char_data	access:public
+affected	merc.h	/^    AFFECT_DATA *	affected;$/;"	m	struct:obj_data	access:public
+affected	merc.h	/^    AFFECT_DATA *	affected;$/;"	m	struct:obj_index_data	access:public
+affected_by	merc.h	/^    int			affected_by;$/;"	m	struct:char_data	access:public
+affected_by	merc.h	/^    int			affected_by;$/;"	m	struct:mob_index_data	access:public
+age	merc.h	/^    short		age;$/;"	m	struct:area_data	access:public
+aggr_update	update.c	/^void	aggr_update	args( ( void ) );$/;"	p	file:	signature:( void ) 
+aggr_update	update.c	/^void aggr_update( void )$/;"	f	signature:( void )
+alignment	merc.h	/^    short		alignment;$/;"	m	struct:char_data	access:public
+alignment	merc.h	/^    short		alignment;$/;"	m	struct:mob_index_data	access:public
+alloc_mem	db.c	/^void *alloc_mem( int sMem )$/;"	f	signature:( int sMem )
+alloc_mem	merc.h	/^void *	alloc_mem	args( ( int sMem ) );$/;"	p	signature:( int sMem ) 
+alloc_perm	db.c	/^void *alloc_perm( int sMem )$/;"	f	signature:( int sMem )
+alloc_perm	merc.h	/^void *	alloc_perm	args( ( int sMem ) );$/;"	p	signature:( int sMem ) 
+alt_menu	alt_menu.c	/^bool alt_menu( DESCRIPTOR_DATA *d )$/;"	f	signature:( DESCRIPTOR_DATA *d )
+alt_menu	merc.h	/^	int         alt_menu;$/;"	m	struct:descriptor_data	access:public
+alt_menu	merc.h	/^bool alt_menu( DESCRIPTOR_DATA *d );$/;"	p	signature:( DESCRIPTOR_DATA *d )
+ansi_color	merc.h	/^    short      ansi_color; \/\/ added for color$/;"	m	struct:char_data	access:public
+append_file	db.c	/^void append_file( CHAR_DATA *ch, char *file, char *str )$/;"	f	signature:( CHAR_DATA *ch, char *file, char *str )
+append_file	merc.h	/^void	append_file	args( ( CHAR_DATA *ch, char *file, char *str ) );$/;"	p	signature:( CHAR_DATA *ch, char *file, char *str ) 
+apply_ac	handler.c	/^int apply_ac( OBJ_DATA *obj, int iWear )$/;"	f	signature:( OBJ_DATA *obj, int iWear )
+apply_ac	merc.h	/^int	apply_ac	args( ( OBJ_DATA *obj, int iWear ) );$/;"	p	signature:( OBJ_DATA *obj, int iWear ) 
+area	maps.c	/^	bool area;$/;"	m	struct:map_param	file:	access:public
+area	merc.h	/^    AREA_DATA *		area;$/;"	m	struct:room_index_data	access:public
+area_data	merc.h	/^struct	area_data {$/;"	s
+area_data::age	merc.h	/^    short		age;$/;"	m	struct:area_data	access:public
+area_data::name	merc.h	/^    char *		name;$/;"	m	struct:area_data	access:public
+area_data::next	merc.h	/^    AREA_DATA *		next;$/;"	m	struct:area_data	access:public
+area_data::nplayer	merc.h	/^    short		nplayer;$/;"	m	struct:area_data	access:public
+area_data::reset_first	merc.h	/^    RESET_DATA *	reset_first;$/;"	m	struct:area_data	access:public
+area_data::reset_last	merc.h	/^    RESET_DATA *	reset_last;$/;"	m	struct:area_data	access:public
+area_first	db.c	/^AREA_DATA *		area_first;$/;"	v
+area_last	db.c	/^AREA_DATA *		area_last;$/;"	v
+area_update	db.c	/^void area_update( void )$/;"	f	signature:( void )
+area_update	merc.h	/^void	area_update	args( ( void ) );$/;"	p	signature:( void ) 
+arg1	merc.h	/^    short		arg1;$/;"	m	struct:reset_data	access:public
+arg2	merc.h	/^    short		arg2;$/;"	m	struct:reset_data	access:public
+arg3	merc.h	/^    short		arg3;$/;"	m	struct:reset_data	access:public
+args	merc.h	22;"	d
+armor	merc.h	/^    short		armor;$/;"	m	struct:char_data	access:public
+attr_prime	merc.h	/^    short	attr_prime;		\/* Prime attribute		*\/$/;"	m	struct:class_type	access:public
+bamfin	merc.h	/^    char *		bamfin;$/;"	m	struct:pc_data	access:public
+bamfout	merc.h	/^    char *		bamfout;$/;"	m	struct:pc_data	access:public
+ban_data	merc.h	/^struct	ban_data {$/;"	s
+ban_data::name	merc.h	/^    char *	name;$/;"	m	struct:ban_data	access:public
+ban_data::next	merc.h	/^    BAN_DATA *	next;$/;"	m	struct:ban_data	access:public
+ban_free	act_wiz.c	/^BAN_DATA *		ban_free;$/;"	v
+ban_list	act_wiz.c	/^BAN_DATA *		ban_list;$/;"	v
+be32dec	sha256.c	/^be32dec(const void *pp)$/;"	f	file:	signature:(const void *pp)
+be32dec_vect	sha256.c	/^be32dec_vect(int *dst, const unsigned char *src, size_t len)$/;"	f	file:	signature:(int *dst, const unsigned char *src, size_t len)
+be32dec_vect	sha256.c	64;"	d	file:
+be32enc	sha256.c	/^be32enc(void *pp, int u)$/;"	f	file:	signature:(void *pp, int u)
+be32enc_vect	sha256.c	/^be32enc_vect(unsigned char *dst, const int *src, size_t len)$/;"	f	file:	signature:(unsigned char *dst, const int *src, size_t len)
+be32enc_vect	sha256.c	60;"	d	file:
+beats	merc.h	/^    short	beats;			\/* Waiting time after use	*\/$/;"	m	struct:skill_type	access:public
+bitvector	merc.h	/^    int			bitvector;$/;"	m	struct:affect_data	access:public
+bool	merc.h	/^typedef unsigned char			bool;$/;"	t
+boot_db	db.c	/^void boot_db( void )$/;"	f	signature:( void )
+boot_db	merc.h	/^void	boot_db		args( ( void ) );$/;"	p	signature:( void ) 
+border	maps.c	/^	bool border;$/;"	m	struct:map_param	file:	access:public
+buf	sha256.h	/^    unsigned char buf[64];$/;"	m	struct:SHA256Context	access:public
+bug	db.c	/^void bug( const char *str, int param )$/;"	f	signature:( const char *str, int param )
+bug	merc.h	/^void	bug		args( ( const char *str, int param ) );$/;"	p	signature:( const char *str, int param ) 
+bug_buf	db.c	/^char			bug_buf		[2*MAX_INPUT_LENGTH];$/;"	v
+buy_type	merc.h	/^    short	buy_type [MAX_TRADE];	\/* Item types shop will buy	*\/$/;"	m	struct:shop_data	access:public
+call_lua	lua_interface.c	/^char* call_lua(lua_State *L, CHAR_DATA *actor, void *target, int call_type, char *func, char *argument)$/;"	f	signature:(lua_State *L, CHAR_DATA *actor, void *target, int call_type, char *func, char *argument)
+call_lua	merc.h	/^char* call_lua       ( lua_State *L, CHAR_DATA *actor, void *target, int call_type, char* func, char* argument );$/;"	p	signature:( lua_State *L, CHAR_DATA *actor, void *target, int call_type, char* func, char* argument )
+can_carry_n	handler.c	/^int can_carry_n( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+can_carry_n	merc.h	/^int	can_carry_n	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+can_carry_w	handler.c	/^int can_carry_w( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+can_carry_w	merc.h	/^int	can_carry_w	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+can_drop_obj	handler.c	/^bool can_drop_obj( CHAR_DATA *ch, OBJ_DATA *obj )$/;"	f	signature:( CHAR_DATA *ch, OBJ_DATA *obj )
+can_drop_obj	merc.h	/^bool	can_drop_obj	args( ( CHAR_DATA *ch, OBJ_DATA *obj ) );$/;"	p	signature:( CHAR_DATA *ch, OBJ_DATA *obj ) 
+can_see	handler.c	/^bool can_see( CHAR_DATA *ch, CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim )
+can_see	merc.h	/^bool	can_see		args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );$/;"	p	signature:( CHAR_DATA *ch, CHAR_DATA *victim ) 
+can_see_obj	handler.c	/^bool can_see_obj( CHAR_DATA *ch, OBJ_DATA *obj )$/;"	f	signature:( CHAR_DATA *ch, OBJ_DATA *obj )
+can_see_obj	merc.h	/^bool	can_see_obj	args( ( CHAR_DATA *ch, OBJ_DATA *obj ) );$/;"	p	signature:( CHAR_DATA *ch, OBJ_DATA *obj ) 
+can_see_room	handler.c	/^bool can_see_room ( CHAR_DATA *ch, ROOM_INDEX_DATA *room )$/;"	f	signature:( CHAR_DATA *ch, ROOM_INDEX_DATA *room )
+can_see_room	merc.h	/^bool    can_see_room args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *room ) );$/;"	p	signature:( CHAR_DATA *ch, ROOM_INDEX_DATA *room ) 
+capitalize	db.c	/^char *capitalize( const char *str )$/;"	f	signature:( const char *str )
+capitalize	merc.h	/^char *	capitalize	args( ( const char *str ) );$/;"	p	signature:( const char *str ) 
+carried_by	merc.h	/^    CHAR_DATA *		carried_by;$/;"	m	struct:obj_data	access:public
+carry	merc.h	/^    short	carry;$/;"	m	struct:str_app_type	access:public
+carry_number	merc.h	/^    short		carry_number;$/;"	m	struct:char_data	access:public
+carry_weight	merc.h	/^    short		carry_weight;$/;"	m	struct:char_data	access:public
+carrying	merc.h	/^    OBJ_DATA *		carrying;$/;"	m	struct:char_data	access:public
+change	merc.h	/^    int		change;$/;"	m	struct:weather_data	access:public
+char_auto	merc.h	/^    char * const	char_auto;$/;"	m	struct:social_type	access:public
+char_data	merc.h	/^struct	char_data {$/;"	s
+char_data::L	merc.h	/^	lua_State*  L; \/* added for Lua scripting *\/$/;"	m	struct:char_data	access:public
+char_data::act	merc.h	/^    int			act;$/;"	m	struct:char_data	access:public
+char_data::affected	merc.h	/^    AFFECT_DATA *	affected;$/;"	m	struct:char_data	access:public
+char_data::affected_by	merc.h	/^    int			affected_by;$/;"	m	struct:char_data	access:public
+char_data::alignment	merc.h	/^    short		alignment;$/;"	m	struct:char_data	access:public
+char_data::ansi_color	merc.h	/^    short      ansi_color; \/\/ added for color$/;"	m	struct:char_data	access:public
+char_data::armor	merc.h	/^    short		armor;$/;"	m	struct:char_data	access:public
+char_data::carry_number	merc.h	/^    short		carry_number;$/;"	m	struct:char_data	access:public
+char_data::carry_weight	merc.h	/^    short		carry_weight;$/;"	m	struct:char_data	access:public
+char_data::carrying	merc.h	/^    OBJ_DATA *		carrying;$/;"	m	struct:char_data	access:public
+char_data::damroll	merc.h	/^    short		damroll;$/;"	m	struct:char_data	access:public
+char_data::deaf	merc.h	/^    short		deaf;$/;"	m	struct:char_data	access:public
+char_data::desc	merc.h	/^    DESCRIPTOR_DATA *	desc;$/;"	m	struct:char_data	access:public
+char_data::description	merc.h	/^    char *		description;$/;"	m	struct:char_data	access:public
+char_data::exp	merc.h	/^    int			exp;$/;"	m	struct:char_data	access:public
+char_data::fighting	merc.h	/^    CHAR_DATA *		fighting;$/;"	m	struct:char_data	access:public
+char_data::gold	merc.h	/^    int			gold;$/;"	m	struct:char_data	access:public
+char_data::hit	merc.h	/^    short		hit;$/;"	m	struct:char_data	access:public
+char_data::hitroll	merc.h	/^    short		hitroll;$/;"	m	struct:char_data	access:public
+char_data::huh	merc.h	/^	int 		huh; \/* Huh? What? Used for non commands *\/$/;"	m	struct:char_data	access:public
+char_data::in_room	merc.h	/^    ROOM_INDEX_DATA *	in_room;$/;"	m	struct:char_data	access:public
+char_data::leader	merc.h	/^    CHAR_DATA *		leader;$/;"	m	struct:char_data	access:public
+char_data::level	merc.h	/^    short		level;$/;"	m	struct:char_data	access:public
+char_data::logon	merc.h	/^    time_t		logon;$/;"	m	struct:char_data	access:public
+char_data::logon_str	merc.h	/^	char *      logon_str; \/* just char* string to make it easier *\/$/;"	m	struct:char_data	access:public
+char_data::long_descr	merc.h	/^    char *		long_descr;$/;"	m	struct:char_data	access:public
+char_data::mana	merc.h	/^    short		mana;$/;"	m	struct:char_data	access:public
+char_data::master	merc.h	/^    CHAR_DATA *		master;$/;"	m	struct:char_data	access:public
+char_data::max_hit	merc.h	/^    short		max_hit;$/;"	m	struct:char_data	access:public
+char_data::max_mana	merc.h	/^    short		max_mana;$/;"	m	struct:char_data	access:public
+char_data::max_move	merc.h	/^    short		max_move;$/;"	m	struct:char_data	access:public
+char_data::move	merc.h	/^    short		move;$/;"	m	struct:char_data	access:public
+char_data::name	merc.h	/^    char *		name;$/;"	m	struct:char_data	access:public
+char_data::next	merc.h	/^    CHAR_DATA *		next;$/;"	m	struct:char_data	access:public
+char_data::next_in_room	merc.h	/^    CHAR_DATA *		next_in_room;$/;"	m	struct:char_data	access:public
+char_data::pIndexData	merc.h	/^    MOB_INDEX_DATA *	pIndexData;$/;"	m	struct:char_data	access:public
+char_data::pcdata	merc.h	/^    PC_DATA *		pcdata;$/;"	m	struct:char_data	access:public
+char_data::played	merc.h	/^    int			played;$/;"	m	struct:char_data	access:public
+char_data::pnote	merc.h	/^    NOTE_DATA *		pnote;$/;"	m	struct:char_data	access:public
+char_data::position	merc.h	/^    short		position;$/;"	m	struct:char_data	access:public
+char_data::practice	merc.h	/^    short		practice;$/;"	m	struct:char_data	access:public
+char_data::race	merc.h	/^    short		race;$/;"	m	struct:char_data	access:public
+char_data::reply	merc.h	/^    CHAR_DATA *		reply;$/;"	m	struct:char_data	access:public
+char_data::save_time	merc.h	/^    time_t		save_time;$/;"	m	struct:char_data	access:public
+char_data::saving_throw	merc.h	/^    short		saving_throw;$/;"	m	struct:char_data	access:public
+char_data::sex	merc.h	/^    short		sex;$/;"	m	struct:char_data	access:public
+char_data::short_descr	merc.h	/^    char *		short_descr;$/;"	m	struct:char_data	access:public
+char_data::spec_fun	merc.h	/^    SPEC_FUN *		spec_fun;$/;"	m	struct:char_data	access:public
+char_data::timer	merc.h	/^    short		timer;$/;"	m	struct:char_data	access:public
+char_data::trust	merc.h	/^    short		trust;$/;"	m	struct:char_data	access:public
+char_data::wait	merc.h	/^    short		wait;$/;"	m	struct:char_data	access:public
+char_data::was_in_room	merc.h	/^    ROOM_INDEX_DATA *	was_in_room;$/;"	m	struct:char_data	access:public
+char_data::wimpy	merc.h	/^    short		wimpy;$/;"	m	struct:char_data	access:public
+char_found	merc.h	/^    char * const	char_found;$/;"	m	struct:social_type	access:public
+char_free	db.c	/^CHAR_DATA *		char_free;$/;"	v
+char_from_room	handler.c	/^void char_from_room( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+char_from_room	merc.h	/^void	char_from_room	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+char_list	db.c	/^CHAR_DATA *		char_list;$/;"	v
+char_no_arg	merc.h	/^    char * const	char_no_arg;$/;"	m	struct:social_type	access:public
+char_to_room	handler.c	/^void char_to_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )$/;"	f	signature:( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
+char_to_room	merc.h	/^void	char_to_room	args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex ) );$/;"	p	signature:( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex ) 
+char_update	update.c	/^void	char_update	args( ( void ) );$/;"	p	file:	signature:( void ) 
+char_update	update.c	/^void char_update( void )$/;"	f	signature:( void )
+character	merc.h	/^    CHAR_DATA *		character;$/;"	m	struct:descriptor_data	access:public
+charlib_m	lua_charlib.c	/^static const struct luaL_reg charlib_m [] = {	$/;"	v	typeref:struct:luaL_reg	file:
+check_blind	act_info.c	/^bool	check_blind		args( ( CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *ch ) 
+check_blind	act_info.c	/^bool check_blind( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+check_dodge	fight.c	/^bool	check_dodge	args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );$/;"	p	file:	signature:( CHAR_DATA *ch, CHAR_DATA *victim ) 
+check_dodge	fight.c	/^bool check_dodge( CHAR_DATA *ch, CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim )
+check_killer	fight.c	/^void	check_killer	args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );$/;"	p	file:	signature:( CHAR_DATA *ch, CHAR_DATA *victim ) 
+check_killer	fight.c	/^void check_killer( CHAR_DATA *ch, CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim )
+check_parry	fight.c	/^bool	check_parry	args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );$/;"	p	file:	signature:( CHAR_DATA *ch, CHAR_DATA *victim ) 
+check_parry	fight.c	/^bool check_parry( CHAR_DATA *ch, CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim )
+check_parse_name	comm.c	/^bool	check_parse_name	args( ( char *name ) );$/;"	p	file:	signature:( char *name ) 
+check_parse_name	comm.c	/^bool check_parse_name( char *name )$/;"	f	signature:( char *name )
+check_playing	comm.c	/^bool	check_playing		args( ( DESCRIPTOR_DATA *d, char *name ) );$/;"	p	file:	signature:( DESCRIPTOR_DATA *d, char *name ) 
+check_playing	comm.c	/^bool check_playing( DESCRIPTOR_DATA *d, char *name )$/;"	f	signature:( DESCRIPTOR_DATA *d, char *name )
+check_reconnect	comm.c	/^bool	check_reconnect		args( ( DESCRIPTOR_DATA *d, char *name,$/;"	p	file:	signature:( DESCRIPTOR_DATA *d, char *name, bool fConn ) 
+check_reconnect	comm.c	/^bool check_reconnect( DESCRIPTOR_DATA *d, char *name, bool fConn )$/;"	f	signature:( DESCRIPTOR_DATA *d, char *name, bool fConn )
+check_social	interp.c	/^bool	check_social	args( ( CHAR_DATA *ch, char *command,$/;"	p	file:	signature:( CHAR_DATA *ch, char *command, char *argument ) 
+check_social	interp.c	/^bool check_social( CHAR_DATA *ch, char *command, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *command, char *argument )
+class_table	const.c	/^const	struct	class_type	class_table	[MAX_CLASS]	= {$/;"	v	typeref:struct:class_type
+class_type	merc.h	/^struct	class_type {$/;"	s
+class_type::attr_prime	merc.h	/^    short	attr_prime;		\/* Prime attribute		*\/$/;"	m	struct:class_type	access:public
+class_type::fMana	merc.h	/^    bool	fMana;			\/* Class gains mana on level	*\/$/;"	m	struct:class_type	access:public
+class_type::guild	merc.h	/^    short	guild;			\/* Vnum of guild room		*\/$/;"	m	struct:class_type	access:public
+class_type::hp_max	merc.h	/^    short	hp_max;			\/* Max hp gained on leveling	*\/$/;"	m	struct:class_type	access:public
+class_type::hp_min	merc.h	/^    short	hp_min;			\/* Min hp gained on leveling	*\/$/;"	m	struct:class_type	access:public
+class_type::skill_adept	merc.h	/^    short	skill_adept;		\/* Maximum skill level		*\/$/;"	m	struct:class_type	access:public
+class_type::thac0_00	merc.h	/^    short	thac0_00;		\/* Thac0 for level  0		*\/$/;"	m	struct:class_type	access:public
+class_type::thac0_32	merc.h	/^    short	thac0_32;		\/* Thac0 for level 32		*\/$/;"	m	struct:class_type	access:public
+class_type::weapon	merc.h	/^    short	weapon;			\/* First weapon			*\/$/;"	m	struct:class_type	access:public
+class_type::who_name	merc.h	/^    char 	who_name	[4];	\/* Three-letter name for 'who'	*\/$/;"	m	struct:class_type	access:public
+clean_map_string	maps.c	/^void clean_map_string	args ( (CHAR_DATA *ch) );$/;"	p	file:	signature:(CHAR_DATA *ch) 
+clean_map_string	maps.c	/^void clean_map_string (CHAR_DATA *ch)$/;"	f	signature:(CHAR_DATA *ch)
+clear_char	db.c	/^void clear_char( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+clear_char	merc.h	/^void	clear_char	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+close_hour	merc.h	/^    short	close_hour;		\/* First closing hour		*\/$/;"	m	struct:shop_data	access:public
+close_socket	comm.c	/^void close_socket( DESCRIPTOR_DATA *dclose )$/;"	f	signature:( DESCRIPTOR_DATA *dclose )
+close_socket	merc.h	/^void	close_socket	args( ( DESCRIPTOR_DATA *dclose ) );$/;"	p	signature:( DESCRIPTOR_DATA *dclose ) 
+cmd_table	interp.c	/^const	struct	cmd_type	cmd_table	[] = {$/;"	v	typeref:struct:cmd_type
+cmd_type	merc.h	/^struct	cmd_type {$/;"	s
+cmd_type::do_fun	merc.h	/^    DO_FUN *		do_fun;$/;"	m	struct:cmd_type	access:public
+cmd_type::level	merc.h	/^    short		level;$/;"	m	struct:cmd_type	access:public
+cmd_type::log	merc.h	/^    short		log;$/;"	m	struct:cmd_type	access:public
+cmd_type::name	merc.h	/^    char * const	name;$/;"	m	struct:cmd_type	access:public
+cmd_type::position	merc.h	/^    short		position;$/;"	m	struct:cmd_type	access:public
+col	maps.c	/^	bool col; \/\/ Used to add the default colour back if needed - not used as much anymore$/;"	m	struct:map_param	file:	access:public
+colour	maps.c	/^	char *colour; \/\/ Stores the previous colour code used$/;"	m	struct:map_param	file:	access:public
+command	merc.h	/^    char		command;$/;"	m	struct:reset_data	access:public
+con_app	const.c	/^const	struct	con_app_type	con_app		[26]		= {$/;"	v	typeref:struct:con_app_type
+con_app_type	merc.h	/^struct	con_app_type {$/;"	s
+con_app_type::hitp	merc.h	/^    short	hitp;$/;"	m	struct:con_app_type	access:public
+con_app_type::shock	merc.h	/^    short	shock;$/;"	m	struct:con_app_type	access:public
+condition	merc.h	/^    short		condition	[3];$/;"	m	struct:pc_data	access:public
+connected	merc.h	/^    short		connected;$/;"	m	struct:descriptor_data	access:public
+contains	merc.h	/^    OBJ_DATA *		contains;$/;"	m	struct:obj_data	access:public
+contents	merc.h	/^    OBJ_DATA *		contents;$/;"	m	struct:room_index_data	access:public
+cost	merc.h	/^    int			cost;			\/* Unused *\/$/;"	m	struct:obj_index_data	access:public
+cost	merc.h	/^    int			cost;$/;"	m	struct:obj_data	access:public
+count	merc.h	/^    short		count;$/;"	m	struct:mob_index_data	access:public
+count	merc.h	/^    short		count;$/;"	m	struct:obj_index_data	access:public
+count	sha256.h	/^    int count[2];$/;"	m	struct:SHA256Context	access:public
+count_obj_list	handler.c	/^int count_obj_list( OBJ_INDEX_DATA *pObjIndex, OBJ_DATA *list )$/;"	f	signature:( OBJ_INDEX_DATA *pObjIndex, OBJ_DATA *list )
+count_obj_list	merc.h	/^int	count_obj_list	args( ( OBJ_INDEX_DATA *obj, OBJ_DATA *list ) );$/;"	p	signature:( OBJ_INDEX_DATA *obj, OBJ_DATA *list ) 
+create_mobile	db.c	/^CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )$/;"	f	signature:( MOB_INDEX_DATA *pMobIndex )
+create_mobile	merc.h	/^CD *	create_mobile	args( ( MOB_INDEX_DATA *pMobIndex ) );$/;"	p	signature:( MOB_INDEX_DATA *pMobIndex ) 
+create_money	handler.c	/^OBJ_DATA *create_money( int amount )$/;"	f	signature:( int amount )
+create_money	merc.h	/^OD *	create_money	args( ( int amount ) );$/;"	p	signature:( int amount ) 
+create_object	db.c	/^OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex, int level )$/;"	f	signature:( OBJ_INDEX_DATA *pObjIndex, int level )
+create_object	merc.h	/^OD *	create_object	args( ( OBJ_INDEX_DATA *pObjIndex, int level ) );$/;"	p	signature:( OBJ_INDEX_DATA *pObjIndex, int level ) 
+crypt	merc.h	/^char *	crypt		args( ( const char *key, const char *salt ) );$/;"	p	signature:( const char *key, const char *salt ) 
+current_time	comm.c	/^time_t		    current_time;	\/* Time of this pulse		*\/$/;"	v
+d_next	comm.c	/^DESCRIPTOR_DATA *   d_next;		\/* Next descriptor in loop	*\/$/;"	v
+dam_message	fight.c	/^void	dam_message	args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dam,$/;"	p	file:	signature:( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt ) 
+dam_message	fight.c	/^void dam_message( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt )
+damage	fight.c	/^void damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt )
+damage	merc.h	/^void	damage		args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dam,$/;"	p	signature:( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt ) 
+damnodice	merc.h	/^    short		damnodice;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+damplus	merc.h	/^    short		damplus;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+damroll	merc.h	/^    short		damroll;$/;"	m	struct:char_data	access:public
+damsizedice	merc.h	/^    short		damsizedice;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+date	merc.h	/^    char *	date;$/;"	m	struct:note_data	access:public
+day	merc.h	/^    int		day;$/;"	m	struct:time_info_data	access:public
+day_name	act_info.c	/^char *	const	day_name	[] = {$/;"	v
+deaf	merc.h	/^    short		deaf;$/;"	m	struct:char_data	access:public
+death_cry	fight.c	/^void	death_cry	args( ( CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *ch ) 
+death_cry	fight.c	/^void death_cry( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+defensive	merc.h	/^    short	defensive;$/;"	m	struct:dex_app_type	access:public
+depth	maps.c	/^	int depth;$/;"	m	struct:map_param	file:	access:public
+depth	maps.c	/^	int depth;$/;"	m	struct:map_qd	file:	access:public
+desc	maps.c	/^	char *desc; $/;"	m	struct:map_param	file:	access:public
+desc	merc.h	/^    DESCRIPTOR_DATA *	desc;$/;"	m	struct:char_data	access:public
+description	merc.h	/^    char *		description;$/;"	m	struct:char_data	access:public
+description	merc.h	/^    char *		description;$/;"	m	struct:exit_data	access:public
+description	merc.h	/^    char *		description;$/;"	m	struct:mob_index_data	access:public
+description	merc.h	/^    char *		description;$/;"	m	struct:obj_data	access:public
+description	merc.h	/^    char *		description;$/;"	m	struct:obj_index_data	access:public
+description	merc.h	/^    char *		description;$/;"	m	struct:room_index_data	access:public
+description	merc.h	/^    char *description;          \/* What to see                      *\/$/;"	m	struct:extra_descr_data	access:public
+descriptor	merc.h	/^    short		descriptor;$/;"	m	struct:descriptor_data	access:public
+descriptor_data	merc.h	/^struct	descriptor_data {$/;"	s
+descriptor_data::alt_menu	merc.h	/^	int         alt_menu;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::character	merc.h	/^    CHAR_DATA *		character;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::connected	merc.h	/^    short		connected;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::descriptor	merc.h	/^    short		descriptor;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::fcommand	merc.h	/^    bool		fcommand;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::host	merc.h	/^    char *		host;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::inbuf	merc.h	/^    char		inbuf		[4 * MAX_INPUT_LENGTH];$/;"	m	struct:descriptor_data	access:public
+descriptor_data::incomm	merc.h	/^    char		incomm		[MAX_INPUT_LENGTH];$/;"	m	struct:descriptor_data	access:public
+descriptor_data::inlast	merc.h	/^    char		inlast		[MAX_INPUT_LENGTH];$/;"	m	struct:descriptor_data	access:public
+descriptor_data::next	merc.h	/^    DESCRIPTOR_DATA *	next;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::original	merc.h	/^    CHAR_DATA *		original;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::outbuf	merc.h	/^    char *		outbuf;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::outsize	merc.h	/^    int			outsize;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::outtop	merc.h	/^    int			outtop;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::repeat	merc.h	/^    int			repeat;$/;"	m	struct:descriptor_data	access:public
+descriptor_data::snoop_by	merc.h	/^    DESCRIPTOR_DATA *	snoop_by;$/;"	m	struct:descriptor_data	access:public
+descriptor_free	comm.c	/^DESCRIPTOR_DATA *   descriptor_free;	\/* Free list for descriptors	*\/$/;"	v
+descriptor_list	comm.c	/^DESCRIPTOR_DATA *   descriptor_list;	\/* All open descriptors		*\/$/;"	v
+dex_app	const.c	/^const	struct	dex_app_type	dex_app		[26]		= {$/;"	v	typeref:struct:dex_app_type
+dex_app_type	merc.h	/^struct	dex_app_type {$/;"	s
+dex_app_type::defensive	merc.h	/^    short	defensive;$/;"	m	struct:dex_app_type	access:public
+dice	db.c	/^int dice( int number, int size )$/;"	f	signature:( int number, int size )
+dice	merc.h	/^int	dice		args( ( int number, int size ) );$/;"	p	signature:( int number, int size ) 
+die_follower	act_comm.c	/^void die_follower( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+die_follower	merc.h	/^void	die_follower	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+dir_name	act_move.c	/^char *	const	dir_name	[]		= {$/;"	v
+disarm	fight.c	/^void	disarm		args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );$/;"	p	file:	signature:( CHAR_DATA *ch, CHAR_DATA *victim ) 
+disarm	fight.c	/^void disarm( CHAR_DATA *ch, CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim )
+do_advance	act_wiz.c	/^void do_advance( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_advance	merc.h	/^DECLARE_DO_FUN(	do_advance	);$/;"	v
+do_aedit	merc.h	/^DECLARE_DO_FUN( do_aedit    );$/;"	v
+do_allow	act_wiz.c	/^void do_allow( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_allow	merc.h	/^DECLARE_DO_FUN(	do_allow	);$/;"	v
+do_answer	act_comm.c	/^void do_answer( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_answer	merc.h	/^DECLARE_DO_FUN(	do_answer	);$/;"	v
+do_areas	db.c	/^void do_areas( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_areas	merc.h	/^DECLARE_DO_FUN(	do_areas	);$/;"	v
+do_at	act_wiz.c	/^void do_at( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_at	merc.h	/^DECLARE_DO_FUN(	do_at		);$/;"	v
+do_auction	act_comm.c	/^void do_auction( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_auction	merc.h	/^DECLARE_DO_FUN(	do_auction	);$/;"	v
+do_backstab	fight.c	/^void do_backstab( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_backstab	merc.h	/^DECLARE_DO_FUN(	do_backstab	);$/;"	v
+do_bamfin	act_wiz.c	/^void do_bamfin( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_bamfin	merc.h	/^DECLARE_DO_FUN(	do_bamfin	);$/;"	v
+do_bamfout	act_wiz.c	/^void do_bamfout( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_bamfout	merc.h	/^DECLARE_DO_FUN(	do_bamfout	);$/;"	v
+do_ban	act_wiz.c	/^void do_ban( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_ban	merc.h	/^DECLARE_DO_FUN(	do_ban		);$/;"	v
+do_brandish	act_obj.c	/^void do_brandish( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_brandish	merc.h	/^DECLARE_DO_FUN(	do_brandish	);$/;"	v
+do_bug	act_comm.c	/^void do_bug( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_bug	merc.h	/^DECLARE_DO_FUN(	do_bug		);$/;"	v
+do_buy	act_obj.c	/^void do_buy( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_buy	merc.h	/^DECLARE_DO_FUN(	do_buy		);$/;"	v
+do_cast	magic.c	/^void do_cast( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_cast	merc.h	/^DECLARE_DO_FUN(	do_cast		);$/;"	v
+do_channels	act_info.c	/^void do_channels( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_channels	merc.h	/^DECLARE_DO_FUN(	do_channels	);$/;"	v
+do_chat	act_comm.c	/^void do_chat( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_chat	merc.h	/^DECLARE_DO_FUN(	do_chat		);$/;"	v
+do_close	act_move.c	/^void do_close( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_close	merc.h	/^DECLARE_DO_FUN(	do_close	);$/;"	v
+do_commands	act_info.c	/^void do_commands( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_commands	merc.h	/^DECLARE_DO_FUN(	do_commands	);$/;"	v
+do_compare	act_info.c	/^void do_compare( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_compare	merc.h	/^DECLARE_DO_FUN(	do_compare	);$/;"	v
+do_config	act_info.c	/^void do_config( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_config	merc.h	/^DECLARE_DO_FUN(	do_config	);$/;"	v
+do_consider	act_info.c	/^void do_consider( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_consider	merc.h	/^DECLARE_DO_FUN(	do_consider	);$/;"	v
+do_credits	act_info.c	/^void do_credits( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_credits	merc.h	/^DECLARE_DO_FUN(	do_credits	);$/;"	v
+do_deny	act_wiz.c	/^void do_deny( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_deny	merc.h	/^DECLARE_DO_FUN(	do_deny		);$/;"	v
+do_description	act_info.c	/^void do_description( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_description	merc.h	/^DECLARE_DO_FUN(	do_description	);$/;"	v
+do_disarm	fight.c	/^void do_disarm( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_disarm	merc.h	/^DECLARE_DO_FUN(	do_disarm	);$/;"	v
+do_disconnect	act_wiz.c	/^void do_disconnect( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_disconnect	merc.h	/^DECLARE_DO_FUN(	do_disconnect	);$/;"	v
+do_down	act_move.c	/^void do_down( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_down	merc.h	/^DECLARE_DO_FUN(	do_down		);$/;"	v
+do_drink	act_obj.c	/^void do_drink( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_drink	merc.h	/^DECLARE_DO_FUN(	do_drink	);$/;"	v
+do_drop	act_obj.c	/^void do_drop( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_drop	merc.h	/^DECLARE_DO_FUN(	do_drop		);$/;"	v
+do_east	act_move.c	/^void do_east( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_east	merc.h	/^DECLARE_DO_FUN(	do_east		);$/;"	v
+do_eat	act_obj.c	/^void do_eat( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_eat	merc.h	/^DECLARE_DO_FUN(	do_eat		);$/;"	v
+do_echo	act_wiz.c	/^void do_echo( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_echo	merc.h	/^DECLARE_DO_FUN(	do_echo		);$/;"	v
+do_emote	act_comm.c	/^void do_emote( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_emote	merc.h	/^DECLARE_DO_FUN(	do_emote	);$/;"	v
+do_equipment	act_info.c	/^void do_equipment( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_equipment	merc.h	/^DECLARE_DO_FUN(	do_equipment	);$/;"	v
+do_examine	act_info.c	/^void do_examine( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_examine	merc.h	/^DECLARE_DO_FUN(	do_examine	);$/;"	v
+do_exits	act_info.c	/^void do_exits( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_exits	merc.h	/^DECLARE_DO_FUN(	do_exits	);$/;"	v
+do_fill	act_obj.c	/^void do_fill( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_fill	merc.h	/^DECLARE_DO_FUN(	do_fill		);$/;"	v
+do_flee	fight.c	/^void do_flee( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_flee	merc.h	/^DECLARE_DO_FUN(	do_flee		);$/;"	v
+do_follow	act_comm.c	/^void do_follow( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_follow	merc.h	/^DECLARE_DO_FUN(	do_follow	);$/;"	v
+do_force	act_wiz.c	/^void do_force( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_force	merc.h	/^DECLARE_DO_FUN(	do_force	);$/;"	v
+do_freeze	act_wiz.c	/^void do_freeze( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_freeze	merc.h	/^DECLARE_DO_FUN(	do_freeze	);$/;"	v
+do_fun	merc.h	/^    DO_FUN *		do_fun;$/;"	m	struct:cmd_type	access:public
+do_garb	act_info.c	/^void do_garb ( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_garb	merc.h	/^DECLARE_DO_FUN( do_garb     );$/;"	v
+do_get	act_obj.c	/^void do_get( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_get	merc.h	/^DECLARE_DO_FUN(	do_get		);$/;"	v
+do_give	act_obj.c	/^void do_give( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_give	merc.h	/^DECLARE_DO_FUN(	do_give		);$/;"	v
+do_goto	act_wiz.c	/^void do_goto( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_goto	merc.h	/^DECLARE_DO_FUN(	do_goto		);$/;"	v
+do_group	act_comm.c	/^void do_group( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_group	merc.h	/^DECLARE_DO_FUN(	do_group	);$/;"	v
+do_gtell	act_comm.c	/^void do_gtell( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_gtell	merc.h	/^DECLARE_DO_FUN(	do_gtell	);$/;"	v
+do_help	act_info.c	/^void do_help( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_help	merc.h	/^DECLARE_DO_FUN(	do_help		);$/;"	v
+do_hide	act_move.c	/^void do_hide( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_hide	merc.h	/^DECLARE_DO_FUN(	do_hide		);$/;"	v
+do_holylight	act_wiz.c	/^void do_holylight( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_holylight	merc.h	/^DECLARE_DO_FUN(	do_holylight	);$/;"	v
+do_idea	act_comm.c	/^void do_idea( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_idea	merc.h	/^DECLARE_DO_FUN(	do_idea		);$/;"	v
+do_immtalk	act_comm.c	/^void do_immtalk( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_immtalk	merc.h	/^DECLARE_DO_FUN(	do_immtalk	);$/;"	v
+do_inspect	act_info.c	/^void do_inspect( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_inspect	merc.h	/^DECLARE_DO_FUN( do_inspect  );$/;"	v
+do_inventory	act_info.c	/^void do_inventory( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_inventory	merc.h	/^DECLARE_DO_FUN(	do_inventory	);$/;"	v
+do_invis	act_wiz.c	/^void do_invis( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_invis	merc.h	/^DECLARE_DO_FUN(	do_invis	);$/;"	v
+do_kick	fight.c	/^void do_kick( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_kick	merc.h	/^DECLARE_DO_FUN(	do_kick		);$/;"	v
+do_kill	fight.c	/^void do_kill( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_kill	merc.h	/^DECLARE_DO_FUN(	do_kill		);$/;"	v
+do_list	act_obj.c	/^void do_list( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_list	merc.h	/^DECLARE_DO_FUN(	do_list		);$/;"	v
+do_lock	act_move.c	/^void do_lock( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_lock	merc.h	/^DECLARE_DO_FUN(	do_lock		);$/;"	v
+do_log	act_wiz.c	/^void do_log( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_log	merc.h	/^DECLARE_DO_FUN(	do_log		);$/;"	v
+do_look	act_info.c	/^void do_look( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_look	merc.h	/^DECLARE_DO_FUN(	do_look		);$/;"	v
+do_map	maps.c	/^void do_map (CHAR_DATA *ch, char *argument)$/;"	f	signature:(CHAR_DATA *ch, char *argument)
+do_map	merc.h	/^DECLARE_DO_FUN( do_map      );$/;"	v
+do_medit	act_wiz.c	/^void do_medit( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_medit	merc.h	/^DECLARE_DO_FUN( do_medit    );$/;"	v
+do_memory	db.c	/^void do_memory( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_memory	merc.h	/^DECLARE_DO_FUN(	do_memory	);$/;"	v
+do_mfind	act_wiz.c	/^void do_mfind( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_mfind	merc.h	/^DECLARE_DO_FUN(	do_mfind	);$/;"	v
+do_mload	act_wiz.c	/^void do_mload( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_mload	merc.h	/^DECLARE_DO_FUN(	do_mload	);$/;"	v
+do_mset	act_wiz.c	/^void do_mset( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_mset	merc.h	/^DECLARE_DO_FUN(	do_mset		);$/;"	v
+do_mstat	act_wiz.c	/^void do_mstat( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_mstat	merc.h	/^DECLARE_DO_FUN(	do_mstat	);$/;"	v
+do_murde	fight.c	/^void do_murde( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_murde	merc.h	/^DECLARE_DO_FUN(	do_murde	);$/;"	v
+do_murder	fight.c	/^void do_murder( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_murder	merc.h	/^DECLARE_DO_FUN(	do_murder	);$/;"	v
+do_music	act_comm.c	/^void do_music( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_music	merc.h	/^DECLARE_DO_FUN(	do_music	);$/;"	v
+do_mwhere	act_wiz.c	/^void do_mwhere( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_mwhere	merc.h	/^DECLARE_DO_FUN(	do_mwhere	);$/;"	v
+do_noemote	act_wiz.c	/^void do_noemote( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_noemote	merc.h	/^DECLARE_DO_FUN(	do_noemote	);$/;"	v
+do_north	act_move.c	/^void do_north( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_north	merc.h	/^DECLARE_DO_FUN(	do_north	);$/;"	v
+do_note	act_comm.c	/^void do_note( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_note	merc.h	/^DECLARE_DO_FUN(	do_note		);$/;"	v
+do_notell	act_wiz.c	/^void do_notell( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_notell	merc.h	/^DECLARE_DO_FUN(	do_notell	);$/;"	v
+do_oedit	merc.h	/^DECLARE_DO_FUN( do_oedit    );$/;"	v
+do_ofind	act_wiz.c	/^void do_ofind( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_ofind	merc.h	/^DECLARE_DO_FUN(	do_ofind	);$/;"	v
+do_oload	act_wiz.c	/^void do_oload( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_oload	merc.h	/^DECLARE_DO_FUN(	do_oload	);$/;"	v
+do_open	act_move.c	/^void do_open( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_open	merc.h	/^DECLARE_DO_FUN(	do_open		);$/;"	v
+do_order	act_comm.c	/^void do_order( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_order	merc.h	/^DECLARE_DO_FUN(	do_order	);$/;"	v
+do_oset	act_wiz.c	/^void do_oset( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_oset	merc.h	/^DECLARE_DO_FUN(	do_oset		);$/;"	v
+do_ostat	act_wiz.c	/^void do_ostat( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_ostat	merc.h	/^DECLARE_DO_FUN(	do_ostat	);$/;"	v
+do_pardon	act_wiz.c	/^void do_pardon( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_pardon	merc.h	/^DECLARE_DO_FUN(	do_pardon	);$/;"	v
+do_password	act_info.c	/^void do_password( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_password	merc.h	/^DECLARE_DO_FUN(	do_password	);$/;"	v
+do_peace	act_wiz.c	/^void do_peace( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_peace	merc.h	/^DECLARE_DO_FUN(	do_peace	);$/;"	v
+do_pick	act_move.c	/^void do_pick( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_pick	merc.h	/^DECLARE_DO_FUN(	do_pick		);$/;"	v
+do_pose	act_comm.c	/^void do_pose( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_pose	merc.h	/^DECLARE_DO_FUN(	do_pose		);$/;"	v
+do_practice	act_info.c	/^void do_practice( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_practice	merc.h	/^DECLARE_DO_FUN(	do_practice	);$/;"	v
+do_purge	act_wiz.c	/^void do_purge( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_purge	merc.h	/^DECLARE_DO_FUN(	do_purge	);$/;"	v
+do_put	act_obj.c	/^void do_put( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_put	merc.h	/^DECLARE_DO_FUN(	do_put		);$/;"	v
+do_quaff	act_obj.c	/^void do_quaff( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_quaff	merc.h	/^DECLARE_DO_FUN(	do_quaff	);$/;"	v
+do_question	act_comm.c	/^void do_question( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_question	merc.h	/^DECLARE_DO_FUN(	do_question	);$/;"	v
+do_qui	act_comm.c	/^void do_qui( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_qui	merc.h	/^DECLARE_DO_FUN(	do_qui		);$/;"	v
+do_quit	act_comm.c	/^void do_quit( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_quit	merc.h	/^DECLARE_DO_FUN(	do_quit		);$/;"	v
+do_reboo	act_wiz.c	/^void do_reboo( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_reboo	merc.h	/^DECLARE_DO_FUN(	do_reboo	);$/;"	v
+do_reboot	act_wiz.c	/^void do_reboot( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_reboot	merc.h	/^DECLARE_DO_FUN(	do_reboot	);$/;"	v
+do_recall	act_move.c	/^void do_recall( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_recall	merc.h	/^DECLARE_DO_FUN(	do_recall	);$/;"	v
+do_recho	act_wiz.c	/^void do_recho( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_recho	merc.h	/^DECLARE_DO_FUN(	do_recho	);$/;"	v
+do_recite	act_obj.c	/^void do_recite( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_recite	merc.h	/^DECLARE_DO_FUN(	do_recite	);$/;"	v
+do_redit	merc.h	/^DECLARE_DO_FUN( do_redit    );$/;"	v
+do_remove	act_obj.c	/^void do_remove( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_remove	merc.h	/^DECLARE_DO_FUN(	do_remove	);$/;"	v
+do_rent	act_comm.c	/^void do_rent( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_rent	merc.h	/^DECLARE_DO_FUN(	do_rent		);$/;"	v
+do_reply	act_comm.c	/^void do_reply( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_reply	merc.h	/^DECLARE_DO_FUN(	do_reply	);$/;"	v
+do_report	act_info.c	/^void do_report( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_report	merc.h	/^DECLARE_DO_FUN(	do_report	);$/;"	v
+do_rescue	fight.c	/^void do_rescue( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_rescue	merc.h	/^DECLARE_DO_FUN(	do_rescue	);$/;"	v
+do_reset_char_lua	act_wiz.c	/^void do_reset_char_lua( CHAR_DATA *ch, char *argument)$/;"	f	signature:( CHAR_DATA *ch, char *argument)
+do_reset_char_lua	merc.h	/^DECLARE_DO_FUN( do_reset_char_lua   );$/;"	v
+do_rest	act_move.c	/^void do_rest( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_rest	merc.h	/^DECLARE_DO_FUN(	do_rest		);$/;"	v
+do_restore	act_wiz.c	/^void do_restore( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_restore	merc.h	/^DECLARE_DO_FUN(	do_restore	);$/;"	v
+do_return	act_wiz.c	/^void do_return( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_return	merc.h	/^DECLARE_DO_FUN(	do_return	);$/;"	v
+do_rset	act_wiz.c	/^void do_rset( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_rset	merc.h	/^DECLARE_DO_FUN(	do_rset		);$/;"	v
+do_rstat	act_wiz.c	/^void do_rstat( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_rstat	merc.h	/^DECLARE_DO_FUN(	do_rstat	);$/;"	v
+do_run	act_move.c	/^void do_run( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_run	merc.h	/^DECLARE_DO_FUN( do_run      );$/;"	v
+do_sacrifice	act_obj.c	/^void do_sacrifice( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_sacrifice	merc.h	/^DECLARE_DO_FUN(	do_sacrifice);$/;"	v
+do_save	act_comm.c	/^void do_save( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_save	merc.h	/^DECLARE_DO_FUN(	do_save		);$/;"	v
+do_say	act_comm.c	/^void do_say( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_say	merc.h	/^DECLARE_DO_FUN(	do_say		);$/;"	v
+do_score	act_info.c	/^void do_score( CHAR_DATA *ch, char *argument ) $/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_score	merc.h	/^DECLARE_DO_FUN(	do_score	);$/;"	v
+do_sell	act_obj.c	/^void do_sell( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_sell	merc.h	/^DECLARE_DO_FUN(	do_sell		);$/;"	v
+do_shout	act_comm.c	/^void do_shout( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_shout	merc.h	/^DECLARE_DO_FUN(	do_shout	);$/;"	v
+do_shutdow	act_wiz.c	/^void do_shutdow( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_shutdow	merc.h	/^DECLARE_DO_FUN(	do_shutdow	);$/;"	v
+do_shutdown	act_wiz.c	/^void do_shutdown( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_shutdown	merc.h	/^DECLARE_DO_FUN(	do_shutdown	);$/;"	v
+do_silence	act_wiz.c	/^void do_silence( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_silence	merc.h	/^DECLARE_DO_FUN(	do_silence	);$/;"	v
+do_sla	fight.c	/^void do_sla( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_sla	merc.h	/^DECLARE_DO_FUN(	do_sla		);$/;"	v
+do_slay	fight.c	/^void do_slay( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_slay	merc.h	/^DECLARE_DO_FUN(	do_slay		);$/;"	v
+do_sleep	act_move.c	/^void do_sleep( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_sleep	merc.h	/^DECLARE_DO_FUN(	do_sleep	);$/;"	v
+do_slookup	act_wiz.c	/^void do_slookup( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_slookup	merc.h	/^DECLARE_DO_FUN(	do_slookup	);$/;"	v
+do_sneak	act_move.c	/^void do_sneak( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_sneak	merc.h	/^DECLARE_DO_FUN(	do_sneak	);$/;"	v
+do_snoop	act_wiz.c	/^void do_snoop( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_snoop	merc.h	/^DECLARE_DO_FUN(	do_snoop	);$/;"	v
+do_socials	act_info.c	/^void do_socials( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_socials	merc.h	/^DECLARE_DO_FUN(	do_socials	);$/;"	v
+do_south	act_move.c	/^void do_south( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_south	merc.h	/^DECLARE_DO_FUN(	do_south	);$/;"	v
+do_spells	act_info.c	/^void do_spells( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_split	act_comm.c	/^void do_split( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_split	merc.h	/^DECLARE_DO_FUN(	do_split	);$/;"	v
+do_sset	act_wiz.c	/^void do_sset( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_sset	merc.h	/^DECLARE_DO_FUN(	do_sset		);$/;"	v
+do_stand	act_move.c	/^void do_stand( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_stand	merc.h	/^DECLARE_DO_FUN(	do_stand	);$/;"	v
+do_steal	act_obj.c	/^void do_steal( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_steal	merc.h	/^DECLARE_DO_FUN(	do_steal	);$/;"	v
+do_switch	act_wiz.c	/^void do_switch( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_switch	merc.h	/^DECLARE_DO_FUN(	do_switch	);$/;"	v
+do_tell	act_comm.c	/^void do_tell( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_tell	merc.h	/^DECLARE_DO_FUN(	do_tell		);$/;"	v
+do_test	act_wiz.c	/^void do_test( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_test	merc.h	/^DECLARE_DO_FUN( do_test     );$/;"	v
+do_time	act_info.c	/^void do_time( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_time	merc.h	/^DECLARE_DO_FUN(	do_time		);$/;"	v
+do_title	act_info.c	/^void do_title( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_title	merc.h	/^DECLARE_DO_FUN(	do_title	);$/;"	v
+do_train	act_move.c	/^void do_train( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_train	merc.h	/^DECLARE_DO_FUN(	do_train	);$/;"	v
+do_transfer	act_wiz.c	/^void do_transfer( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_transfer	merc.h	/^DECLARE_DO_FUN(	do_transfer	);$/;"	v
+do_trust	act_wiz.c	/^void do_trust( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_trust	merc.h	/^DECLARE_DO_FUN(	do_trust	);$/;"	v
+do_typo	act_comm.c	/^void do_typo( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_typo	merc.h	/^DECLARE_DO_FUN(	do_typo		);$/;"	v
+do_unlock	act_move.c	/^void do_unlock( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_unlock	merc.h	/^DECLARE_DO_FUN(	do_unlock	);$/;"	v
+do_up	act_move.c	/^void do_up( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_up	merc.h	/^DECLARE_DO_FUN(	do_up		);$/;"	v
+do_users	act_wiz.c	/^void do_users( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_users	merc.h	/^DECLARE_DO_FUN(	do_users	);$/;"	v
+do_value	act_obj.c	/^void do_value( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_value	merc.h	/^DECLARE_DO_FUN(	do_value	);$/;"	v
+do_visible	act_move.c	/^void do_visible( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_visible	merc.h	/^DECLARE_DO_FUN(	do_visible	);$/;"	v
+do_vnum	act_wiz.c	/^void do_vnum ( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_vnum	merc.h	/^DECLARE_DO_FUN( do_vnum     );$/;"	v
+do_wake	act_move.c	/^void do_wake( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_wake	merc.h	/^DECLARE_DO_FUN(	do_wake		);$/;"	v
+do_wear	act_obj.c	/^void do_wear( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_wear	merc.h	/^DECLARE_DO_FUN(	do_wear		);$/;"	v
+do_weather	act_info.c	/^void do_weather( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_weather	merc.h	/^DECLARE_DO_FUN(	do_weather	);$/;"	v
+do_west	act_move.c	/^void do_west( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_west	merc.h	/^DECLARE_DO_FUN(	do_west		);$/;"	v
+do_where	act_info.c	/^void do_where( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_where	merc.h	/^DECLARE_DO_FUN(	do_where	);$/;"	v
+do_who	act_info.c	/^void do_who( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_who	merc.h	/^DECLARE_DO_FUN(	do_who		);$/;"	v
+do_wimpy	act_info.c	/^void do_wimpy( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_wimpy	merc.h	/^DECLARE_DO_FUN(	do_wimpy	);$/;"	v
+do_wizhelp	act_wiz.c	/^void do_wizhelp( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_wizhelp	merc.h	/^DECLARE_DO_FUN(	do_wizhelp	);$/;"	v
+do_wizlock	act_wiz.c	/^void do_wizlock( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_wizlock	merc.h	/^DECLARE_DO_FUN(	do_wizlock	);$/;"	v
+do_yell	act_comm.c	/^void do_yell( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_yell	merc.h	/^DECLARE_DO_FUN(	do_yell		);$/;"	v
+do_zap	act_obj.c	/^void do_zap( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+do_zap	merc.h	/^DECLARE_DO_FUN(	do_zap		);$/;"	v
+doors	maps.c	/^	bool doors;$/;"	m	struct:map_param	file:	access:public
+dragon	special.c	/^bool dragon( CHAR_DATA *ch, char *spell_name )$/;"	f	signature:( CHAR_DATA *ch, char *spell_name )
+duration	merc.h	/^    short		duration;$/;"	m	struct:affect_data	access:public
+echo_off_str	comm.c	/^const	char	echo_off_str	[] = { IAC, WILL, TELOPT_ECHO, '\\0' };$/;"	v
+echo_on_str	comm.c	/^const	char	echo_on_str	[] = { IAC, WONT, TELOPT_ECHO, '\\0' };$/;"	v
+equip_char	handler.c	/^void equip_char( CHAR_DATA *ch, OBJ_DATA *obj, int iWear )$/;"	f	signature:( CHAR_DATA *ch, OBJ_DATA *obj, int iWear )
+equip_char	merc.h	/^void	equip_char	args( ( CHAR_DATA *ch, OBJ_DATA *obj, int iWear ) );$/;"	p	signature:( CHAR_DATA *ch, OBJ_DATA *obj, int iWear ) 
+errorL	lua_header.h	/^void errorL (char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+errorL	lua_interface.c	/^void errorL (char *fmt, ...)$/;"	f	signature:(char *fmt, ...)
+exit	merc.h	/^    EXIT_DATA *		exit	[6];$/;"	m	struct:room_index_data	access:public
+exit_data	merc.h	/^struct	exit_data {$/;"	s
+exit_data::description	merc.h	/^    char *		description;$/;"	m	struct:exit_data	access:public
+exit_data::exit_info	merc.h	/^    short		exit_info;$/;"	m	struct:exit_data	access:public
+exit_data::key	merc.h	/^    short		key;$/;"	m	struct:exit_data	access:public
+exit_data::keyword	merc.h	/^    char *		keyword;$/;"	m	struct:exit_data	access:public
+exit_data::to_room	merc.h	/^    ROOM_INDEX_DATA *	to_room;$/;"	m	struct:exit_data	access:public
+exit_data::vnum	merc.h	/^    short		vnum;$/;"	m	struct:exit_data	access:public
+exit_info	merc.h	/^    short		exit_info;$/;"	m	struct:exit_data	access:public
+exp	merc.h	/^    int			exp;$/;"	m	struct:char_data	access:public
+extra_bit_name	handler.c	/^char *extra_bit_name( int extra_flags )$/;"	f	signature:( int extra_flags )
+extra_bit_name	merc.h	/^char *	extra_bit_name	args( ( int extra_flags ) );$/;"	p	signature:( int extra_flags ) 
+extra_descr	merc.h	/^    EXTRA_DESCR_DATA *	extra_descr;$/;"	m	struct:obj_data	access:public
+extra_descr	merc.h	/^    EXTRA_DESCR_DATA *	extra_descr;$/;"	m	struct:obj_index_data	access:public
+extra_descr	merc.h	/^    EXTRA_DESCR_DATA *	extra_descr;$/;"	m	struct:room_index_data	access:public
+extra_descr_data	merc.h	/^struct	extra_descr_data {$/;"	s
+extra_descr_data::description	merc.h	/^    char *description;          \/* What to see                      *\/$/;"	m	struct:extra_descr_data	access:public
+extra_descr_data::keyword	merc.h	/^    char *keyword;              \/* Keyword in look\/examine          *\/$/;"	m	struct:extra_descr_data	access:public
+extra_descr_data::next	merc.h	/^    EXTRA_DESCR_DATA *next;	    \/* Next in list                     *\/$/;"	m	struct:extra_descr_data	access:public
+extra_descr_free	db.c	/^EXTRA_DESCR_DATA *	extra_descr_free;$/;"	v
+extra_flags	merc.h	/^    short		extra_flags;$/;"	m	struct:obj_data	access:public
+extra_flags	merc.h	/^    short		extra_flags;$/;"	m	struct:obj_index_data	access:public
+extract_char	handler.c	/^void extract_char( CHAR_DATA *ch, bool fPull )$/;"	f	signature:( CHAR_DATA *ch, bool fPull )
+extract_char	merc.h	/^void	extract_char	args( ( CHAR_DATA *ch, bool fPull ) );$/;"	p	signature:( CHAR_DATA *ch, bool fPull ) 
+extract_obj	handler.c	/^void extract_obj( OBJ_DATA *obj )$/;"	f	signature:( OBJ_DATA *obj )
+extract_obj	merc.h	/^void	extract_obj	args( ( OBJ_DATA *obj ) );$/;"	p	signature:( OBJ_DATA *obj ) 
+fBootDb	db.c	/^bool			fBootDb;$/;"	v
+fLogAll	interp.c	/^bool				fLogAll		= FALSE;$/;"	v
+fMana	merc.h	/^    bool	fMana;			\/* Class gains mana on level	*\/$/;"	m	struct:class_type	access:public
+fcommand	merc.h	/^    bool		fcommand;$/;"	m	struct:descriptor_data	access:public
+fighting	merc.h	/^    CHAR_DATA *		fighting;$/;"	m	struct:char_data	access:public
+find_door	act_move.c	/^int	find_door	args( ( CHAR_DATA *ch, char *arg ) );$/;"	p	file:	signature:( CHAR_DATA *ch, char *arg ) 
+find_door	act_move.c	/^int find_door( CHAR_DATA *ch, char *arg )$/;"	f	signature:( CHAR_DATA *ch, char *arg )
+find_keeper	act_obj.c	/^CD *	find_keeper	args( ( CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *ch ) 
+find_keeper	act_obj.c	/^CHAR_DATA *find_keeper( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+find_location	act_wiz.c	/^ROOM_INDEX_DATA *	find_location	args( ( CHAR_DATA *ch, char *arg ) );$/;"	p	file:	signature:( CHAR_DATA *ch, char *arg ) 
+find_location	act_wiz.c	/^ROOM_INDEX_DATA *find_location( CHAR_DATA *ch, char *arg )$/;"	f	signature:( CHAR_DATA *ch, char *arg )
+finish_map_text	maps.c	/^char *finish_map_text	args ( (void) );$/;"	p	file:	signature:(void) 
+finish_map_text	maps.c	/^char *finish_map_text (void)$/;"	f	signature:(void)
+fix_exits	db.c	/^void	fix_exits	args( ( void ) );$/;"	p	file:	signature:( void ) 
+fix_exits	db.c	/^void fix_exits( void )$/;"	f	signature:( void )
+fog	maps.c	/^	bool fog;$/;"	m	struct:map_param	file:	access:public
+format_obj_to_char	act_info.c	/^char *	format_obj_to_char	args( ( OBJ_DATA *obj, CHAR_DATA *ch,$/;"	p	file:	signature:( OBJ_DATA *obj, CHAR_DATA *ch, bool fShort ) 
+format_obj_to_char	act_info.c	/^char *format_obj_to_char( OBJ_DATA *obj, CHAR_DATA *ch, bool fShort )$/;"	f	signature:( OBJ_DATA *obj, CHAR_DATA *ch, bool fShort )
+fpArea	db.c	/^FILE *			fpArea;$/;"	v
+fpReserve	comm.c	/^FILE *		    fpReserve;		\/* Reserved file handle		*\/$/;"	v
+fread_char	save.c	/^void	fread_char	args( ( CHAR_DATA *ch,  FILE *fp ) );$/;"	p	file:	signature:( CHAR_DATA *ch, FILE *fp ) 
+fread_char	save.c	/^void fread_char( CHAR_DATA *ch, FILE *fp )$/;"	f	signature:( CHAR_DATA *ch, FILE *fp )
+fread_letter	db.c	/^char fread_letter( FILE *fp )$/;"	f	signature:( FILE *fp )
+fread_letter	merc.h	/^char	fread_letter	args( ( FILE *fp ) );$/;"	p	signature:( FILE *fp ) 
+fread_number	db.c	/^int fread_number( FILE *fp )$/;"	f	signature:( FILE *fp )
+fread_number	merc.h	/^int	fread_number	args( ( FILE *fp ) );$/;"	p	signature:( FILE *fp ) 
+fread_obj	save.c	/^void	fread_obj	args( ( CHAR_DATA *ch,  FILE *fp ) );$/;"	p	file:	signature:( CHAR_DATA *ch, FILE *fp ) 
+fread_obj	save.c	/^void fread_obj( CHAR_DATA *ch, FILE *fp )$/;"	f	signature:( CHAR_DATA *ch, FILE *fp )
+fread_string	db.c	/^char *fread_string( FILE *fp )$/;"	f	signature:( FILE *fp )
+fread_string	merc.h	/^char *	fread_string	args( ( FILE *fp ) );$/;"	p	signature:( FILE *fp ) 
+fread_to_eol	db.c	/^void fread_to_eol( FILE *fp )$/;"	f	signature:( FILE *fp )
+fread_to_eol	merc.h	/^void	fread_to_eol	args( ( FILE *fp ) );$/;"	p	signature:( FILE *fp ) 
+fread_word	db.c	/^char *fread_word( FILE *fp )$/;"	f	signature:( FILE *fp )
+fread_word	merc.h	/^char *	fread_word	args( ( FILE *fp ) );$/;"	p	signature:( FILE *fp ) 
+free_all_visits	maps.c	/^void free_all_visits	args ( (void) );$/;"	p	file:	signature:(void) 
+free_all_visits	maps.c	/^void free_all_visits (void)$/;"	f	signature:(void)
+free_char	db.c	/^void free_char( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+free_char	merc.h	/^void	free_char	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+free_map_qd	maps.c	/^void free_map_qd		args ( (MAP_QD *map_qd) );$/;"	p	file:	signature:(MAP_QD *map_qd) 
+free_map_qd	maps.c	/^void free_map_qd (MAP_QD *mqd)$/;"	f	signature:(MAP_QD *mqd)
+free_map_visit	maps.c	/^void free_map_visit		args ( (MAP_VISIT *mapv) );$/;"	p	file:	signature:(MAP_VISIT *mapv) 
+free_map_visit	maps.c	/^void free_map_visit (MAP_VISIT *mapv)$/;"	f	signature:(MAP_VISIT *mapv)
+free_mem	db.c	/^void free_mem( void *pMem, int sMem )$/;"	f	signature:( void *pMem, int sMem )
+free_mem	merc.h	/^void	free_mem	args( ( void *pMem, int sMem ) );$/;"	p	signature:( void *pMem, int sMem ) 
+free_string	db.c	/^void free_string( char *pstr )$/;"	f	signature:( char *pstr )
+free_string	merc.h	/^void	free_string	args( ( char *pstr ) );$/;"	p	signature:( char *pstr ) 
+fwrite_char	save.c	/^void	fwrite_char	args( ( CHAR_DATA *ch,  FILE *fp ) );$/;"	p	file:	signature:( CHAR_DATA *ch, FILE *fp ) 
+fwrite_char	save.c	/^void fwrite_char( CHAR_DATA *ch, FILE *fp )$/;"	f	signature:( CHAR_DATA *ch, FILE *fp )
+fwrite_obj	save.c	/^void	fwrite_obj	args( ( CHAR_DATA *ch,  OBJ_DATA  *obj,$/;"	p	file:	signature:( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest ) 
+fwrite_obj	save.c	/^void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest )$/;"	f	signature:( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest )
+gain_condition	merc.h	/^void	gain_condition	args( ( CHAR_DATA *ch, int iCond, int value ) );$/;"	p	signature:( CHAR_DATA *ch, int iCond, int value ) 
+gain_condition	update.c	/^void gain_condition( CHAR_DATA *ch, int iCond, int value )$/;"	f	signature:( CHAR_DATA *ch, int iCond, int value )
+gain_exp	merc.h	/^void	gain_exp	args( ( CHAR_DATA *ch, int gain ) );$/;"	p	signature:( CHAR_DATA *ch, int gain ) 
+gain_exp	update.c	/^void gain_exp( CHAR_DATA *ch, int gain )$/;"	f	signature:( CHAR_DATA *ch, int gain )
+game_loop_unix	comm.c	/^void	game_loop_unix		args( ( int control ) );$/;"	p	file:	signature:( int control ) 
+game_loop_unix	comm.c	/^void game_loop_unix( int control )$/;"	f	signature:( int control )
+get_age	handler.c	/^int get_age( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+get_age	merc.h	/^int	get_age		args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+get_char_room	handler.c	/^CHAR_DATA *get_char_room( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+get_char_room	merc.h	/^CD *	get_char_room	args( ( CHAR_DATA *ch, char *argument ) );$/;"	p	signature:( CHAR_DATA *ch, char *argument ) 
+get_char_world	handler.c	/^CHAR_DATA *get_char_world( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+get_char_world	merc.h	/^CD *	get_char_world	args( ( CHAR_DATA *ch, char *argument ) );$/;"	p	signature:( CHAR_DATA *ch, char *argument ) 
+get_cost	act_obj.c	/^int	get_cost	args( ( CHAR_DATA *keeper, OBJ_DATA *obj, bool fBuy ) );$/;"	p	file:	signature:( CHAR_DATA *keeper, OBJ_DATA *obj, bool fBuy ) 
+get_cost	act_obj.c	/^int get_cost( CHAR_DATA *keeper, OBJ_DATA *obj, bool fBuy )$/;"	f	signature:( CHAR_DATA *keeper, OBJ_DATA *obj, bool fBuy )
+get_curr_con	handler.c	/^int get_curr_con( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+get_curr_con	merc.h	/^int	get_curr_con	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+get_curr_dex	handler.c	/^int get_curr_dex( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+get_curr_dex	merc.h	/^int	get_curr_dex	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+get_curr_int	handler.c	/^int get_curr_int( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+get_curr_int	merc.h	/^int	get_curr_int	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+get_curr_str	handler.c	/^int get_curr_str( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+get_curr_str	merc.h	/^int	get_curr_str	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+get_curr_wis	handler.c	/^int get_curr_wis( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+get_curr_wis	merc.h	/^int	get_curr_wis	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+get_eq_char	handler.c	/^OBJ_DATA *get_eq_char( CHAR_DATA *ch, int iWear )$/;"	f	signature:( CHAR_DATA *ch, int iWear )
+get_eq_char	merc.h	/^OD *	get_eq_char	args( ( CHAR_DATA *ch, int iWear ) );$/;"	p	signature:( CHAR_DATA *ch, int iWear ) 
+get_extra_descr	db.c	/^char *get_extra_descr( char *name, EXTRA_DESCR_DATA *ed )$/;"	f	signature:( char *name, EXTRA_DESCR_DATA *ed )
+get_extra_descr	merc.h	/^char *	get_extra_descr	args( ( char *name, EXTRA_DESCR_DATA *ed ) );$/;"	p	signature:( char *name, EXTRA_DESCR_DATA *ed ) 
+get_link	maps.c	/^char *get_link			args ( (int link_type) );$/;"	p	file:	signature:(int link_type) 
+get_link	maps.c	/^char *get_link (int link)$/;"	f	signature:(int link)
+get_linkc	maps.c	/^char *get_linkc			args ( (int link_type) );$/;"	p	file:	signature:(int link_type) 
+get_linkc	maps.c	/^char *get_linkc (int link)$/;"	f	signature:(int link)
+get_map_text	maps.c	/^char *get_map_text		args ( (void) );	$/;"	p	file:	signature:(void) 
+get_map_text	maps.c	/^char *get_map_text (void)$/;"	f	signature:(void)
+get_mob_index	db.c	/^MOB_INDEX_DATA *get_mob_index( int vnum )$/;"	f	signature:( int vnum )
+get_mob_index	merc.h	/^MID *	get_mob_index	args( ( int vnum ) );$/;"	p	signature:( int vnum ) 
+get_mroom	maps.c	/^char *get_mroom			args ( (CHAR_DATA *ch, int room) );$/;"	p	file:	signature:(CHAR_DATA *ch, int room) 
+get_mroom	maps.c	/^char *get_mroom (CHAR_DATA *ch, int room)$/;"	f	signature:(CHAR_DATA *ch, int room)
+get_mroomc	maps.c	/^char *get_mroomc		args ( (CHAR_DATA *ch, int room) );$/;"	p	file:	signature:(CHAR_DATA *ch, int room) 
+get_mroomc	maps.c	/^char *get_mroomc (CHAR_DATA *ch, int room)$/;"	f	signature:(CHAR_DATA *ch, int room)
+get_obj	act_obj.c	/^void	get_obj		args( ( CHAR_DATA *ch, OBJ_DATA *obj,$/;"	p	file:	signature:( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container ) 
+get_obj	act_obj.c	/^void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )$/;"	f	signature:( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
+get_obj_carry	handler.c	/^OBJ_DATA *get_obj_carry( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+get_obj_carry	merc.h	/^OD *	get_obj_carry	args( ( CHAR_DATA *ch, char *argument ) );$/;"	p	signature:( CHAR_DATA *ch, char *argument ) 
+get_obj_here	handler.c	/^OBJ_DATA *get_obj_here( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+get_obj_here	merc.h	/^OD *	get_obj_here	args( ( CHAR_DATA *ch, char *argument ) );$/;"	p	signature:( CHAR_DATA *ch, char *argument ) 
+get_obj_index	db.c	/^OBJ_INDEX_DATA *get_obj_index( int vnum )$/;"	f	signature:( int vnum )
+get_obj_index	merc.h	/^OID *	get_obj_index	args( ( int vnum ) );$/;"	p	signature:( int vnum ) 
+get_obj_list	handler.c	/^OBJ_DATA *get_obj_list( CHAR_DATA *ch, char *argument, OBJ_DATA *list )$/;"	f	signature:( CHAR_DATA *ch, char *argument, OBJ_DATA *list )
+get_obj_list	merc.h	/^OD *	get_obj_list	args( ( CHAR_DATA *ch, char *argument,$/;"	p	signature:( CHAR_DATA *ch, char *argument, OBJ_DATA *list ) 
+get_obj_number	handler.c	/^int get_obj_number( OBJ_DATA *obj )$/;"	f	signature:( OBJ_DATA *obj )
+get_obj_number	merc.h	/^int	get_obj_number	args( ( OBJ_DATA *obj ) );$/;"	p	signature:( OBJ_DATA *obj ) 
+get_obj_type	handler.c	/^OBJ_DATA *get_obj_type( OBJ_INDEX_DATA *pObjIndex )$/;"	f	signature:( OBJ_INDEX_DATA *pObjIndex )
+get_obj_type	merc.h	/^OD *	get_obj_type	args( ( OBJ_INDEX_DATA *pObjIndexData ) );$/;"	p	signature:( OBJ_INDEX_DATA *pObjIndexData ) 
+get_obj_wear	handler.c	/^OBJ_DATA *get_obj_wear( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+get_obj_wear	merc.h	/^OD *	get_obj_wear	args( ( CHAR_DATA *ch, char *argument ) );$/;"	p	signature:( CHAR_DATA *ch, char *argument ) 
+get_obj_weight	handler.c	/^int get_obj_weight( OBJ_DATA *obj )$/;"	f	signature:( OBJ_DATA *obj )
+get_obj_weight	merc.h	/^int	get_obj_weight	args( ( OBJ_DATA *obj ) );$/;"	p	signature:( OBJ_DATA *obj ) 
+get_obj_world	handler.c	/^OBJ_DATA *get_obj_world( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+get_obj_world	merc.h	/^OD *	get_obj_world	args( ( CHAR_DATA *ch, char *argument ) );$/;"	p	signature:( CHAR_DATA *ch, char *argument ) 
+get_room_index	db.c	/^ROOM_INDEX_DATA *get_room_index( int vnum )$/;"	f	signature:( int vnum )
+get_room_index	merc.h	/^RID *	get_room_index	args( ( int vnum ) );$/;"	p	signature:( int vnum ) 
+get_trust	handler.c	/^int get_trust( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+get_trust	merc.h	/^int	get_trust	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+get_x_start	maps.c	/^int get_x_start			args ( (void) );$/;"	p	file:	signature:(void) 
+get_x_start	maps.c	/^int get_x_start (void)$/;"	f	signature:(void)
+get_x_to	maps.c	/^int get_x_to			args ( (void) );$/;"	p	file:	signature:(void) 
+get_x_to	maps.c	/^int get_x_to (void)$/;"	f	signature:(void)
+get_y_start	maps.c	/^int get_y_start			args ( (void) );$/;"	p	file:	signature:(void) 
+get_y_start	maps.c	/^int get_y_start (void)$/;"	f	signature:(void)
+get_y_to	maps.c	/^int get_y_to			args ( (void) );$/;"	p	file:	signature:(void) 
+get_y_to	maps.c	/^int get_y_to (void)$/;"	f	signature:(void)
+global_L	lua_interface.c	/^lua_State *global_L;$/;"	v
+go_ahead_str	comm.c	/^const	char 	go_ahead_str	[] = { IAC, GA, '\\0' };$/;"	v
+god	comm.c	/^bool		    god;		\/* All new chars are gods!	*\/$/;"	v
+gold	merc.h	/^    int			gold;			\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+gold	merc.h	/^    int			gold;$/;"	m	struct:char_data	access:public
+group_gain	fight.c	/^void	group_gain	args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );$/;"	p	file:	signature:( CHAR_DATA *ch, CHAR_DATA *victim ) 
+group_gain	fight.c	/^void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim )
+gsn_backstab	db.c	/^short			gsn_backstab;$/;"	v
+gsn_blindness	db.c	/^short			gsn_blindness;$/;"	v
+gsn_charm_person	db.c	/^short			gsn_charm_person;$/;"	v
+gsn_curse	db.c	/^short			gsn_curse;$/;"	v
+gsn_disarm	db.c	/^short			gsn_disarm;$/;"	v
+gsn_dodge	db.c	/^short			gsn_dodge;$/;"	v
+gsn_enhanced_damage	db.c	/^short			gsn_enhanced_damage;$/;"	v
+gsn_hide	db.c	/^short			gsn_hide;$/;"	v
+gsn_invis	db.c	/^short			gsn_invis;$/;"	v
+gsn_kick	db.c	/^short			gsn_kick;$/;"	v
+gsn_mass_invis	db.c	/^short			gsn_mass_invis;$/;"	v
+gsn_parry	db.c	/^short			gsn_parry;$/;"	v
+gsn_peek	db.c	/^short			gsn_peek;$/;"	v
+gsn_pick_lock	db.c	/^short			gsn_pick_lock;$/;"	v
+gsn_poison	db.c	/^short			gsn_poison;$/;"	v
+gsn_rescue	db.c	/^short			gsn_rescue;$/;"	v
+gsn_second_attack	db.c	/^short			gsn_second_attack;$/;"	v
+gsn_sleep	db.c	/^short			gsn_sleep;$/;"	v
+gsn_sneak	db.c	/^short			gsn_sneak;$/;"	v
+gsn_steal	db.c	/^short			gsn_steal;$/;"	v
+gsn_third_attack	db.c	/^short			gsn_third_attack;$/;"	v
+guild	merc.h	/^    short	guild;			\/* Vnum of guild room		*\/$/;"	m	struct:class_type	access:public
+has_key	act_move.c	/^bool	has_key		args( ( CHAR_DATA *ch, int key ) );$/;"	p	file:	signature:( CHAR_DATA *ch, int key ) 
+has_key	act_move.c	/^bool has_key( CHAR_DATA *ch, int key )$/;"	f	signature:( CHAR_DATA *ch, int key )
+has_visited	maps.c	/^bool has_visited		args ( (int room) );$/;"	p	file:	signature:(int room) 
+has_visited	maps.c	/^bool has_visited (int room)$/;"	f	signature:(int room)
+help_data	merc.h	/^struct	help_data {$/;"	s
+help_data::keyword	merc.h	/^    char *	keyword;$/;"	m	struct:help_data	access:public
+help_data::level	merc.h	/^    short	level;$/;"	m	struct:help_data	access:public
+help_data::next	merc.h	/^    HELP_DATA *	next;$/;"	m	struct:help_data	access:public
+help_data::text	merc.h	/^    char *	text;$/;"	m	struct:help_data	access:public
+help_first	db.c	/^HELP_DATA *		help_first;$/;"	v
+help_greeting	db.c	/^char *			help_greeting;$/;"	v
+help_last	db.c	/^HELP_DATA *		help_last;$/;"	v
+hit	merc.h	/^    short		hit;$/;"	m	struct:char_data	access:public
+hit_gain	update.c	/^int	hit_gain	args( ( CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *ch ) 
+hit_gain	update.c	/^int hit_gain( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+hitnodice	merc.h	/^    short		hitnodice;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+hitp	merc.h	/^    short	hitp;$/;"	m	struct:con_app_type	access:public
+hitplus	merc.h	/^    short		hitplus;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+hitroll	merc.h	/^    short		hitroll;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+hitroll	merc.h	/^    short		hitroll;$/;"	m	struct:char_data	access:public
+hitsizedice	merc.h	/^    short		hitsizedice;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+host	merc.h	/^    char *		host;$/;"	m	struct:descriptor_data	access:public
+hour	merc.h	/^    int		hour;$/;"	m	struct:time_info_data	access:public
+hp_max	merc.h	/^    short	hp_max;			\/* Max hp gained on leveling	*\/$/;"	m	struct:class_type	access:public
+hp_min	merc.h	/^    short	hp_min;			\/* Min hp gained on leveling	*\/$/;"	m	struct:class_type	access:public
+huh	merc.h	/^	int 		huh; \/* Huh? What? Used for non commands *\/$/;"	m	struct:char_data	access:public
+huh_table	interp.c	/^const char* huh_table[] = {$/;"	v
+in_obj	merc.h	/^    OBJ_DATA *		in_obj;$/;"	m	struct:obj_data	access:public
+in_room	merc.h	/^    ROOM_INDEX_DATA *	in_room;$/;"	m	struct:char_data	access:public
+in_room	merc.h	/^    ROOM_INDEX_DATA *	in_room;$/;"	m	struct:obj_data	access:public
+inbuf	merc.h	/^    char		inbuf		[4 * MAX_INPUT_LENGTH];$/;"	m	struct:descriptor_data	access:public
+incomm	merc.h	/^    char		incomm		[MAX_INPUT_LENGTH];$/;"	m	struct:descriptor_data	access:public
+init_map	maps.c	/^void init_map			args ( (void) );$/;"	p	file:	signature:(void) 
+init_map	maps.c	/^void init_map (void)$/;"	f	signature:(void)
+init_mm	db.c	/^void	init_mm		args( ( void ) );$/;"	p	file:	signature:( void ) 
+init_mm	db.c	/^void init_mm( )$/;"	f
+init_mp	maps.c	/^void init_mp			args ( (CHAR_DATA *ch) );$/;"	p	file:	signature:(CHAR_DATA *ch) 
+init_mp	maps.c	/^void init_mp (CHAR_DATA *ch)$/;"	f	signature:(CHAR_DATA *ch)
+init_socket	comm.c	/^int	init_socket		args( ( int port ) );$/;"	p	file:	signature:( int port ) 
+init_socket	comm.c	/^int init_socket( int port )$/;"	f	signature:( int port )
+inlast	merc.h	/^    char		inlast		[MAX_INPUT_LENGTH];$/;"	m	struct:descriptor_data	access:public
+int_app	const.c	/^const	struct	int_app_type	int_app		[26]		= {$/;"	v	typeref:struct:int_app_type
+int_app_type	merc.h	/^struct	int_app_type {$/;"	s
+int_app_type::learn	merc.h	/^    short	learn;$/;"	m	struct:int_app_type	access:public
+interpolate	db.c	/^int interpolate( int level, int value_00, int value_32 )$/;"	f	signature:( int level, int value_00, int value_32 )
+interpolate	merc.h	/^int	interpolate	args( ( int level, int value_00, int value_32 ) );$/;"	p	signature:( int level, int value_00, int value_32 ) 
+interpret	interp.c	/^void interpret( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+interpret	merc.h	/^void	interpret	args( ( CHAR_DATA *ch, char *argument ) );$/;"	p	signature:( CHAR_DATA *ch, char *argument ) 
+is_affected	handler.c	/^bool is_affected( CHAR_DATA *ch, int sn )$/;"	f	signature:( CHAR_DATA *ch, int sn )
+is_affected	merc.h	/^bool	is_affected	args( ( CHAR_DATA *ch, int sn ) );$/;"	p	signature:( CHAR_DATA *ch, int sn ) 
+is_name	handler.c	/^bool is_name (char *str, char *namelist)$/;"	f	signature:(char *str, char *namelist)
+is_name	merc.h	/^bool	is_name		args( ( char *str, char *namelist ) );$/;"	p	signature:( char *str, char *namelist ) 
+is_note_to	act_comm.c	/^bool	is_note_to	args( ( CHAR_DATA *ch, NOTE_DATA *pnote ) );$/;"	p	file:	signature:( CHAR_DATA *ch, NOTE_DATA *pnote ) 
+is_note_to	act_comm.c	/^bool is_note_to( CHAR_DATA *ch, NOTE_DATA *pnote )$/;"	f	signature:( CHAR_DATA *ch, NOTE_DATA *pnote )
+is_number	interp.c	/^bool is_number( char *arg )$/;"	f	signature:( char *arg )
+is_number	merc.h	/^bool	is_number	args( ( char *arg ) );$/;"	p	signature:( char *arg ) 
+is_safe	fight.c	/^bool	is_safe		args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );$/;"	p	file:	signature:( CHAR_DATA *ch, CHAR_DATA *victim ) 
+is_safe	fight.c	/^bool is_safe( CHAR_DATA *ch, CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim )
+is_same_group	act_comm.c	/^bool is_same_group( CHAR_DATA *ach, CHAR_DATA *bch )$/;"	f	signature:( CHAR_DATA *ach, CHAR_DATA *bch )
+is_same_group	merc.h	/^bool	is_same_group	args( ( CHAR_DATA *ach, CHAR_DATA *bch ) );$/;"	p	signature:( CHAR_DATA *ach, CHAR_DATA *bch ) 
+item_type	merc.h	/^    short		item_type;$/;"	m	struct:obj_data	access:public
+item_type	merc.h	/^    short		item_type;$/;"	m	struct:obj_index_data	access:public
+item_type_name	handler.c	/^char *item_type_name( OBJ_DATA *obj )$/;"	f	signature:( OBJ_DATA *obj )
+item_type_name	merc.h	/^char *	item_type_name	args( ( OBJ_DATA *obj ) );$/;"	p	signature:( OBJ_DATA *obj ) 
+keeper	merc.h	/^    short	keeper;			\/* Vnum of shop keeper mob	*\/$/;"	m	struct:shop_data	access:public
+key	merc.h	/^    short		key;$/;"	m	struct:exit_data	access:public
+keyword	merc.h	/^    char *		keyword;$/;"	m	struct:exit_data	access:public
+keyword	merc.h	/^    char *	keyword;$/;"	m	struct:help_data	access:public
+keyword	merc.h	/^    char *keyword;              \/* Keyword in look\/examine          *\/$/;"	m	struct:extra_descr_data	access:public
+kill_data	merc.h	/^struct	kill_data {$/;"	s
+kill_data::killed	merc.h	/^    short		killed;$/;"	m	struct:kill_data	access:public
+kill_data::number	merc.h	/^    short		number;$/;"	m	struct:kill_data	access:public
+kill_table	db.c	/^KILL_DATA		kill_table	[MAX_LEVEL];$/;"	v
+killed	merc.h	/^    short		killed;$/;"	m	struct:kill_data	access:public
+killed	merc.h	/^    short		killed;$/;"	m	struct:mob_index_data	access:public
+leader	merc.h	/^    CHAR_DATA *		leader;$/;"	m	struct:char_data	access:public
+learn	merc.h	/^    short	learn;$/;"	m	struct:int_app_type	access:public
+learned	merc.h	/^    short		learned		[MAX_SKILL];$/;"	m	struct:pc_data	access:public
+level	merc.h	/^    short		level;$/;"	m	struct:char_data	access:public
+level	merc.h	/^    short		level;$/;"	m	struct:cmd_type	access:public
+level	merc.h	/^    short		level;$/;"	m	struct:mob_index_data	access:public
+level	merc.h	/^    short		level;$/;"	m	struct:obj_data	access:public
+level	merc.h	/^    short	level;$/;"	m	struct:help_data	access:public
+light	merc.h	/^    short		light;$/;"	m	struct:room_index_data	access:public
+liq_affect	merc.h	/^    short	liq_affect[3];$/;"	m	struct:liq_type	access:public
+liq_color	merc.h	/^    char *	liq_color;$/;"	m	struct:liq_type	access:public
+liq_name	merc.h	/^    char *	liq_name;$/;"	m	struct:liq_type	access:public
+liq_table	const.c	/^const	struct	liq_type	liq_table	[LIQ_MAX]	= {$/;"	v	typeref:struct:liq_type
+liq_type	merc.h	/^struct	liq_type {$/;"	s
+liq_type::liq_affect	merc.h	/^    short	liq_affect[3];$/;"	m	struct:liq_type	access:public
+liq_type::liq_color	merc.h	/^    char *	liq_color;$/;"	m	struct:liq_type	access:public
+liq_type::liq_name	merc.h	/^    char *	liq_name;$/;"	m	struct:liq_type	access:public
+load_area	db.c	/^void	load_area	args( ( FILE *fp ) );$/;"	p	file:	signature:( FILE *fp ) 
+load_area	db.c	/^void load_area( FILE *fp )$/;"	f	signature:( FILE *fp )
+load_char_lua	lua_interface.c	/^void load_char_lua( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+load_char_lua	merc.h	/^void load_char_lua   ( CHAR_DATA *ch );$/;"	p	signature:( CHAR_DATA *ch )
+load_char_obj	merc.h	/^bool	load_char_obj	args( ( DESCRIPTOR_DATA *d, char *name ) );$/;"	p	signature:( DESCRIPTOR_DATA *d, char *name ) 
+load_char_obj	save.c	/^bool load_char_obj( DESCRIPTOR_DATA *d, char *name )$/;"	f	signature:( DESCRIPTOR_DATA *d, char *name )
+load_global_lua	lua_interface.c	/^void load_global_lua(void)$/;"	f	signature:(void)
+load_global_lua	merc.h	/^void load_global_lua ( void );$/;"	p	signature:( void )
+load_helps	db.c	/^void	load_helps	args( ( FILE *fp ) );$/;"	p	file:	signature:( FILE *fp ) 
+load_helps	db.c	/^void load_helps( FILE *fp )$/;"	f	signature:( FILE *fp )
+load_mobiles	db.c	/^void	load_mobiles	args( ( FILE *fp ) );$/;"	p	file:	signature:( FILE *fp ) 
+load_mobiles	db.c	/^void load_mobiles( FILE *fp )$/;"	f	signature:( FILE *fp )
+load_notes	db.c	/^void	load_notes	args( ( void ) );$/;"	p	file:	signature:( void ) 
+load_notes	db.c	/^void load_notes( void )$/;"	f	signature:( void )
+load_objects	db.c	/^void	load_objects	args( ( FILE *fp ) );$/;"	p	file:	signature:( FILE *fp ) 
+load_objects	db.c	/^void load_objects( FILE *fp )$/;"	f	signature:( FILE *fp )
+load_resets	db.c	/^void	load_resets	args( ( FILE *fp ) );$/;"	p	file:	signature:( FILE *fp ) 
+load_resets	db.c	/^void load_resets( FILE *fp )$/;"	f	signature:( FILE *fp )
+load_rooms	db.c	/^void	load_rooms	args( ( FILE *fp ) );$/;"	p	file:	signature:( FILE *fp ) 
+load_rooms	db.c	/^void load_rooms( FILE *fp )$/;"	f	signature:( FILE *fp )
+load_shops	db.c	/^void	load_shops	args( ( FILE *fp ) );$/;"	p	file:	signature:( FILE *fp ) 
+load_shops	db.c	/^void load_shops( FILE *fp )$/;"	f	signature:( FILE *fp )
+load_specials	db.c	/^void	load_specials	args( ( FILE *fp ) );$/;"	p	file:	signature:( FILE *fp ) 
+load_specials	db.c	/^void load_specials( FILE *fp )$/;"	f	signature:( FILE *fp )
+location	merc.h	/^    short		location;$/;"	m	struct:affect_data	access:public
+log	merc.h	/^    short		log;$/;"	m	struct:cmd_type	access:public
+log_buf	db.c	/^char			log_buf		[2*MAX_INPUT_LENGTH];$/;"	v
+log_string	db.c	/^void log_string( const char *str )$/;"	f	signature:( const char *str )
+log_string	merc.h	/^void	log_string	args( ( const char *str ) );$/;"	p	signature:( const char *str ) 
+logon	merc.h	/^    time_t		logon;$/;"	m	struct:char_data	access:public
+logon_str	merc.h	/^	char *      logon_str; \/* just char* string to make it easier *\/$/;"	m	struct:char_data	access:public
+long_descr	merc.h	/^    char *		long_descr;$/;"	m	struct:char_data	access:public
+long_descr	merc.h	/^    char *		long_descr;$/;"	m	struct:mob_index_data	access:public
+main	comm.c	/^int	main			args( ( int argc, char **argv ) );$/;"	p	file:	signature:( int argc, char **argv ) 
+main	comm.c	/^int main( int argc, char **argv )$/;"	f	signature:( int argc, char **argv )
+make_corpse	fight.c	/^void	make_corpse	args( ( CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *ch ) 
+make_corpse	fight.c	/^void make_corpse( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+make_map	maps.c	/^void make_map			args ( (CHAR_DATA *ch, int x, int y) );$/;"	p	file:	signature:(CHAR_DATA *ch, int x, int y) 
+make_map	maps.c	/^void make_map (CHAR_DATA *ch, int x, int y)$/;"	f	signature:(CHAR_DATA *ch, int x, int y)
+mana	merc.h	/^    short		mana;$/;"	m	struct:char_data	access:public
+mana_gain	update.c	/^int	mana_gain	args( ( CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *ch ) 
+mana_gain	update.c	/^int mana_gain( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+map	maps.c	/^int map[MAX_MAP][MAX_MAP];$/;"	v
+map_param	maps.c	/^struct map_param$/;"	s	file:
+map_param::area	maps.c	/^	bool area;$/;"	m	struct:map_param	file:	access:public
+map_param::border	maps.c	/^	bool border;$/;"	m	struct:map_param	file:	access:public
+map_param::col	maps.c	/^	bool col; \/\/ Used to add the default colour back if needed - not used as much anymore$/;"	m	struct:map_param	file:	access:public
+map_param::colour	maps.c	/^	char *colour; \/\/ Stores the previous colour code used$/;"	m	struct:map_param	file:	access:public
+map_param::depth	maps.c	/^	int depth;$/;"	m	struct:map_param	file:	access:public
+map_param::desc	maps.c	/^	char *desc; $/;"	m	struct:map_param	file:	access:public
+map_param::doors	maps.c	/^	bool doors;$/;"	m	struct:map_param	file:	access:public
+map_param::fog	maps.c	/^	bool fog;$/;"	m	struct:map_param	file:	access:public
+map_param::mobs	maps.c	/^	bool mobs;$/;"	m	struct:map_param	file:	access:public
+map_param::portion	maps.c	/^	char *portion;$/;"	m	struct:map_param	file:	access:public
+map_param::size	maps.c	/^	int size;$/;"	m	struct:map_param	file:	access:public
+map_param::ter	maps.c	/^	bool ter; \/\/ Switches to terrain mode.$/;"	m	struct:map_param	file:	access:public
+map_param::text	maps.c	/^	bool text;$/;"	m	struct:map_param	file:	access:public
+map_param::tight	maps.c	/^	bool tight;$/;"	m	struct:map_param	file:	access:public
+map_param::valid	maps.c	/^	bool valid;$/;"	m	struct:map_param	file:	access:public
+map_qd	maps.c	/^struct map_qd$/;"	s	file:
+map_qd::depth	maps.c	/^	int depth;$/;"	m	struct:map_qd	file:	access:public
+map_qd::next	maps.c	/^	MAP_QD *next;$/;"	m	struct:map_qd	file:	access:public
+map_qd::room	maps.c	/^	int room;$/;"	m	struct:map_qd	file:	access:public
+map_qd::valid	maps.c	/^	bool valid;$/;"	m	struct:map_qd	file:	access:public
+map_qd::x	maps.c	/^	int x;$/;"	m	struct:map_qd	file:	access:public
+map_qd::y	maps.c	/^	int y;$/;"	m	struct:map_qd	file:	access:public
+map_qd_free	maps.c	/^MAP_QD	*map_qd_free;$/;"	v
+map_queue	maps.c	/^MAP_QD	*map_queue;$/;"	v
+map_visit	maps.c	/^MAP_VISIT *map_visit[MAX_MAP_HASH];$/;"	v
+map_visit	maps.c	/^struct map_visit$/;"	s	file:
+map_visit::next	maps.c	/^	MAP_VISIT *next;$/;"	m	struct:map_visit	file:	access:public
+map_visit::room	maps.c	/^	int room;$/;"	m	struct:map_visit	file:	access:public
+map_visit::valid	maps.c	/^	bool valid;$/;"	m	struct:map_visit	file:	access:public
+map_visit_free	maps.c	/^MAP_VISIT *map_visit_free;$/;"	v
+master	merc.h	/^    CHAR_DATA *		master;$/;"	m	struct:char_data	access:public
+max_hit	merc.h	/^    short		max_hit;$/;"	m	struct:char_data	access:public
+max_mana	merc.h	/^    short		max_mana;$/;"	m	struct:char_data	access:public
+max_move	merc.h	/^    short		max_move;$/;"	m	struct:char_data	access:public
+menu_medit	alt_menu.c	/^void menu_medit( CHAR_DATA *ch, char *argument )$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+menu_medit	alt_menu.c	/^void menu_medit( CHAR_DATA *ch, char *argument );$/;"	p	file:	signature:( CHAR_DATA *ch, char *argument )
+menu_oedit	alt_menu.c	/^void menu_oedit( CHAR_DATA *ch, char *argument ) {}$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+menu_oedit	alt_menu.c	/^void menu_oedit( CHAR_DATA *ch, char *argument );$/;"	p	file:	signature:( CHAR_DATA *ch, char *argument )
+menu_redit	alt_menu.c	/^void menu_redit( CHAR_DATA *ch, char *argument ) {}$/;"	f	signature:( CHAR_DATA *ch, char *argument )
+menu_redit	alt_menu.c	/^void menu_redit( CHAR_DATA *ch, char *argument );$/;"	p	file:	signature:( CHAR_DATA *ch, char *argument )
+merc_down	comm.c	/^bool		    merc_down;		\/* Shutdown			*\/$/;"	v
+message	act_comm.c	/^    char *	message[2*MAX_CLASS];$/;"	m	struct:pose_table_type	file:	access:public
+min_mana	merc.h	/^    short	min_mana;		\/* Minimum mana used		*\/$/;"	m	struct:skill_type	access:public
+minimum_position	merc.h	/^    short	minimum_position;	\/* Position for caster \/ user	*\/$/;"	m	struct:skill_type	access:public
+mmhg	merc.h	/^    int		mmhg;$/;"	m	struct:weather_data	access:public
+mob_index_data	merc.h	/^struct	mob_index_data {$/;"	s
+mob_index_data::ac	merc.h	/^    short		ac;			\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+mob_index_data::act	merc.h	/^    int			act;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::affected_by	merc.h	/^    int			affected_by;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::alignment	merc.h	/^    short		alignment;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::count	merc.h	/^    short		count;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::damnodice	merc.h	/^    short		damnodice;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+mob_index_data::damplus	merc.h	/^    short		damplus;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+mob_index_data::damsizedice	merc.h	/^    short		damsizedice;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+mob_index_data::description	merc.h	/^    char *		description;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::gold	merc.h	/^    int			gold;			\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+mob_index_data::hitnodice	merc.h	/^    short		hitnodice;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+mob_index_data::hitplus	merc.h	/^    short		hitplus;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+mob_index_data::hitroll	merc.h	/^    short		hitroll;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+mob_index_data::hitsizedice	merc.h	/^    short		hitsizedice;		\/* Unused *\/$/;"	m	struct:mob_index_data	access:public
+mob_index_data::killed	merc.h	/^    short		killed;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::level	merc.h	/^    short		level;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::long_descr	merc.h	/^    char *		long_descr;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::next	merc.h	/^    MOB_INDEX_DATA *	next;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::pShop	merc.h	/^    SHOP_DATA *		pShop;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::player_name	merc.h	/^    char *		player_name;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::sex	merc.h	/^    short		sex;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::short_descr	merc.h	/^    char *		short_descr;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::spec_fun	merc.h	/^    SPEC_FUN *		spec_fun;$/;"	m	struct:mob_index_data	access:public
+mob_index_data::vnum	merc.h	/^    short		vnum;$/;"	m	struct:mob_index_data	access:public
+mob_index_hash	db.c	/^MOB_INDEX_DATA *	mob_index_hash		[MAX_KEY_HASH];$/;"	v
+mobile_update	update.c	/^void	mobile_update	args( ( void ) );$/;"	p	file:	signature:( void ) 
+mobile_update	update.c	/^void mobile_update( void )$/;"	f	signature:( void )
+mobs	maps.c	/^	bool mobs;$/;"	m	struct:map_param	file:	access:public
+mod_con	merc.h	/^    short		mod_con;$/;"	m	struct:pc_data	access:public
+mod_dex	merc.h	/^    short		mod_dex;$/;"	m	struct:pc_data	access:public
+mod_int	merc.h	/^    short		mod_int;$/;"	m	struct:pc_data	access:public
+mod_str	merc.h	/^    short		mod_str;$/;"	m	struct:pc_data	access:public
+mod_wis	merc.h	/^    short		mod_wis;$/;"	m	struct:pc_data	access:public
+modifier	merc.h	/^    short		modifier;$/;"	m	struct:affect_data	access:public
+month	merc.h	/^    int		month;$/;"	m	struct:time_info_data	access:public
+month_name	act_info.c	/^char *	const	month_name	[] = {$/;"	v
+move	merc.h	/^    short		move;$/;"	m	struct:char_data	access:public
+move_char	act_move.c	/^void move_char( CHAR_DATA *ch, int door )$/;"	f	signature:( CHAR_DATA *ch, int door )
+move_char	merc.h	/^void	move_char	args( ( CHAR_DATA *ch, int door ) );$/;"	p	signature:( CHAR_DATA *ch, int door ) 
+move_gain	update.c	/^int	move_gain	args( ( CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *ch ) 
+move_gain	update.c	/^int move_gain( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+movement_loss	act_move.c	/^const	short	movement_loss	[SECT_MAX]	= {$/;"	v
+mp	maps.c	/^MAP_PARAM *mp;$/;"	v
+mpcolour	maps.c	/^char *mpcolour			args ( (char *arg) );$/;"	p	file:	signature:(char *arg) 
+mpcolour	maps.c	/^char *mpcolour (char *arg)$/;"	f	signature:(char *arg)
+msg_off	merc.h	/^    char *	msg_off;		\/* Wear off message		*\/$/;"	m	struct:skill_type	access:public
+mudlib	lua_mudlib.c	/^static const struct luaL_reg mudlib [] = {$/;"	v	typeref:struct:luaL_reg	file:
+multi_hit	fight.c	/^void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
+multi_hit	merc.h	/^void	multi_hit	args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt ) );$/;"	p	signature:( CHAR_DATA *ch, CHAR_DATA *victim, int dt ) 
+nAllocPerm	db.c	/^int			nAllocPerm;$/;"	v
+nAllocString	db.c	/^int			nAllocString;$/;"	v
+name	merc.h	/^    char *		name;$/;"	m	struct:area_data	access:public
+name	merc.h	/^    char *		name;$/;"	m	struct:char_data	access:public
+name	merc.h	/^    char *		name;$/;"	m	struct:obj_data	access:public
+name	merc.h	/^    char *		name;$/;"	m	struct:obj_index_data	access:public
+name	merc.h	/^    char *		name;$/;"	m	struct:room_index_data	access:public
+name	merc.h	/^    char *	name;			\/* Name of skill		*\/$/;"	m	struct:skill_type	access:public
+name	merc.h	/^    char *	name;$/;"	m	struct:ban_data	access:public
+name	merc.h	/^    char * const	name;$/;"	m	struct:cmd_type	access:public
+name	merc.h	/^    char * const	name;$/;"	m	struct:social_type	access:public
+nanny	comm.c	/^void	nanny			args( ( DESCRIPTOR_DATA *d, char *argument ) );$/;"	p	file:	signature:( DESCRIPTOR_DATA *d, char *argument ) 
+nanny	comm.c	/^void nanny( DESCRIPTOR_DATA *d, char *argument )$/;"	f	signature:( DESCRIPTOR_DATA *d, char *argument )
+new_descriptor	comm.c	/^void	new_descriptor		args( ( int control ) );$/;"	p	file:	signature:( int control ) 
+new_descriptor	comm.c	/^void new_descriptor( int control )$/;"	f	signature:( int control )
+new_map_qd	maps.c	/^MAP_QD *new_map_qd		args ( (void) );$/;"	p	file:	signature:(void) 
+new_map_qd	maps.c	/^MAP_QD *new_map_qd (void)$/;"	f	signature:(void)
+new_map_visit	maps.c	/^MAP_VISIT *new_map_visit	args ( (void) );$/;"	p	file:	signature:(void) 
+new_map_visit	maps.c	/^MAP_VISIT *new_map_visit (void)$/;"	f	signature:(void)
+next	maps.c	/^	MAP_QD *next;$/;"	m	struct:map_qd	file:	access:public
+next	maps.c	/^	MAP_VISIT *next;$/;"	m	struct:map_visit	file:	access:public
+next	merc.h	/^    AFFECT_DATA *	next;$/;"	m	struct:affect_data	access:public
+next	merc.h	/^    AREA_DATA *		next;$/;"	m	struct:area_data	access:public
+next	merc.h	/^    BAN_DATA *	next;$/;"	m	struct:ban_data	access:public
+next	merc.h	/^    CHAR_DATA *		next;$/;"	m	struct:char_data	access:public
+next	merc.h	/^    DESCRIPTOR_DATA *	next;$/;"	m	struct:descriptor_data	access:public
+next	merc.h	/^    EXTRA_DESCR_DATA *next;	    \/* Next in list                     *\/$/;"	m	struct:extra_descr_data	access:public
+next	merc.h	/^    HELP_DATA *	next;$/;"	m	struct:help_data	access:public
+next	merc.h	/^    MOB_INDEX_DATA *	next;$/;"	m	struct:mob_index_data	access:public
+next	merc.h	/^    NOTE_DATA *	next;$/;"	m	struct:note_data	access:public
+next	merc.h	/^    OBJ_DATA *		next;$/;"	m	struct:obj_data	access:public
+next	merc.h	/^    OBJ_INDEX_DATA *	next;$/;"	m	struct:obj_index_data	access:public
+next	merc.h	/^    PC_DATA *		next;$/;"	m	struct:pc_data	access:public
+next	merc.h	/^    RESET_DATA *	next;$/;"	m	struct:reset_data	access:public
+next	merc.h	/^    ROOM_INDEX_DATA *	next;$/;"	m	struct:room_index_data	access:public
+next	merc.h	/^    SHOP_DATA *	next;			\/* Next shop in list		*\/$/;"	m	struct:shop_data	access:public
+next_content	merc.h	/^    OBJ_DATA *		next_content;$/;"	m	struct:obj_data	access:public
+next_in_room	merc.h	/^    CHAR_DATA *		next_in_room;$/;"	m	struct:char_data	access:public
+next_map_qd	maps.c	/^MAP_QD *next_map_qd		args ( (void) );$/;"	p	file:	signature:(void) 
+next_map_qd	maps.c	/^MAP_QD *next_map_qd (void)$/;"	f	signature:(void)
+note_attach	act_comm.c	/^void	note_attach	args( ( CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *ch ) 
+note_attach	act_comm.c	/^void note_attach( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+note_data	merc.h	/^struct	note_data {$/;"	s
+note_data::date	merc.h	/^    char *	date;$/;"	m	struct:note_data	access:public
+note_data::next	merc.h	/^    NOTE_DATA *	next;$/;"	m	struct:note_data	access:public
+note_data::sender	merc.h	/^    char *	sender;$/;"	m	struct:note_data	access:public
+note_data::subject	merc.h	/^    char *	subject;$/;"	m	struct:note_data	access:public
+note_data::text	merc.h	/^    char *	text;$/;"	m	struct:note_data	access:public
+note_data::to_list	merc.h	/^    char *	to_list;$/;"	m	struct:note_data	access:public
+note_free	db.c	/^NOTE_DATA *		note_free;$/;"	v
+note_list	db.c	/^NOTE_DATA *		note_list;$/;"	v
+note_remove	act_comm.c	/^void	note_remove	args( ( CHAR_DATA *ch, NOTE_DATA *pnote ) );$/;"	p	file:	signature:( CHAR_DATA *ch, NOTE_DATA *pnote ) 
+note_remove	act_comm.c	/^void note_remove( CHAR_DATA *ch, NOTE_DATA *pnote )$/;"	f	signature:( CHAR_DATA *ch, NOTE_DATA *pnote )
+noun_damage	merc.h	/^    char *	noun_damage;		\/* Damage message		*\/$/;"	m	struct:skill_type	access:public
+nplayer	merc.h	/^    short		nplayer;$/;"	m	struct:area_data	access:public
+number	merc.h	/^    short		number;$/;"	m	struct:kill_data	access:public
+number_argument	interp.c	/^int number_argument( char *argument, char *arg )$/;"	f	signature:( char *argument, char *arg )
+number_argument	merc.h	/^int	number_argument	args( ( char *argument, char *arg ) );$/;"	p	signature:( char *argument, char *arg ) 
+number_bits	db.c	/^int number_bits( int width )$/;"	f	signature:( int width )
+number_bits	merc.h	/^int	number_bits	args( ( int width ) );$/;"	p	signature:( int width ) 
+number_door	db.c	/^int number_door( void )$/;"	f	signature:( void )
+number_door	merc.h	/^int	number_door	args( ( void ) );$/;"	p	signature:( void ) 
+number_fuzzy	db.c	/^int number_fuzzy( int number )$/;"	f	signature:( int number )
+number_fuzzy	merc.h	/^int	number_fuzzy	args( ( int number ) );$/;"	p	signature:( int number ) 
+number_mm	db.c	/^int number_mm( void )$/;"	f	signature:( void )
+number_mm	merc.h	/^int	number_mm	args( ( void ) );$/;"	p	signature:( void ) 
+number_percent	db.c	/^int number_percent( void )$/;"	f	signature:( void )
+number_percent	merc.h	/^int	number_percent	args( ( void ) );$/;"	p	signature:( void ) 
+number_range	db.c	/^int number_range( int from, int to )$/;"	f	signature:( int from, int to )
+number_range	merc.h	/^int	number_range	args( ( int from, int to ) );$/;"	p	signature:( int from, int to ) 
+obj_cast_spell	magic.c	/^void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj )
+obj_cast_spell	merc.h	/^void	obj_cast_spell	args( ( int sn, int level, CHAR_DATA *ch,$/;"	p	signature:( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj ) 
+obj_data	merc.h	/^struct	obj_data {$/;"	s
+obj_data::affected	merc.h	/^    AFFECT_DATA *	affected;$/;"	m	struct:obj_data	access:public
+obj_data::carried_by	merc.h	/^    CHAR_DATA *		carried_by;$/;"	m	struct:obj_data	access:public
+obj_data::contains	merc.h	/^    OBJ_DATA *		contains;$/;"	m	struct:obj_data	access:public
+obj_data::cost	merc.h	/^    int			cost;$/;"	m	struct:obj_data	access:public
+obj_data::description	merc.h	/^    char *		description;$/;"	m	struct:obj_data	access:public
+obj_data::extra_descr	merc.h	/^    EXTRA_DESCR_DATA *	extra_descr;$/;"	m	struct:obj_data	access:public
+obj_data::extra_flags	merc.h	/^    short		extra_flags;$/;"	m	struct:obj_data	access:public
+obj_data::in_obj	merc.h	/^    OBJ_DATA *		in_obj;$/;"	m	struct:obj_data	access:public
+obj_data::in_room	merc.h	/^    ROOM_INDEX_DATA *	in_room;$/;"	m	struct:obj_data	access:public
+obj_data::item_type	merc.h	/^    short		item_type;$/;"	m	struct:obj_data	access:public
+obj_data::level	merc.h	/^    short		level;$/;"	m	struct:obj_data	access:public
+obj_data::name	merc.h	/^    char *		name;$/;"	m	struct:obj_data	access:public
+obj_data::next	merc.h	/^    OBJ_DATA *		next;$/;"	m	struct:obj_data	access:public
+obj_data::next_content	merc.h	/^    OBJ_DATA *		next_content;$/;"	m	struct:obj_data	access:public
+obj_data::pIndexData	merc.h	/^    OBJ_INDEX_DATA *	pIndexData;$/;"	m	struct:obj_data	access:public
+obj_data::short_descr	merc.h	/^    char *		short_descr;$/;"	m	struct:obj_data	access:public
+obj_data::timer	merc.h	/^    short		timer;$/;"	m	struct:obj_data	access:public
+obj_data::value	merc.h	/^    int			value	[4];$/;"	m	struct:obj_data	access:public
+obj_data::wear_flags	merc.h	/^    short		wear_flags;$/;"	m	struct:obj_data	access:public
+obj_data::wear_loc	merc.h	/^    short		wear_loc;$/;"	m	struct:obj_data	access:public
+obj_data::weight	merc.h	/^    short		weight;$/;"	m	struct:obj_data	access:public
+obj_free	db.c	/^OBJ_DATA *		obj_free;$/;"	v
+obj_from_char	handler.c	/^void obj_from_char( OBJ_DATA *obj )$/;"	f	signature:( OBJ_DATA *obj )
+obj_from_char	merc.h	/^void	obj_from_char	args( ( OBJ_DATA *obj ) );$/;"	p	signature:( OBJ_DATA *obj ) 
+obj_from_obj	handler.c	/^void obj_from_obj( OBJ_DATA *obj )$/;"	f	signature:( OBJ_DATA *obj )
+obj_from_obj	merc.h	/^void	obj_from_obj	args( ( OBJ_DATA *obj ) );$/;"	p	signature:( OBJ_DATA *obj ) 
+obj_from_room	handler.c	/^void obj_from_room( OBJ_DATA *obj )$/;"	f	signature:( OBJ_DATA *obj )
+obj_from_room	merc.h	/^void	obj_from_room	args( ( OBJ_DATA *obj ) );$/;"	p	signature:( OBJ_DATA *obj ) 
+obj_index_data	merc.h	/^struct	obj_index_data {$/;"	s
+obj_index_data::affected	merc.h	/^    AFFECT_DATA *	affected;$/;"	m	struct:obj_index_data	access:public
+obj_index_data::cost	merc.h	/^    int			cost;			\/* Unused *\/$/;"	m	struct:obj_index_data	access:public
+obj_index_data::count	merc.h	/^    short		count;$/;"	m	struct:obj_index_data	access:public
+obj_index_data::description	merc.h	/^    char *		description;$/;"	m	struct:obj_index_data	access:public
+obj_index_data::extra_descr	merc.h	/^    EXTRA_DESCR_DATA *	extra_descr;$/;"	m	struct:obj_index_data	access:public
+obj_index_data::extra_flags	merc.h	/^    short		extra_flags;$/;"	m	struct:obj_index_data	access:public
+obj_index_data::item_type	merc.h	/^    short		item_type;$/;"	m	struct:obj_index_data	access:public
+obj_index_data::name	merc.h	/^    char *		name;$/;"	m	struct:obj_index_data	access:public
+obj_index_data::next	merc.h	/^    OBJ_INDEX_DATA *	next;$/;"	m	struct:obj_index_data	access:public
+obj_index_data::short_descr	merc.h	/^    char *		short_descr;$/;"	m	struct:obj_index_data	access:public
+obj_index_data::value	merc.h	/^    int			value	[4];$/;"	m	struct:obj_index_data	access:public
+obj_index_data::vnum	merc.h	/^    short		vnum;$/;"	m	struct:obj_index_data	access:public
+obj_index_data::wear_flags	merc.h	/^    short		wear_flags;$/;"	m	struct:obj_index_data	access:public
+obj_index_data::weight	merc.h	/^    short		weight;$/;"	m	struct:obj_index_data	access:public
+obj_index_hash	db.c	/^OBJ_INDEX_DATA *	obj_index_hash		[MAX_KEY_HASH];$/;"	v
+obj_to_char	handler.c	/^void obj_to_char( OBJ_DATA *obj, CHAR_DATA *ch )$/;"	f	signature:( OBJ_DATA *obj, CHAR_DATA *ch )
+obj_to_char	merc.h	/^void	obj_to_char	args( ( OBJ_DATA *obj, CHAR_DATA *ch ) );$/;"	p	signature:( OBJ_DATA *obj, CHAR_DATA *ch ) 
+obj_to_obj	handler.c	/^void obj_to_obj( OBJ_DATA *obj, OBJ_DATA *obj_to )$/;"	f	signature:( OBJ_DATA *obj, OBJ_DATA *obj_to )
+obj_to_obj	merc.h	/^void	obj_to_obj	args( ( OBJ_DATA *obj, OBJ_DATA *obj_to ) );$/;"	p	signature:( OBJ_DATA *obj, OBJ_DATA *obj_to ) 
+obj_to_room	handler.c	/^void obj_to_room( OBJ_DATA *obj, ROOM_INDEX_DATA *pRoomIndex )$/;"	f	signature:( OBJ_DATA *obj, ROOM_INDEX_DATA *pRoomIndex )
+obj_to_room	merc.h	/^void	obj_to_room	args( ( OBJ_DATA *obj, ROOM_INDEX_DATA *pRoomIndex ) );$/;"	p	signature:( OBJ_DATA *obj, ROOM_INDEX_DATA *pRoomIndex ) 
+obj_update	update.c	/^void	obj_update	args( ( void ) );$/;"	p	file:	signature:( void ) 
+obj_update	update.c	/^void obj_update( void )$/;"	f	signature:( void )
+object_list	db.c	/^OBJ_DATA *		object_list;$/;"	v
+one_argument	interp.c	/^char *one_argument( char *argument, char *arg_first )$/;"	f	signature:( char *argument, char *arg_first )
+one_argument	merc.h	/^char *	one_argument	args( ( char *argument, char *arg_first ) );$/;"	p	signature:( char *argument, char *arg_first ) 
+one_hit	fight.c	/^void	one_hit		args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt ) );$/;"	p	file:	signature:( CHAR_DATA *ch, CHAR_DATA *victim, int dt ) 
+one_hit	fight.c	/^void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
+open_hour	merc.h	/^    short	open_hour;		\/* First opening hour		*\/$/;"	m	struct:shop_data	access:public
+original	merc.h	/^    CHAR_DATA *		original;$/;"	m	struct:descriptor_data	access:public
+others_auto	merc.h	/^    char * const	others_auto;$/;"	m	struct:social_type	access:public
+others_found	merc.h	/^    char * const	others_found;$/;"	m	struct:social_type	access:public
+others_no_arg	merc.h	/^    char * const	others_no_arg;$/;"	m	struct:social_type	access:public
+outbuf	merc.h	/^    char *		outbuf;$/;"	m	struct:descriptor_data	access:public
+outsize	merc.h	/^    int			outsize;$/;"	m	struct:descriptor_data	access:public
+outtop	merc.h	/^    int			outtop;$/;"	m	struct:descriptor_data	access:public
+pIndexData	merc.h	/^    MOB_INDEX_DATA *	pIndexData;$/;"	m	struct:char_data	access:public
+pIndexData	merc.h	/^    OBJ_INDEX_DATA *	pIndexData;$/;"	m	struct:obj_data	access:public
+pShop	merc.h	/^    SHOP_DATA *		pShop;$/;"	m	struct:mob_index_data	access:public
+pc_data	merc.h	/^struct	pc_data {$/;"	s
+pc_data::bamfin	merc.h	/^    char *		bamfin;$/;"	m	struct:pc_data	access:public
+pc_data::bamfout	merc.h	/^    char *		bamfout;$/;"	m	struct:pc_data	access:public
+pc_data::condition	merc.h	/^    short		condition	[3];$/;"	m	struct:pc_data	access:public
+pc_data::learned	merc.h	/^    short		learned		[MAX_SKILL];$/;"	m	struct:pc_data	access:public
+pc_data::mod_con	merc.h	/^    short		mod_con;$/;"	m	struct:pc_data	access:public
+pc_data::mod_dex	merc.h	/^    short		mod_dex;$/;"	m	struct:pc_data	access:public
+pc_data::mod_int	merc.h	/^    short		mod_int;$/;"	m	struct:pc_data	access:public
+pc_data::mod_str	merc.h	/^    short		mod_str;$/;"	m	struct:pc_data	access:public
+pc_data::mod_wis	merc.h	/^    short		mod_wis;$/;"	m	struct:pc_data	access:public
+pc_data::next	merc.h	/^    PC_DATA *		next;$/;"	m	struct:pc_data	access:public
+pc_data::perm_con	merc.h	/^    short		perm_con;$/;"	m	struct:pc_data	access:public
+pc_data::perm_dex	merc.h	/^    short		perm_dex;$/;"	m	struct:pc_data	access:public
+pc_data::perm_int	merc.h	/^    short		perm_int;$/;"	m	struct:pc_data	access:public
+pc_data::perm_str	merc.h	/^    short		perm_str;$/;"	m	struct:pc_data	access:public
+pc_data::perm_wis	merc.h	/^    short		perm_wis;$/;"	m	struct:pc_data	access:public
+pc_data::pwd	merc.h	/^    char *		pwd;$/;"	m	struct:pc_data	access:public
+pc_data::title	merc.h	/^    char *		title;$/;"	m	struct:pc_data	access:public
+pcdata	merc.h	/^    PC_DATA *		pcdata;$/;"	m	struct:char_data	access:public
+pcdata_free	db.c	/^PC_DATA *		pcdata_free;$/;"	v
+people	merc.h	/^    CHAR_DATA *		people;$/;"	m	struct:room_index_data	access:public
+perm_con	merc.h	/^    short		perm_con;$/;"	m	struct:pc_data	access:public
+perm_dex	merc.h	/^    short		perm_dex;$/;"	m	struct:pc_data	access:public
+perm_int	merc.h	/^    short		perm_int;$/;"	m	struct:pc_data	access:public
+perm_str	merc.h	/^    short		perm_str;$/;"	m	struct:pc_data	access:public
+perm_wis	merc.h	/^    short		perm_wis;$/;"	m	struct:pc_data	access:public
+pgsn	merc.h	/^    short *	pgsn;			\/* Pointer to associated gsn	*\/$/;"	m	struct:skill_type	access:public
+played	merc.h	/^    int			played;$/;"	m	struct:char_data	access:public
+player_name	merc.h	/^    char *		player_name;$/;"	m	struct:mob_index_data	access:public
+pnote	merc.h	/^    NOTE_DATA *		pnote;$/;"	m	struct:char_data	access:public
+portion	maps.c	/^	char *portion;$/;"	m	struct:map_param	file:	access:public
+pose_table	act_comm.c	/^const	struct	pose_table_type	pose_table	[]	= {$/;"	v	typeref:struct:pose_table_type
+pose_table_type	act_comm.c	/^struct	pose_table_type {$/;"	s	file:
+pose_table_type::message	act_comm.c	/^    char *	message[2*MAX_CLASS];$/;"	m	struct:pose_table_type	file:	access:public
+position	merc.h	/^    short		position;$/;"	m	struct:char_data	access:public
+position	merc.h	/^    short		position;$/;"	m	struct:cmd_type	access:public
+practice	merc.h	/^    short		practice;$/;"	m	struct:char_data	access:public
+practice	merc.h	/^    short	practice;$/;"	m	struct:wis_app_type	access:public
+process_output	comm.c	/^bool	process_output		args( ( DESCRIPTOR_DATA *d, bool fPrompt ) );$/;"	p	file:	signature:( DESCRIPTOR_DATA *d, bool fPrompt ) 
+process_output	comm.c	/^bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )$/;"	f	signature:( DESCRIPTOR_DATA *d, bool fPrompt )
+profit_buy	merc.h	/^    short	profit_buy;		\/* Cost multiplier for buying	*\/$/;"	m	struct:shop_data	access:public
+profit_sell	merc.h	/^    short	profit_sell;		\/* Cost multiplier for selling	*\/$/;"	m	struct:shop_data	access:public
+put_link	maps.c	/^int put_link			args ( (ROOM_INDEX_DATA *room, int other, int dir) );$/;"	p	file:	signature:(ROOM_INDEX_DATA *room, int other, int dir) 
+put_link	maps.c	/^int put_link (ROOM_INDEX_DATA *room, int next, int dir)$/;"	f	signature:(ROOM_INDEX_DATA *room, int next, int dir)
+pwd	merc.h	/^    char *		pwd;$/;"	m	struct:pc_data	access:public
+race	merc.h	/^    short		race;$/;"	m	struct:char_data	access:public
+raw_kill	fight.c	/^void	raw_kill	args( ( CHAR_DATA *victim ) );$/;"	p	file:	signature:( CHAR_DATA *victim ) 
+raw_kill	fight.c	/^void raw_kill( CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *victim )
+read_from_buffer	comm.c	/^void	read_from_buffer	args( ( DESCRIPTOR_DATA *d ) );$/;"	p	file:	signature:( DESCRIPTOR_DATA *d ) 
+read_from_buffer	comm.c	/^void read_from_buffer( DESCRIPTOR_DATA *d )$/;"	f	signature:( DESCRIPTOR_DATA *d )
+read_from_descriptor	comm.c	/^bool	read_from_descriptor	args( ( DESCRIPTOR_DATA *d ) );$/;"	p	file:	signature:( DESCRIPTOR_DATA *d ) 
+read_from_descriptor	comm.c	/^bool read_from_descriptor( DESCRIPTOR_DATA *d )$/;"	f	signature:( DESCRIPTOR_DATA *d )
+remove_obj	act_obj.c	/^bool	remove_obj	args( ( CHAR_DATA *ch, int iWear, bool fReplace ) );$/;"	p	file:	signature:( CHAR_DATA *ch, int iWear, bool fReplace ) 
+remove_obj	act_obj.c	/^bool remove_obj( CHAR_DATA *ch, int iWear, bool fReplace )$/;"	f	signature:( CHAR_DATA *ch, int iWear, bool fReplace )
+repeat	merc.h	/^    int			repeat;$/;"	m	struct:descriptor_data	access:public
+reply	merc.h	/^    CHAR_DATA *		reply;$/;"	m	struct:char_data	access:public
+reset_area	db.c	/^void	reset_area	args( ( AREA_DATA * pArea ) );$/;"	p	file:	signature:( AREA_DATA * pArea ) 
+reset_area	db.c	/^void reset_area( AREA_DATA *pArea )$/;"	f	signature:( AREA_DATA *pArea )
+reset_data	merc.h	/^struct	reset_data {$/;"	s
+reset_data::arg1	merc.h	/^    short		arg1;$/;"	m	struct:reset_data	access:public
+reset_data::arg2	merc.h	/^    short		arg2;$/;"	m	struct:reset_data	access:public
+reset_data::arg3	merc.h	/^    short		arg3;$/;"	m	struct:reset_data	access:public
+reset_data::command	merc.h	/^    char		command;$/;"	m	struct:reset_data	access:public
+reset_data::next	merc.h	/^    RESET_DATA *	next;$/;"	m	struct:reset_data	access:public
+reset_first	merc.h	/^    RESET_DATA *	reset_first;$/;"	m	struct:area_data	access:public
+reset_last	merc.h	/^    RESET_DATA *	reset_last;$/;"	m	struct:area_data	access:public
+rev_dir	act_move.c	/^const	short	rev_dir		[]		= {$/;"	v
+rgFreeList	db.c	/^void *			rgFreeList	[MAX_MEM_LIST];$/;"	v
+rgObjNest	save.c	/^static	OBJ_DATA *	rgObjNest	[MAX_NEST];$/;"	v	file:
+rgSizeList	db.c	/^const int		rgSizeList	[MAX_MEM_LIST]	= {$/;"	v
+rgiState	db.c	/^static	int	rgiState[2+55];$/;"	v	file:
+room	maps.c	/^	int room;$/;"	m	struct:map_qd	file:	access:public
+room	maps.c	/^	int room;$/;"	m	struct:map_visit	file:	access:public
+room_flags	merc.h	/^    short		room_flags;$/;"	m	struct:room_index_data	access:public
+room_index_data	merc.h	/^struct	room_index_data {$/;"	s
+room_index_data::area	merc.h	/^    AREA_DATA *		area;$/;"	m	struct:room_index_data	access:public
+room_index_data::contents	merc.h	/^    OBJ_DATA *		contents;$/;"	m	struct:room_index_data	access:public
+room_index_data::description	merc.h	/^    char *		description;$/;"	m	struct:room_index_data	access:public
+room_index_data::exit	merc.h	/^    EXIT_DATA *		exit	[6];$/;"	m	struct:room_index_data	access:public
+room_index_data::extra_descr	merc.h	/^    EXTRA_DESCR_DATA *	extra_descr;$/;"	m	struct:room_index_data	access:public
+room_index_data::light	merc.h	/^    short		light;$/;"	m	struct:room_index_data	access:public
+room_index_data::name	merc.h	/^    char *		name;$/;"	m	struct:room_index_data	access:public
+room_index_data::next	merc.h	/^    ROOM_INDEX_DATA *	next;$/;"	m	struct:room_index_data	access:public
+room_index_data::people	merc.h	/^    CHAR_DATA *		people;$/;"	m	struct:room_index_data	access:public
+room_index_data::room_flags	merc.h	/^    short		room_flags;$/;"	m	struct:room_index_data	access:public
+room_index_data::sector_type	merc.h	/^    short		sector_type;$/;"	m	struct:room_index_data	access:public
+room_index_data::vnum	merc.h	/^    short		vnum;$/;"	m	struct:room_index_data	access:public
+room_index_hash	db.c	/^ROOM_INDEX_DATA *	room_index_hash		[MAX_KEY_HASH];$/;"	v
+room_is_dark	handler.c	/^bool room_is_dark( ROOM_INDEX_DATA *pRoomIndex )$/;"	f	signature:( ROOM_INDEX_DATA *pRoomIndex )
+room_is_dark	merc.h	/^bool	room_is_dark	args( ( ROOM_INDEX_DATA *pRoomIndex ) );$/;"	p	signature:( ROOM_INDEX_DATA *pRoomIndex ) 
+room_is_private	handler.c	/^bool room_is_private( ROOM_INDEX_DATA *pRoomIndex )$/;"	f	signature:( ROOM_INDEX_DATA *pRoomIndex )
+room_is_private	merc.h	/^bool	room_is_private	args( ( ROOM_INDEX_DATA *pRoomIndex ) );$/;"	p	signature:( ROOM_INDEX_DATA *pRoomIndex ) 
+s0	sha256.c	104;"	d	file:
+s1	sha256.c	105;"	d	file:
+sAllocPerm	db.c	/^int			sAllocPerm;$/;"	v
+sAllocString	db.c	/^int			sAllocString;$/;"	v
+save_char_obj	merc.h	/^void	save_char_obj	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+save_char_obj	save.c	/^void save_char_obj( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+save_time	merc.h	/^    time_t		save_time;$/;"	m	struct:char_data	access:public
+saves_spell	magic.c	/^bool saves_spell( int level, CHAR_DATA *victim )$/;"	f	signature:( int level, CHAR_DATA *victim )
+saves_spell	merc.h	/^bool	saves_spell	args( ( int level, CHAR_DATA *victim ) );$/;"	p	signature:( int level, CHAR_DATA *victim ) 
+saving_throw	merc.h	/^    short		saving_throw;$/;"	m	struct:char_data	access:public
+say_spell	magic.c	/^void	say_spell	args( ( CHAR_DATA *ch, int sn ) );$/;"	p	file:	signature:( CHAR_DATA *ch, int sn ) 
+say_spell	magic.c	/^void say_spell( CHAR_DATA *ch, int sn )$/;"	f	signature:( CHAR_DATA *ch, int sn )
+sector_type	merc.h	/^    short		sector_type;$/;"	m	struct:room_index_data	access:public
+send_to_char	comm.c	/^void send_to_char( const char *txt, CHAR_DATA *ch )$/;"	f	signature:( const char *txt, CHAR_DATA *ch )
+send_to_char	merc.h	/^void	send_to_char	args( ( const char *txt, CHAR_DATA *ch ) );$/;"	p	signature:( const char *txt, CHAR_DATA *ch ) 
+sender	merc.h	/^    char *	sender;$/;"	m	struct:note_data	access:public
+sendf	comm.c	/^void sendf(CHAR_DATA *ch, char *fmt, ...)$/;"	f	signature:(CHAR_DATA *ch, char *fmt, ...)
+sendf	merc.h	/^void  sendf          args( ( CHAR_DATA *ch, char *fmt, ...) );$/;"	p	signature:( CHAR_DATA *ch, char *fmt, ...) 
+set_fighting	fight.c	/^void	set_fighting	args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );$/;"	p	file:	signature:( CHAR_DATA *ch, CHAR_DATA *victim ) 
+set_fighting	fight.c	/^void set_fighting( CHAR_DATA *ch, CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim )
+set_title	act_info.c	/^void set_title( CHAR_DATA *ch, char *title )$/;"	f	signature:( CHAR_DATA *ch, char *title )
+set_title	merc.h	/^void	set_title	args( ( CHAR_DATA *ch, char *title ) );$/;"	p	signature:( CHAR_DATA *ch, char *title ) 
+sex	merc.h	/^    short		sex;$/;"	m	struct:char_data	access:public
+sex	merc.h	/^    short		sex;$/;"	m	struct:mob_index_data	access:public
+sha256_crypt	sha256.c	/^char *sha256_crypt( const char *pwd )$/;"	f	signature:( const char *pwd )
+sha256_crypt	sha256.h	/^char *sha256_crypt( const char *pwd );$/;"	p	signature:( const char *pwd )
+shock	merc.h	/^    short	shock;$/;"	m	struct:con_app_type	access:public
+shop_data	merc.h	/^struct	shop_data {$/;"	s
+shop_data::buy_type	merc.h	/^    short	buy_type [MAX_TRADE];	\/* Item types shop will buy	*\/$/;"	m	struct:shop_data	access:public
+shop_data::close_hour	merc.h	/^    short	close_hour;		\/* First closing hour		*\/$/;"	m	struct:shop_data	access:public
+shop_data::keeper	merc.h	/^    short	keeper;			\/* Vnum of shop keeper mob	*\/$/;"	m	struct:shop_data	access:public
+shop_data::next	merc.h	/^    SHOP_DATA *	next;			\/* Next shop in list		*\/$/;"	m	struct:shop_data	access:public
+shop_data::open_hour	merc.h	/^    short	open_hour;		\/* First opening hour		*\/$/;"	m	struct:shop_data	access:public
+shop_data::profit_buy	merc.h	/^    short	profit_buy;		\/* Cost multiplier for buying	*\/$/;"	m	struct:shop_data	access:public
+shop_data::profit_sell	merc.h	/^    short	profit_sell;		\/* Cost multiplier for selling	*\/$/;"	m	struct:shop_data	access:public
+shop_first	db.c	/^SHOP_DATA *		shop_first;$/;"	v
+shop_last	db.c	/^SHOP_DATA *		shop_last;$/;"	v
+short_descr	merc.h	/^    char *		short_descr;$/;"	m	struct:char_data	access:public
+short_descr	merc.h	/^    char *		short_descr;$/;"	m	struct:mob_index_data	access:public
+short_descr	merc.h	/^    char *		short_descr;$/;"	m	struct:obj_data	access:public
+short_descr	merc.h	/^    char *		short_descr;$/;"	m	struct:obj_index_data	access:public
+show_char_to_char	act_info.c	/^void	show_char_to_char	args( ( CHAR_DATA *list, CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *list, CHAR_DATA *ch ) 
+show_char_to_char	act_info.c	/^void show_char_to_char( CHAR_DATA *list, CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *list, CHAR_DATA *ch )
+show_char_to_char_0	act_info.c	/^void	show_char_to_char_0	args( ( CHAR_DATA *victim, CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *victim, CHAR_DATA *ch ) 
+show_char_to_char_0	act_info.c	/^void show_char_to_char_0( CHAR_DATA *victim, CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *victim, CHAR_DATA *ch )
+show_char_to_char_1	act_info.c	/^void	show_char_to_char_1	args( ( CHAR_DATA *victim, CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *victim, CHAR_DATA *ch ) 
+show_char_to_char_1	act_info.c	/^void show_char_to_char_1( CHAR_DATA *victim, CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *victim, CHAR_DATA *ch )
+show_list_to_char	act_info.c	/^void	show_list_to_char	args( ( OBJ_DATA *list, CHAR_DATA *ch,$/;"	p	file:	signature:( OBJ_DATA *list, CHAR_DATA *ch, bool fShort, bool fShowNothing ) 
+show_list_to_char	act_info.c	/^void show_list_to_char( OBJ_DATA *list, CHAR_DATA *ch, bool fShort, bool fShowNothing )$/;"	f	signature:( OBJ_DATA *list, CHAR_DATA *ch, bool fShort, bool fShowNothing )
+show_map	maps.c	/^void show_map			args ( (CHAR_DATA *ch, int x, int y) );$/;"	p	file:	signature:(CHAR_DATA *ch, int x, int y) 
+show_map	maps.c	/^void show_map (CHAR_DATA *ch, int xx, int yy)$/;"	f	signature:(CHAR_DATA *ch, int xx, int yy)
+size	maps.c	/^	int size;$/;"	m	struct:map_param	file:	access:public
+skill_adept	merc.h	/^    short	skill_adept;		\/* Maximum skill level		*\/$/;"	m	struct:class_type	access:public
+skill_level	merc.h	/^    short	skill_level[MAX_CLASS];	\/* Level needed by class	*\/$/;"	m	struct:skill_type	access:public
+skill_lookup	magic.c	/^int skill_lookup( const char *name )$/;"	f	signature:( const char *name )
+skill_lookup	merc.h	/^int	skill_lookup	args( ( const char *name ) );$/;"	p	signature:( const char *name ) 
+skill_table	const.c	/^const	struct	skill_type	skill_table	[MAX_SKILL]	= {$/;"	v	typeref:struct:skill_type
+skill_type	merc.h	/^struct	skill_type {$/;"	s
+skill_type::beats	merc.h	/^    short	beats;			\/* Waiting time after use	*\/$/;"	m	struct:skill_type	access:public
+skill_type::min_mana	merc.h	/^    short	min_mana;		\/* Minimum mana used		*\/$/;"	m	struct:skill_type	access:public
+skill_type::minimum_position	merc.h	/^    short	minimum_position;	\/* Position for caster \/ user	*\/$/;"	m	struct:skill_type	access:public
+skill_type::msg_off	merc.h	/^    char *	msg_off;		\/* Wear off message		*\/$/;"	m	struct:skill_type	access:public
+skill_type::name	merc.h	/^    char *	name;			\/* Name of skill		*\/$/;"	m	struct:skill_type	access:public
+skill_type::noun_damage	merc.h	/^    char *	noun_damage;		\/* Damage message		*\/$/;"	m	struct:skill_type	access:public
+skill_type::pgsn	merc.h	/^    short *	pgsn;			\/* Pointer to associated gsn	*\/$/;"	m	struct:skill_type	access:public
+skill_type::skill_level	merc.h	/^    short	skill_level[MAX_CLASS];	\/* Level needed by class	*\/$/;"	m	struct:skill_type	access:public
+skill_type::slot	merc.h	/^    short	slot;			\/* Slot for #OBJECT loading	*\/$/;"	m	struct:skill_type	access:public
+skill_type::spell_fun	merc.h	/^    SPELL_FUN *	spell_fun;		\/* Spell pointer (for spells)	*\/$/;"	m	struct:skill_type	access:public
+skill_type::target	merc.h	/^    short	target;			\/* Legal targets		*\/$/;"	m	struct:skill_type	access:public
+sky	merc.h	/^    int		sky;$/;"	m	struct:weather_data	access:public
+slot	merc.h	/^    short	slot;			\/* Slot for #OBJECT loading	*\/$/;"	m	struct:skill_type	access:public
+slot_lookup	magic.c	/^int slot_lookup( int slot )$/;"	f	signature:( int slot )
+slot_lookup	merc.h	/^int	slot_lookup	args( ( int slot ) );$/;"	p	signature:( int slot ) 
+smash_tilde	db.c	/^void smash_tilde( char *str )$/;"	f	signature:( char *str )
+smash_tilde	merc.h	/^void	smash_tilde	args( ( char *str ) );$/;"	p	signature:( char *str ) 
+snoop_by	merc.h	/^    DESCRIPTOR_DATA *	snoop_by;$/;"	m	struct:descriptor_data	access:public
+social_table	interp.c	/^const	struct	social_type	social_table [] = {$/;"	v	typeref:struct:social_type
+social_type	merc.h	/^struct	social_type {$/;"	s
+social_type::char_auto	merc.h	/^    char * const	char_auto;$/;"	m	struct:social_type	access:public
+social_type::char_found	merc.h	/^    char * const	char_found;$/;"	m	struct:social_type	access:public
+social_type::char_no_arg	merc.h	/^    char * const	char_no_arg;$/;"	m	struct:social_type	access:public
+social_type::name	merc.h	/^    char * const	name;$/;"	m	struct:social_type	access:public
+social_type::others_auto	merc.h	/^    char * const	others_auto;$/;"	m	struct:social_type	access:public
+social_type::others_found	merc.h	/^    char * const	others_found;$/;"	m	struct:social_type	access:public
+social_type::others_no_arg	merc.h	/^    char * const	others_no_arg;$/;"	m	struct:social_type	access:public
+social_type::vict_found	merc.h	/^    char * const	vict_found;$/;"	m	struct:social_type	access:public
+spec_breath_acid	special.c	/^DECLARE_SPEC_FUN(	spec_breath_acid	);$/;"	v
+spec_breath_acid	special.c	/^bool spec_breath_acid( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_breath_any	special.c	/^DECLARE_SPEC_FUN(	spec_breath_any		);$/;"	v
+spec_breath_any	special.c	/^bool spec_breath_any( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_breath_fire	special.c	/^DECLARE_SPEC_FUN(	spec_breath_fire	);$/;"	v
+spec_breath_fire	special.c	/^bool spec_breath_fire( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_breath_frost	special.c	/^DECLARE_SPEC_FUN(	spec_breath_frost	);$/;"	v
+spec_breath_frost	special.c	/^bool spec_breath_frost( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_breath_gas	special.c	/^DECLARE_SPEC_FUN(	spec_breath_gas		);$/;"	v
+spec_breath_gas	special.c	/^bool spec_breath_gas( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_breath_lightning	special.c	/^DECLARE_SPEC_FUN(	spec_breath_lightning	);$/;"	v
+spec_breath_lightning	special.c	/^bool spec_breath_lightning( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_cast_adept	special.c	/^DECLARE_SPEC_FUN(	spec_cast_adept		);$/;"	v
+spec_cast_adept	special.c	/^bool spec_cast_adept( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_cast_cleric	special.c	/^DECLARE_SPEC_FUN(	spec_cast_cleric	);$/;"	v
+spec_cast_cleric	special.c	/^bool spec_cast_cleric( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_cast_judge	special.c	/^DECLARE_SPEC_FUN(	spec_cast_judge		);$/;"	v
+spec_cast_judge	special.c	/^bool spec_cast_judge( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_cast_mage	special.c	/^DECLARE_SPEC_FUN(	spec_cast_mage		);$/;"	v
+spec_cast_mage	special.c	/^bool spec_cast_mage( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_cast_undead	special.c	/^DECLARE_SPEC_FUN(	spec_cast_undead	);$/;"	v
+spec_cast_undead	special.c	/^bool spec_cast_undead( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_executioner	special.c	/^DECLARE_SPEC_FUN(	spec_executioner	);$/;"	v
+spec_executioner	special.c	/^bool spec_executioner( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_fido	special.c	/^DECLARE_SPEC_FUN(	spec_fido		);$/;"	v
+spec_fido	special.c	/^bool spec_fido( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_fun	merc.h	/^    SPEC_FUN *		spec_fun;$/;"	m	struct:char_data	access:public
+spec_fun	merc.h	/^    SPEC_FUN *		spec_fun;$/;"	m	struct:mob_index_data	access:public
+spec_guard	special.c	/^DECLARE_SPEC_FUN(	spec_guard		);$/;"	v
+spec_guard	special.c	/^bool spec_guard( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_janitor	special.c	/^DECLARE_SPEC_FUN(	spec_janitor		);$/;"	v
+spec_janitor	special.c	/^bool spec_janitor( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_lookup	merc.h	/^SF *	spec_lookup	args( ( const char *name ) );$/;"	p	signature:( const char *name ) 
+spec_lookup	special.c	/^SPEC_FUN *spec_lookup( const char *name )$/;"	f	signature:( const char *name )
+spec_mayor	special.c	/^DECLARE_SPEC_FUN(	spec_mayor		);$/;"	v
+spec_mayor	special.c	/^bool spec_mayor( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_poison	special.c	/^DECLARE_SPEC_FUN(	spec_poison		);$/;"	v
+spec_poison	special.c	/^bool spec_poison( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spec_thief	special.c	/^DECLARE_SPEC_FUN(	spec_thief		);$/;"	v
+spec_thief	special.c	/^bool spec_thief( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+spell_acid_blast	magic.c	/^void spell_acid_blast( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_acid_blast	merc.h	/^DECLARE_SPELL_FUN(	spell_acid_blast	);$/;"	v
+spell_acid_breath	magic.c	/^void spell_acid_breath( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_acid_breath	merc.h	/^DECLARE_SPELL_FUN(	spell_acid_breath	);$/;"	v
+spell_armor	magic.c	/^void spell_armor( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_armor	merc.h	/^DECLARE_SPELL_FUN(	spell_armor		);$/;"	v
+spell_bless	magic.c	/^void spell_bless( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_bless	merc.h	/^DECLARE_SPELL_FUN(	spell_bless		);$/;"	v
+spell_blindness	magic.c	/^void spell_blindness( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_blindness	merc.h	/^DECLARE_SPELL_FUN(	spell_blindness		);$/;"	v
+spell_burning_hands	magic.c	/^void spell_burning_hands( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_burning_hands	merc.h	/^DECLARE_SPELL_FUN(	spell_burning_hands	);$/;"	v
+spell_call_lightning	magic.c	/^void spell_call_lightning( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_call_lightning	merc.h	/^DECLARE_SPELL_FUN(	spell_call_lightning	);$/;"	v
+spell_cause_critical	magic.c	/^void spell_cause_critical( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_cause_critical	merc.h	/^DECLARE_SPELL_FUN(	spell_cause_critical	);$/;"	v
+spell_cause_light	magic.c	/^void spell_cause_light( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_cause_light	merc.h	/^DECLARE_SPELL_FUN(	spell_cause_light	);$/;"	v
+spell_cause_serious	magic.c	/^void spell_cause_serious( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_cause_serious	merc.h	/^DECLARE_SPELL_FUN(	spell_cause_serious	);$/;"	v
+spell_change_sex	magic.c	/^void spell_change_sex( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_change_sex	merc.h	/^DECLARE_SPELL_FUN(	spell_change_sex	);$/;"	v
+spell_charm_person	magic.c	/^void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_charm_person	merc.h	/^DECLARE_SPELL_FUN(	spell_charm_person	);$/;"	v
+spell_chill_touch	magic.c	/^void spell_chill_touch( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_chill_touch	merc.h	/^DECLARE_SPELL_FUN(	spell_chill_touch	);$/;"	v
+spell_colour_spray	magic.c	/^void spell_colour_spray( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_colour_spray	merc.h	/^DECLARE_SPELL_FUN(	spell_colour_spray	);$/;"	v
+spell_continual_light	magic.c	/^void spell_continual_light( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_continual_light	merc.h	/^DECLARE_SPELL_FUN(	spell_continual_light	);$/;"	v
+spell_control_weather	magic.c	/^void spell_control_weather( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_control_weather	merc.h	/^DECLARE_SPELL_FUN(	spell_control_weather	);$/;"	v
+spell_create_food	magic.c	/^void spell_create_food( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_create_food	merc.h	/^DECLARE_SPELL_FUN(	spell_create_food	);$/;"	v
+spell_create_spring	magic.c	/^void spell_create_spring( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_create_spring	merc.h	/^DECLARE_SPELL_FUN(	spell_create_spring	);$/;"	v
+spell_create_water	magic.c	/^void spell_create_water( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_create_water	merc.h	/^DECLARE_SPELL_FUN(	spell_create_water	);$/;"	v
+spell_cure_blindness	magic.c	/^void spell_cure_blindness( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_cure_blindness	merc.h	/^DECLARE_SPELL_FUN(	spell_cure_blindness	);$/;"	v
+spell_cure_critical	magic.c	/^void spell_cure_critical( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_cure_critical	merc.h	/^DECLARE_SPELL_FUN(	spell_cure_critical	);$/;"	v
+spell_cure_light	magic.c	/^void spell_cure_light( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_cure_light	merc.h	/^DECLARE_SPELL_FUN(	spell_cure_light	);$/;"	v
+spell_cure_poison	magic.c	/^void spell_cure_poison( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_cure_poison	merc.h	/^DECLARE_SPELL_FUN(	spell_cure_poison	);$/;"	v
+spell_cure_serious	magic.c	/^void spell_cure_serious( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_cure_serious	merc.h	/^DECLARE_SPELL_FUN(	spell_cure_serious	);$/;"	v
+spell_curse	magic.c	/^void spell_curse( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_curse	merc.h	/^DECLARE_SPELL_FUN(	spell_curse		);$/;"	v
+spell_detect_evil	magic.c	/^void spell_detect_evil( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_detect_evil	merc.h	/^DECLARE_SPELL_FUN(	spell_detect_evil	);$/;"	v
+spell_detect_hidden	magic.c	/^void spell_detect_hidden( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_detect_hidden	merc.h	/^DECLARE_SPELL_FUN(	spell_detect_hidden	);$/;"	v
+spell_detect_invis	magic.c	/^void spell_detect_invis( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_detect_invis	merc.h	/^DECLARE_SPELL_FUN(	spell_detect_invis	);$/;"	v
+spell_detect_magic	magic.c	/^void spell_detect_magic( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_detect_magic	merc.h	/^DECLARE_SPELL_FUN(	spell_detect_magic	);$/;"	v
+spell_detect_poison	magic.c	/^void spell_detect_poison( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_detect_poison	merc.h	/^DECLARE_SPELL_FUN(	spell_detect_poison	);$/;"	v
+spell_dispel_evil	magic.c	/^void spell_dispel_evil( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_dispel_evil	merc.h	/^DECLARE_SPELL_FUN(	spell_dispel_evil	);$/;"	v
+spell_dispel_magic	magic.c	/^void spell_dispel_magic( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_dispel_magic	merc.h	/^DECLARE_SPELL_FUN(	spell_dispel_magic	);$/;"	v
+spell_earthquake	magic.c	/^void spell_earthquake( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_earthquake	merc.h	/^DECLARE_SPELL_FUN(	spell_earthquake	);$/;"	v
+spell_enchant_weapon	magic.c	/^void spell_enchant_weapon( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_enchant_weapon	merc.h	/^DECLARE_SPELL_FUN(	spell_enchant_weapon	);$/;"	v
+spell_energy_drain	magic.c	/^void spell_energy_drain( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_energy_drain	merc.h	/^DECLARE_SPELL_FUN(	spell_energy_drain	);$/;"	v
+spell_faerie_fire	magic.c	/^void spell_faerie_fire( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_faerie_fire	merc.h	/^DECLARE_SPELL_FUN(	spell_faerie_fire	);$/;"	v
+spell_faerie_fog	magic.c	/^void spell_faerie_fog( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_faerie_fog	merc.h	/^DECLARE_SPELL_FUN(	spell_faerie_fog	);$/;"	v
+spell_fire_breath	magic.c	/^void spell_fire_breath( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_fire_breath	merc.h	/^DECLARE_SPELL_FUN(	spell_fire_breath	);$/;"	v
+spell_fireball	magic.c	/^void spell_fireball( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_fireball	merc.h	/^DECLARE_SPELL_FUN(	spell_fireball		);$/;"	v
+spell_flamestrike	magic.c	/^void spell_flamestrike( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_flamestrike	merc.h	/^DECLARE_SPELL_FUN(	spell_flamestrike	);$/;"	v
+spell_fly	magic.c	/^void spell_fly( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_fly	merc.h	/^DECLARE_SPELL_FUN(	spell_fly		);$/;"	v
+spell_frost_breath	magic.c	/^void spell_frost_breath( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_frost_breath	merc.h	/^DECLARE_SPELL_FUN(	spell_frost_breath	);$/;"	v
+spell_fun	merc.h	/^    SPELL_FUN *	spell_fun;		\/* Spell pointer (for spells)	*\/$/;"	m	struct:skill_type	access:public
+spell_gas_breath	magic.c	/^void spell_gas_breath( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_gas_breath	merc.h	/^DECLARE_SPELL_FUN(	spell_gas_breath	);$/;"	v
+spell_gate	magic.c	/^void spell_gate( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_gate	merc.h	/^DECLARE_SPELL_FUN(	spell_gate		);$/;"	v
+spell_general_purpose	magic.c	/^void spell_general_purpose( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_general_purpose	merc.h	/^DECLARE_SPELL_FUN(	spell_general_purpose	);$/;"	v
+spell_giant_strength	magic.c	/^void spell_giant_strength( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_giant_strength	merc.h	/^DECLARE_SPELL_FUN(	spell_giant_strength	);$/;"	v
+spell_harm	magic.c	/^void spell_harm( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_harm	merc.h	/^DECLARE_SPELL_FUN(	spell_harm		);$/;"	v
+spell_heal	magic.c	/^void spell_heal( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_heal	merc.h	/^DECLARE_SPELL_FUN(	spell_heal		);$/;"	v
+spell_high_explosive	magic.c	/^void spell_high_explosive( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_high_explosive	merc.h	/^DECLARE_SPELL_FUN(	spell_high_explosive	);$/;"	v
+spell_identify	magic.c	/^void spell_identify( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_identify	merc.h	/^DECLARE_SPELL_FUN(	spell_identify		);$/;"	v
+spell_infravision	magic.c	/^void spell_infravision( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_infravision	merc.h	/^DECLARE_SPELL_FUN(	spell_infravision	);$/;"	v
+spell_invis	magic.c	/^void spell_invis( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_invis	merc.h	/^DECLARE_SPELL_FUN(	spell_invis		);$/;"	v
+spell_know_alignment	magic.c	/^void spell_know_alignment( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_know_alignment	merc.h	/^DECLARE_SPELL_FUN(	spell_know_alignment	);$/;"	v
+spell_lightning_bolt	magic.c	/^void spell_lightning_bolt( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_lightning_bolt	merc.h	/^DECLARE_SPELL_FUN(	spell_lightning_bolt	);$/;"	v
+spell_lightning_breath	magic.c	/^void spell_lightning_breath( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_lightning_breath	merc.h	/^DECLARE_SPELL_FUN(	spell_lightning_breath	);$/;"	v
+spell_locate_object	magic.c	/^void spell_locate_object( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_locate_object	merc.h	/^DECLARE_SPELL_FUN(	spell_locate_object	);$/;"	v
+spell_magic_missile	magic.c	/^void spell_magic_missile( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_magic_missile	merc.h	/^DECLARE_SPELL_FUN(	spell_magic_missile	);$/;"	v
+spell_mass_invis	magic.c	/^void spell_mass_invis( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_mass_invis	merc.h	/^DECLARE_SPELL_FUN(	spell_mass_invis	);$/;"	v
+spell_null	magic.c	/^void spell_null( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_null	merc.h	/^DECLARE_SPELL_FUN(	spell_null		);$/;"	v
+spell_pass_door	magic.c	/^void spell_pass_door( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_pass_door	merc.h	/^DECLARE_SPELL_FUN(	spell_pass_door		);$/;"	v
+spell_poison	magic.c	/^void spell_poison( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_poison	merc.h	/^DECLARE_SPELL_FUN(	spell_poison		);$/;"	v
+spell_protection	magic.c	/^void spell_protection( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_protection	merc.h	/^DECLARE_SPELL_FUN(	spell_protection	);$/;"	v
+spell_refresh	magic.c	/^void spell_refresh( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_refresh	merc.h	/^DECLARE_SPELL_FUN(	spell_refresh		);$/;"	v
+spell_remove_curse	magic.c	/^void spell_remove_curse( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_remove_curse	merc.h	/^DECLARE_SPELL_FUN(	spell_remove_curse	);$/;"	v
+spell_sanctuary	magic.c	/^void spell_sanctuary( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_sanctuary	merc.h	/^DECLARE_SPELL_FUN(	spell_sanctuary		);$/;"	v
+spell_shield	magic.c	/^void spell_shield( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_shield	merc.h	/^DECLARE_SPELL_FUN(	spell_shield		);$/;"	v
+spell_shocking_grasp	magic.c	/^void spell_shocking_grasp( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_shocking_grasp	merc.h	/^DECLARE_SPELL_FUN(	spell_shocking_grasp	);$/;"	v
+spell_sleep	magic.c	/^void spell_sleep( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_sleep	merc.h	/^DECLARE_SPELL_FUN(	spell_sleep		);$/;"	v
+spell_stone_skin	magic.c	/^void spell_stone_skin( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_stone_skin	merc.h	/^DECLARE_SPELL_FUN(	spell_stone_skin	);$/;"	v
+spell_summon	magic.c	/^void spell_summon( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_summon	merc.h	/^DECLARE_SPELL_FUN(	spell_summon		);$/;"	v
+spell_teleport	magic.c	/^void spell_teleport( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_teleport	merc.h	/^DECLARE_SPELL_FUN(	spell_teleport		);$/;"	v
+spell_ventriloquate	magic.c	/^void spell_ventriloquate( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_ventriloquate	merc.h	/^DECLARE_SPELL_FUN(	spell_ventriloquate	);$/;"	v
+spell_weaken	magic.c	/^void spell_weaken( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_weaken	merc.h	/^DECLARE_SPELL_FUN(	spell_weaken		);$/;"	v
+spell_word_of_recall	magic.c	/^void spell_word_of_recall( int sn, int level, CHAR_DATA *ch, void *vo )$/;"	f	signature:( int sn, int level, CHAR_DATA *ch, void *vo )
+spell_word_of_recall	merc.h	/^DECLARE_SPELL_FUN(	spell_word_of_recall	);$/;"	v
+state	sha256.h	/^    int state[8];$/;"	m	struct:SHA256Context	access:public
+stop_fighting	fight.c	/^void stop_fighting( CHAR_DATA *ch, bool fBoth )$/;"	f	signature:( CHAR_DATA *ch, bool fBoth )
+stop_fighting	merc.h	/^void	stop_fighting	args( ( CHAR_DATA *ch, bool fBoth ) );$/;"	p	signature:( CHAR_DATA *ch, bool fBoth ) 
+stop_follower	act_comm.c	/^void stop_follower( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+stop_follower	merc.h	/^void	stop_follower	args( ( CHAR_DATA *ch ) );$/;"	p	signature:( CHAR_DATA *ch ) 
+stop_idling	comm.c	/^void	stop_idling		args( ( CHAR_DATA *ch ) );$/;"	p	file:	signature:( CHAR_DATA *ch ) 
+stop_idling	comm.c	/^void stop_idling( CHAR_DATA *ch )$/;"	f	signature:( CHAR_DATA *ch )
+strArea	db.c	/^char			strArea[MAX_INPUT_LENGTH];$/;"	v
+str_app	const.c	/^const	struct	str_app_type	str_app		[26]		= {$/;"	v	typeref:struct:str_app_type
+str_app_type	merc.h	/^struct	str_app_type {$/;"	s
+str_app_type::carry	merc.h	/^    short	carry;$/;"	m	struct:str_app_type	access:public
+str_app_type::todam	merc.h	/^    short	todam;$/;"	m	struct:str_app_type	access:public
+str_app_type::tohit	merc.h	/^    short	tohit;$/;"	m	struct:str_app_type	access:public
+str_app_type::wield	merc.h	/^    short	wield;$/;"	m	struct:str_app_type	access:public
+str_boot_time	comm.c	/^char		    str_boot_time[MAX_INPUT_LENGTH];$/;"	v
+str_cmp	db.c	/^bool str_cmp( const char *astr, const char *bstr )$/;"	f	signature:( const char *astr, const char *bstr )
+str_cmp	merc.h	/^bool	str_cmp		args( ( const char *astr, const char *bstr ) );$/;"	p	signature:( const char *astr, const char *bstr ) 
+str_dup	db.c	/^char *str_dup( const char *str )$/;"	f	signature:( const char *str )
+str_dup	merc.h	/^char *	str_dup		args( ( const char *str ) );$/;"	p	signature:( const char *str ) 
+str_empty	db.c	/^char			str_empty	[1];$/;"	v
+str_infix	db.c	/^bool str_infix( const char *astr, const char *bstr )$/;"	f	signature:( const char *astr, const char *bstr )
+str_infix	merc.h	/^bool	str_infix	args( ( const char *astr, const char *bstr ) );$/;"	p	signature:( const char *astr, const char *bstr ) 
+str_prefix	db.c	/^bool str_prefix( const char *astr, const char *bstr )$/;"	f	signature:( const char *astr, const char *bstr )
+str_prefix	merc.h	/^bool	str_prefix	args( ( const char *astr, const char *bstr ) );$/;"	p	signature:( const char *astr, const char *bstr ) 
+str_suffix	db.c	/^bool str_suffix( const char *astr, const char *bstr )$/;"	f	signature:( const char *astr, const char *bstr )
+str_suffix	merc.h	/^bool	str_suffix	args( ( const char *astr, const char *bstr ) );$/;"	p	signature:( const char *astr, const char *bstr ) 
+string_hash	db.c	/^char *			string_hash		[MAX_KEY_HASH];$/;"	v
+string_space	db.c	/^char *			string_space;$/;"	v
+subject	merc.h	/^    char *	subject;$/;"	m	struct:note_data	access:public
+sunlight	merc.h	/^    int		sunlight;$/;"	m	struct:weather_data	access:public
+tail_chain	db.c	/^void tail_chain( void )$/;"	f	signature:( void )
+tail_chain	merc.h	/^void	tail_chain	args( ( void ) );$/;"	p	signature:( void ) 
+talk_channel	act_comm.c	/^void	talk_channel	args( ( CHAR_DATA *ch, char *argument,$/;"	p	file:	signature:( CHAR_DATA *ch, char *argument, int channel, const char *verb ) 
+talk_channel	act_comm.c	/^void talk_channel( CHAR_DATA *ch, char *argument, int channel, const char *verb )$/;"	f	signature:( CHAR_DATA *ch, char *argument, int channel, const char *verb )
+target	merc.h	/^    short	target;			\/* Legal targets		*\/$/;"	m	struct:skill_type	access:public
+target_name	magic.c	/^char *target_name;$/;"	v
+ter	maps.c	/^	bool ter; \/\/ Switches to terrain mode.$/;"	m	struct:map_param	file:	access:public
+text	maps.c	/^	bool text;$/;"	m	struct:map_param	file:	access:public
+text	merc.h	/^    char *	text;$/;"	m	struct:help_data	access:public
+text	merc.h	/^    char *	text;$/;"	m	struct:note_data	access:public
+thac0_00	merc.h	/^    short	thac0_00;		\/* Thac0 for level  0		*\/$/;"	m	struct:class_type	access:public
+thac0_32	merc.h	/^    short	thac0_32;		\/* Thac0 for level 32		*\/$/;"	m	struct:class_type	access:public
+tight	maps.c	/^	bool tight;$/;"	m	struct:map_param	file:	access:public
+time_info	db.c	/^TIME_INFO_DATA		time_info;$/;"	v
+time_info_data	merc.h	/^struct	time_info_data {$/;"	s
+time_info_data::day	merc.h	/^    int		day;$/;"	m	struct:time_info_data	access:public
+time_info_data::hour	merc.h	/^    int		hour;$/;"	m	struct:time_info_data	access:public
+time_info_data::month	merc.h	/^    int		month;$/;"	m	struct:time_info_data	access:public
+time_info_data::year	merc.h	/^    int		year;$/;"	m	struct:time_info_data	access:public
+timer	merc.h	/^    short		timer;$/;"	m	struct:char_data	access:public
+timer	merc.h	/^    short		timer;$/;"	m	struct:obj_data	access:public
+title	merc.h	/^    char *		title;$/;"	m	struct:pc_data	access:public
+title_table	const.c	/^char *	const			title_table	[MAX_CLASS][MAX_LEVEL+1][2] = {$/;"	v
+to_list	merc.h	/^    char *	to_list;$/;"	m	struct:note_data	access:public
+to_room	merc.h	/^    ROOM_INDEX_DATA *	to_room;$/;"	m	struct:exit_data	access:public
+todam	merc.h	/^    short	todam;$/;"	m	struct:str_app_type	access:public
+tohit	merc.h	/^    short	tohit;$/;"	m	struct:str_app_type	access:public
+top_affect	db.c	/^int			top_affect;$/;"	v
+top_area	db.c	/^int			top_area;$/;"	v
+top_ed	db.c	/^int			top_ed;$/;"	v
+top_exit	db.c	/^int			top_exit;$/;"	v
+top_help	db.c	/^int			top_help;$/;"	v
+top_mob_index	db.c	/^int			top_mob_index;$/;"	v
+top_obj_index	db.c	/^int			top_obj_index;$/;"	v
+top_reset	db.c	/^int			top_reset;$/;"	v
+top_room	db.c	/^int			top_room;$/;"	v
+top_shop	db.c	/^int			top_shop;$/;"	v
+top_string	db.c	/^char *			top_string;$/;"	v
+trip	fight.c	/^void	trip		args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );$/;"	p	file:	signature:( CHAR_DATA *ch, CHAR_DATA *victim ) 
+trip	fight.c	/^void trip( CHAR_DATA *ch, CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *ch, CHAR_DATA *victim )
+trust	merc.h	/^    short		trust;$/;"	m	struct:char_data	access:public
+type	merc.h	/^    short		type;$/;"	m	struct:affect_data	access:public
+unequip_char	handler.c	/^void unequip_char( CHAR_DATA *ch, OBJ_DATA *obj )$/;"	f	signature:( CHAR_DATA *ch, OBJ_DATA *obj )
+unequip_char	merc.h	/^void	unequip_char	args( ( CHAR_DATA *ch, OBJ_DATA *obj ) );$/;"	p	signature:( CHAR_DATA *ch, OBJ_DATA *obj ) 
+update_handler	merc.h	/^void	update_handler	args( ( void ) );$/;"	p	signature:( void ) 
+update_handler	update.c	/^void update_handler( void )$/;"	f	signature:( void )
+update_pos	fight.c	/^void update_pos( CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *victim )
+update_pos	merc.h	/^void	update_pos	args( ( CHAR_DATA *victim ) );$/;"	p	signature:( CHAR_DATA *victim ) 
+valid	maps.c	/^	bool valid;$/;"	m	struct:map_param	file:	access:public
+valid	maps.c	/^	bool valid;$/;"	m	struct:map_qd	file:	access:public
+valid	maps.c	/^	bool valid;$/;"	m	struct:map_visit	file:	access:public
+value	merc.h	/^    int			value	[4];$/;"	m	struct:obj_data	access:public
+value	merc.h	/^    int			value	[4];$/;"	m	struct:obj_index_data	access:public
+vict_found	merc.h	/^    char * const	vict_found;$/;"	m	struct:social_type	access:public
+violence_update	fight.c	/^void violence_update( void )$/;"	f	signature:( void )
+violence_update	merc.h	/^void	violence_update	args( ( void ) );$/;"	p	signature:( void ) 
+vnum	merc.h	/^    short		vnum;$/;"	m	struct:exit_data	access:public
+vnum	merc.h	/^    short		vnum;$/;"	m	struct:mob_index_data	access:public
+vnum	merc.h	/^    short		vnum;$/;"	m	struct:obj_index_data	access:public
+vnum	merc.h	/^    short		vnum;$/;"	m	struct:room_index_data	access:public
+wait	merc.h	/^    short		wait;$/;"	m	struct:char_data	access:public
+was_in_room	merc.h	/^    ROOM_INDEX_DATA *	was_in_room;$/;"	m	struct:char_data	access:public
+weapon	merc.h	/^    short	weapon;			\/* First weapon			*\/$/;"	m	struct:class_type	access:public
+wear_flags	merc.h	/^    short		wear_flags;$/;"	m	struct:obj_data	access:public
+wear_flags	merc.h	/^    short		wear_flags;$/;"	m	struct:obj_index_data	access:public
+wear_loc	merc.h	/^    short		wear_loc;$/;"	m	struct:obj_data	access:public
+wear_obj	act_obj.c	/^void	wear_obj	args( ( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace ) );$/;"	p	file:	signature:( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace ) 
+wear_obj	act_obj.c	/^void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )$/;"	f	signature:( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
+weather_data	merc.h	/^struct	weather_data {$/;"	s
+weather_data::change	merc.h	/^    int		change;$/;"	m	struct:weather_data	access:public
+weather_data::mmhg	merc.h	/^    int		mmhg;$/;"	m	struct:weather_data	access:public
+weather_data::sky	merc.h	/^    int		sky;$/;"	m	struct:weather_data	access:public
+weather_data::sunlight	merc.h	/^    int		sunlight;$/;"	m	struct:weather_data	access:public
+weather_info	db.c	/^WEATHER_DATA		weather_info;$/;"	v
+weather_update	update.c	/^void	weather_update	args( ( void ) );$/;"	p	file:	signature:( void ) 
+weather_update	update.c	/^void weather_update( void )$/;"	f	signature:( void )
+weight	merc.h	/^    short		weight;$/;"	m	struct:obj_data	access:public
+weight	merc.h	/^    short		weight;$/;"	m	struct:obj_index_data	access:public
+where_name	act_info.c	/^char *	const	where_name	[] = {$/;"	v
+who_name	merc.h	/^    char 	who_name	[4];	\/* Three-letter name for 'who'	*\/$/;"	m	struct:class_type	access:public
+wield	merc.h	/^    short	wield;$/;"	m	struct:str_app_type	access:public
+wimpy	merc.h	/^    short		wimpy;$/;"	m	struct:char_data	access:public
+wis_app	const.c	/^const	struct	wis_app_type	wis_app		[26]		= {$/;"	v	typeref:struct:wis_app_type
+wis_app_type	merc.h	/^struct	wis_app_type {$/;"	s
+wis_app_type::practice	merc.h	/^    short	practice;$/;"	m	struct:wis_app_type	access:public
+wizlock	comm.c	/^bool		    wizlock;		\/* Game is wizlocked		*\/$/;"	v
+write_to_buffer	comm.c	/^void write_to_buffer( DESCRIPTOR_DATA *d, const char *txt, int length )$/;"	f	signature:( DESCRIPTOR_DATA *d, const char *txt, int length )
+write_to_buffer	merc.h	/^void	write_to_buffer	args( ( DESCRIPTOR_DATA *d, const char *txt,$/;"	p	signature:( DESCRIPTOR_DATA *d, const char *txt, int length ) 
+write_to_descriptor	comm.c	/^bool	write_to_descriptor	args( ( int desc, char *txt, int length ) );$/;"	p	file:	signature:( int desc, char *txt, int length ) 
+write_to_descriptor	comm.c	/^bool write_to_descriptor( int desc, char *txt, int length )$/;"	f	signature:( int desc, char *txt, int length )
+x	maps.c	/^	int x;$/;"	m	struct:map_qd	file:	access:public
+xp_compute	fight.c	/^int	xp_compute	args( ( CHAR_DATA *gch, CHAR_DATA *victim ) );$/;"	p	file:	signature:( CHAR_DATA *gch, CHAR_DATA *victim ) 
+xp_compute	fight.c	/^int xp_compute( CHAR_DATA *gch, CHAR_DATA *victim )$/;"	f	signature:( CHAR_DATA *gch, CHAR_DATA *victim )
+y	maps.c	/^	int y;$/;"	m	struct:map_qd	file:	access:public
+year	merc.h	/^    int		year;$/;"	m	struct:time_info_data	access:public

@@ -1,0 +1,546 @@
+#PLAYER
+Name         Aragorn~
+ShortDescr   i like big butts and i cannot lie~
+LongDescr    what you say~
+Description  Lord Aragorn the best in the west~
+Sex          1
+Class        3
+Race         0
+Level        102
+Trust        0
+Played       102567
+Room         9424
+HpManaMove   36 36 100 100 110 110
+Gold         0
+Exp          2153
+Act          1608
+AffectedBy   0
+Position     7
+Practice     23
+SavingThrow  -6
+Alignment    0
+Hitroll      4
+Damroll      1
+Armor        37
+Wimpy        0
+Deaf         0
+Password     ArdaAgicDhM2k~
+Bamfin       ~
+Bamfout      ~
+Title         Lord of the realm~
+AttrPerm     16 13 13 13 13
+AttrMod      0 0 0 0 0
+Condition    0 34 47
+End
+
+#OBJECT
+Nest         0
+Name         banner~
+ShortDescr   a war banner~
+Description  A war banner is on the floor here.~
+Vnum         3716
+ExtraFlags   65
+WearFlags    1
+WearLoc      0
+ItemType     1
+Weight       1
+Level        0
+Timer        0
+Cost         10
+Values       0 0 -1 0
+End
+
+#OBJECT
+Nest         0
+Name         vest~
+ShortDescr   a sub issue vest~
+Description  You see a sub issue vest here.~
+Vnum         3703
+ExtraFlags   0
+WearFlags    9
+WearLoc      5
+ItemType     9
+Weight       5
+Level        0
+Timer        0
+Cost         11
+Values       2 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         shield~
+ShortDescr   a sub issue shield~
+Description  You see a sub issue shield here.~
+Vnum         3704
+ExtraFlags   0
+WearFlags    513
+WearLoc      11
+ItemType     9
+Weight       5
+Level        0
+Timer        0
+Cost         9
+Values       2 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         boots~
+ShortDescr   a pair of sub issue boots~
+Description  You see a pair of sub issue boots here.~
+Vnum         3708
+ExtraFlags   0
+WearFlags    65
+WearLoc      8
+ItemType     9
+Weight       5
+Level        1
+Timer        0
+Cost         9
+Values       2 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         bracer~
+ShortDescr   a sub issue bracer~
+Description  You see a sub issue bracer here.~
+Vnum         3713
+ExtraFlags   0
+WearFlags    4097
+WearLoc      14
+ItemType     9
+Weight       5
+Level        1
+Timer        0
+Cost         10
+Values       2 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         leggings~
+ShortDescr   a pair of sub issue leggings~
+Description  You see a pair of sub issue leggings here.~
+Vnum         3707
+ExtraFlags   0
+WearFlags    33
+WearLoc      7
+ItemType     9
+Weight       5
+Level        1
+Timer        0
+Cost         9
+Values       2 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         belt~
+ShortDescr   a sub issue belt~
+Description  You see a sub issue belt here.~
+Vnum         3712
+ExtraFlags   0
+WearFlags    2049
+WearLoc      13
+ItemType     9
+Weight       5
+Level        1
+Timer        0
+Cost         20
+Values       1 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         leggings~
+ShortDescr   a pair of sub issue leggings~
+Description  You see a pair of sub issue leggings here.~
+Vnum         3707
+ExtraFlags   0
+WearFlags    33
+WearLoc      -1
+ItemType     9
+Weight       5
+Level        1
+Timer        0
+Cost         10
+Values       1 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         belt~
+ShortDescr   a sub issue belt~
+Description  You see a sub issue belt here.~
+Vnum         3712
+ExtraFlags   0
+WearFlags    2049
+WearLoc      -1
+ItemType     9
+Weight       5
+Level        1
+Timer        0
+Cost         11
+Values       2 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         cloak~
+ShortDescr   a standard issue cloak~
+Description  You see a standard issue cloak here.~
+Vnum         3355
+ExtraFlags   0
+WearFlags    5
+WearLoc      3
+ItemType     9
+Weight       5
+Level        13
+Timer        0
+Cost         1716
+Values       4 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         vest~
+ShortDescr   a standard issue vest~
+Description  You see a standard issue vest here.~
+Vnum         3353
+ExtraFlags   0
+WearFlags    9
+WearLoc      -1
+ItemType     9
+Weight       5
+Level        12
+Timer        0
+Cost         1188
+Values       4 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         sword~
+ShortDescr   a standard issue sword~
+Description  You see a standard issue sword here.~
+Vnum         3350
+ExtraFlags   64
+WearFlags    8193
+WearLoc      -1
+ItemType     5
+Weight       5
+Level        13
+Timer        0
+Cost         1820
+Values       0 6 16 3
+End
+
+#OBJECT
+Nest         0
+Name         ring signet~
+ShortDescr   a city guard signet ring~
+Description  You see a ring with a strange symbol on the floor.~
+Vnum         3364
+ExtraFlags   64
+WearFlags    3
+WearLoc      1
+ItemType     9
+Weight       1
+Level        13
+Timer        0
+Cost         1680
+Values       5 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         banner~
+ShortDescr   a war banner~
+Description  A war banner is on the floor here.~
+Vnum         3365
+ExtraFlags   65
+WearFlags    1
+WearLoc      -1
+ItemType     1
+Weight       1
+Level        13
+Timer        0
+Cost         1638
+Values       0 0 -1 0
+End
+
+#OBJECT
+Nest         0
+Name         banner~
+ShortDescr   a war banner~
+Description  A war banner is on the floor here.~
+Vnum         3365
+ExtraFlags   65
+WearFlags    1
+WearLoc      -1
+ItemType     1
+Weight       1
+Level        12
+Timer        0
+Cost         1296
+Values       0 0 -1 0
+End
+
+#OBJECT
+Nest         0
+Name         ring signet~
+ShortDescr   a city guard signet ring~
+Description  You see a ring with a strange symbol on the floor.~
+Vnum         3364
+ExtraFlags   64
+WearFlags    3
+WearLoc      2
+ItemType     9
+Weight       1
+Level        14
+Timer        0
+Cost         1638
+Values       4 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         sword~
+ShortDescr   a standard issue sword~
+Description  You see a standard issue sword here.~
+Vnum         3350
+ExtraFlags   64
+WearFlags    8193
+WearLoc      -1
+ItemType     5
+Weight       5
+Level        12
+Timer        0
+Cost         1560
+Values       0 3 15 3
+End
+
+#OBJECT
+Nest         0
+Name         vest~
+ShortDescr   a standard issue vest~
+Description  You see a standard issue vest here.~
+Vnum         3353
+ExtraFlags   0
+WearFlags    9
+WearLoc      -1
+ItemType     9
+Weight       5
+Level        13
+Timer        0
+Cost         2002
+Values       5 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         cloak~
+ShortDescr   a standard issue cloak~
+Description  You see a standard issue cloak here.~
+Vnum         3355
+ExtraFlags   0
+WearFlags    5
+WearLoc      4
+ItemType     9
+Weight       5
+Level        12
+Timer        0
+Cost         1452
+Values       5 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         plate brass~
+ShortDescr   brass plate~
+Description  A pile of brass plates is against the wall here.~
+Vnum         621
+ExtraFlags   64
+WearFlags    9
+WearLoc      -1
+ItemType     9
+Weight       10
+Level        16
+Timer        0
+Cost         2250
+Values       7 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         slime mold~
+ShortDescr   a green slime mold~
+Description  A green slime mold is here. Stinks like sh**.~
+Vnum         4104
+ExtraFlags   0
+WearFlags    1
+WearLoc      -1
+ItemType     19
+Weight       1
+Level        7
+Timer        0
+Cost         480
+Values       24 0 0 1
+End
+
+#OBJECT
+Nest         0
+Name         shield~
+ShortDescr   a standard issue shield~
+Description  You see a standard issue shield here.~
+Vnum         3354
+ExtraFlags   0
+WearFlags    513
+WearLoc      -1
+ItemType     9
+Weight       5
+Level        60
+Timer        0
+Cost         36000
+Values       17 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         green scale shirt~
+ShortDescr   a tight fitting green dragon scale shirt~
+Description  Some green dragon scales which have been sewn together are here.~
+Vnum         1401
+ExtraFlags   64
+WearFlags    9
+WearLoc      -1
+ItemType     9
+Weight       9
+Level        60
+Timer        0
+Cost         39600
+Values       17 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         mithril axe~
+ShortDescr   a mithril axe~
+Description  A mithril axe lies here.~
+Vnum         1107
+ExtraFlags   28677
+WearFlags    8193
+WearLoc      -1
+ItemType     5
+Weight       12
+Level        60
+Timer        0
+Cost         39600
+Values       0 16 52 5
+End
+
+#OBJECT
+Nest         0
+Name         axe blade~
+ShortDescr   an executioner's axe~
+Description  An executioner's axe is here waiting to possess its next user.~
+Vnum         3005
+ExtraFlags   3072
+WearFlags    8193
+WearLoc      -1
+ItemType     5
+Weight       60
+Level        35
+Timer        0
+Cost         12250
+Values       0 11 33 1
+End
+
+#OBJECT
+Nest         0
+Name         vest~
+ShortDescr   a leather vest~
+Description  A leather vest is on the floor.~
+Vnum         616
+ExtraFlags   0
+WearFlags    9
+WearLoc      -1
+ItemType     9
+Weight       10
+Level        7
+Timer        0
+Cost         480
+Values       3 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         elven bow~
+ShortDescr   an elven bow~
+Description  An elven bow lies here.~
+Vnum         1106
+ExtraFlags   1090
+WearFlags    8193
+WearLoc      16
+ItemType     5
+Weight       10
+Level        16
+Timer        0
+Cost         2475
+Values       0 5 18 4
+End
+
+#OBJECT
+Nest         0
+Name         helm brass~
+ShortDescr   a brass helm~
+Description  A brass helm is against the wall here.~
+Vnum         622
+ExtraFlags   64
+WearFlags    17
+WearLoc      6
+ItemType     9
+Weight       10
+Level        15
+Timer        0
+Cost         2025
+Values       6 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         vest~
+ShortDescr   a leather vest~
+Description  A leather vest is on the floor.~
+Vnum         616
+ExtraFlags   0
+WearFlags    9
+WearLoc      -1
+ItemType     9
+Weight       10
+Level        8
+Timer        0
+Cost         648
+Values       3 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         gloves~
+ShortDescr   swordsman's gloves~
+Description  Some gloves are here.  They look like the right equipment for fighting.~
+Vnum         4101
+ExtraFlags   512
+WearFlags    129
+WearLoc      9
+ItemType     9
+Weight       1
+Level        7
+Timer        0
+Cost         490
+Values       3 0 0 0
+End
+
+#END

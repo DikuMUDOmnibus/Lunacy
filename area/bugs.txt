@@ -1,0 +1,9 @@
+[*****] BUG: process_output: error with call_lua color conversion
+[*****] BUG: process_output: error with call_lua color conversion
+[*****] BUG: process_output: error with call_lua color conversion
+[*****] BUG: process_output: error with call_lua color conversion
+[*****] BUG: Alloc_mem: size 64000 too large.
+[*****] BUG: Alloc_mem: size 64000 too large.
+[*****] BUG: Alloc_mem: size 64000 too large.
+[*****] BUG: What the?
+[*****] BUG: What the?
